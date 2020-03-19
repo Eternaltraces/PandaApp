@@ -1,4 +1,3 @@
 # PandaApp
 
-Branch Dev 1.1.0
-
+Master 1.0.0 - test remote branch
