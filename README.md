@@ -1,4 +1,2 @@
-# PandaApp
-
-Branch Dev 1.1.0
-
+# panda_application
+Sample springboot aplication with using thymeleaf and web spring
