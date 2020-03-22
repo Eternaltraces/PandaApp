@@ -1,3 +1,2 @@
-# PandaApp
-
-Master 1.0.0 - test remote branch
+# panda_application
+Sample springboot aplication with using thymeleaf and web spring
