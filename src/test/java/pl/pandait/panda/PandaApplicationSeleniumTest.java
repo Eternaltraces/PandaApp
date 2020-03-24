@@ -19,7 +19,7 @@ public class PandaApplicationSeleniumTest {
     @BeforeAll
     public static void startup() throws MalformedURLException, InterruptedException {
         //Driver znajduje się w resource
-        System.setProperty("webdriver.gecko.driver", "usr/local/bin/geckodriver");
+        System.setProperty("webdriver.gecko.driver", "/usr/local/bin/geckodriver");
         //Ścieżka do Firefoxa - jeżeli nie działa trzeba sprawdzić, gdzie FF jest zainstalowany!
         //System.setProperty("webdriver.firefox.bin", "/usr/bin/firefox");
         FirefoxOptions capabilities = new FirefoxOptions();
@@ -32,7 +32,7 @@ public class PandaApplicationSeleniumTest {
         //driver = new FirefoxDriver(capabilities);
         // Otwieramy stronę
         // Pamiętaj, że aplikacja Spring musi działać! To znaczy też musi być włączona.
-        driver.get("http://localhost:8080/");
+        driver.get("http://127.0.0.1:8080/");
         // Wyświetlamy informacje, że udało się otwozyć stronę
         System.out.println("Successfully opened the website");
         //Czekamy 2 sekundy
