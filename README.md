@@ -1,3 +1,2 @@
-# PandaApp
-
-Master 1.0.0 - test remote branch
+# panda_application
+Merge testów selenium do produkcji z deployem na artifactory
