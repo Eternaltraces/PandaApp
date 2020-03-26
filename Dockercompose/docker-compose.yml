@@ -10,8 +10,8 @@ services:
     - type: bind
       source: /var/jenkins_home
       target: /volumes/jenkins
-        volume:
-          nocopy: true
+      volume:
+        nocopy: true
     networks:
     - brinet
   ubuntuslave:
@@ -22,8 +22,8 @@ services:
     - type: bind
       source: /home
       target: /volumes/ubuntu
-        volume:
-          nocopy: true
+      volume:
+        nocopy: true
     - /var/run/docker.sock:/var/run/docker.sock
     build:
       context: .
@@ -39,8 +39,8 @@ services:
     - type: bind
       source: /var/opt/jfrog/artifactory
       target: /volumes/artifactory_compose
-        volume:
-          nocopy: true
+      volume:
+        nocopy: true
     ports:
     - "8081:8081"
     - "8082:8082"
