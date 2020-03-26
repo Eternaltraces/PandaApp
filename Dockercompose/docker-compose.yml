@@ -7,7 +7,7 @@ services:
     - "50000:50000"
     - "8880:8080"
     volumes:
-    - /home/panda/jenkins:/var/jenkins_home
+    - jenkinsvolume:/var/jenkins_home
     networks:
     - brinet
   ubuntuslave:
@@ -15,7 +15,7 @@ services:
       - jenkins
     container_name: ubuntu_compose
     volumes:
-    - /home/panda/ubuntu:/home
+    - ubuntuvolume:/home
     - /var/run/docker.sock:/var/run/docker.sock
     build:
       context: .
@@ -28,7 +28,7 @@ services:
     image: docker.bintray.io/jfrog/artifactory-pro:latest
     container_name: artifactory_compose
     volumes:
-    - /home/panda/artifactory_compose:/var/opt/jfrog/artifactory
+    - artifactoryvolume:/var/opt/jfrog/artifactory
     ports:
     - "8081:8081"
     - "8082:8082"
@@ -57,3 +57,22 @@ services:
 networks:
   brinet:
     driver: bridge
+volumes:
+  jenkinsvolume:
+    driver: local
+    driver_opts:
+      type: 'none'
+      o: 'bind'
+      device: '/volumes/jenkins'
+  ubuntuvolume:
+    driver: local
+    driver_opts:
+      type: 'none'
+      o: 'bind'
+      device: '/volumes/ubuntu'
+  artifactoryvolume:
+    driver: local
+    driver_opts:
+      type: 'none'
+      o: 'bind'
+      device: '/volumes/artifactory_compose'
