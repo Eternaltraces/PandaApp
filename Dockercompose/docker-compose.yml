@@ -24,7 +24,6 @@ services:
     networks:
     - brinet
   artifactory:
-  artifactory:
     image: docker.bintray.io/jfrog/artifactory-pro:latest
     container_name: artifactory_compose
     volumes:
