@@ -8,8 +8,8 @@ services:
     - "8880:8080"
     volumes:
     - type: bind
-      source: /var/jenkins_home
-      target: /volumes/jenkins
+      source: '/var/jenkins_home'
+      target: '/volumes/jenkins'
       volume:
         nocopy: true
     networks:
@@ -20,8 +20,8 @@ services:
     container_name: ubuntu_compose
     volumes:
     - type: bind
-      source: /home
-      target: /volumes/ubuntu
+      source: '/home'
+      target: '/volumes/ubuntu'
       volume:
         nocopy: true
     - /var/run/docker.sock:/var/run/docker.sock
@@ -37,8 +37,8 @@ services:
     container_name: artifactory_compose
     volumes:
     - type: bind
-      source: /var/opt/jfrog/artifactory
-      target: /volumes/artifactory_compose
+      source: '/var/opt/jfrog/artifactory'
+      target: '/volumes/artifactory_compose'
       volume:
         nocopy: true
     ports:
