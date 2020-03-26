@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-03-23 18:59:56.884 UTC</timestamp>
+  <md5sum>ba0ccd1b12b72315910703ff5fee5a19</md5sum>
+  <fileName>Credential id=github name=eternaltraces/****** (githubpass)</fileName>
+  <usages>
+    <entry>
+      <string>Maven</string>
+      <ranges>1-32</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

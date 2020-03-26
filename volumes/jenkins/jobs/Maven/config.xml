@@ -1,0 +1,79 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.plugins.git.GitSCM" plugin="git@4.2.2">
+    <configVersion>2</configVersion>
+    <userRemoteConfigs>
+      <hudson.plugins.git.UserRemoteConfig>
+        <url>https://github.com/Eternaltraces/PandaApp.git</url>
+        <credentialsId>github</credentialsId>
+      </hudson.plugins.git.UserRemoteConfig>
+    </userRemoteConfigs>
+    <branches>
+      <hudson.plugins.git.BranchSpec>
+        <name>*/feature/dockerapp</name>
+      </hudson.plugins.git.BranchSpec>
+    </branches>
+    <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+    <submoduleCfg class="list"/>
+    <extensions/>
+  </scm>
+  <assignedNode>Slave</assignedNode>
+  <canRoam>false</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Maven>
+      <targets>install -Dmaven.test.skip=true</targets>
+      <usePrivateRepository>false</usePrivateRepository>
+      <settings class="org.jenkinsci.plugins.configfiles.maven.job.MvnSettingsProvider" plugin="config-file-provider@3.6.3">
+        <settingsConfigId></settingsConfigId>
+      </settings>
+      <globalSettings class="org.jenkinsci.plugins.configfiles.maven.job.MvnGlobalSettingsProvider" plugin="config-file-provider@3.6.3">
+        <settingsConfigId></settingsConfigId>
+      </globalSettings>
+      <injectBuildVariables>false</injectBuildVariables>
+    </hudson.tasks.Maven>
+    <hudson.tasks.Maven>
+      <targets>test</targets>
+      <usePrivateRepository>false</usePrivateRepository>
+      <settings class="jenkins.mvn.DefaultSettingsProvider"/>
+      <globalSettings class="jenkins.mvn.DefaultGlobalSettingsProvider"/>
+      <injectBuildVariables>false</injectBuildVariables>
+    </hudson.tasks.Maven>
+    <hudson.tasks.Shell>
+      <command>cp target/panda*.jar Dockerfile/
+cd Dockerfile
+docker build -t pandaapp_${BUILD_NUMBER}  .
+docker run -d -p 0.0.0.0:8080:8080 --name app${BUILD_NUMBER} -t pandaapp_${BUILD_NUMBER}</command>
+    </hudson.tasks.Shell>
+    <hudson.tasks.Maven>
+      <targets>test -Pselenium</targets>
+      <usePrivateRepository>false</usePrivateRepository>
+      <settings class="jenkins.mvn.DefaultSettingsProvider"/>
+      <globalSettings class="jenkins.mvn.DefaultGlobalSettingsProvider"/>
+      <injectBuildVariables>false</injectBuildVariables>
+    </hudson.tasks.Maven>
+    <hudson.tasks.Maven>
+      <targets>deploy -Dmaven.test.skip=true</targets>
+      <usePrivateRepository>false</usePrivateRepository>
+      <settings class="org.jenkinsci.plugins.configfiles.maven.job.MvnSettingsProvider" plugin="config-file-provider@3.6.3">
+        <settingsConfigId>9d1ed313-ea70-4fa9-9934-7108c53eca75</settingsConfigId>
+      </settings>
+      <globalSettings class="jenkins.mvn.DefaultGlobalSettingsProvider"/>
+      <injectBuildVariables>false</injectBuildVariables>
+    </hudson.tasks.Maven>
+    <hudson.tasks.Shell>
+      <command>sleep 10
+docker stop app${BUILD_NUMBER}</command>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>

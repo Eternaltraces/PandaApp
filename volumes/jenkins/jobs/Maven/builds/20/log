@@ -1,0 +1,257 @@
+Started by user [8mha:////4Os3Qum0k+v+iwxPaVjsTCgaIyY3nj4o66pD3+L3infTAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9gsS8lEQACjKVYMAAAAA=[0mpanda
+Running as SYSTEM
+Building remotely on [8mha:////4HmGzG8lNFyk4x0fjfgJSIZfm9of0EIbeMpiC0zMXBXoAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/eCcxLJUAE32xgfEAAAA[0mSlave (dockerslave) in workspace /home/workspace/Maven
+using credential github
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Eternaltraces/PandaApp.git # timeout=10
+Fetching upstream changes from https://github.com/Eternaltraces/PandaApp.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials githubpass
+ > git fetch --tags --force --progress -- https://github.com/Eternaltraces/PandaApp.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/dev^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/dev^{commit} # timeout=10
+Checking out Revision ee434a0d6235f63091f15e471cdcbd74102cf9f2 (refs/remotes/origin/dev)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ee434a0d6235f63091f15e471cdcbd74102cf9f2 # timeout=10
+Commit message: "artifactory pom.xml"
+ > git rev-list --no-walk ee434a0d6235f63091f15e471cdcbd74102cf9f2 # timeout=10
+[Maven] $ mvn install -Dmaven.test.skip=true
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------------< [0;36mpl.pandait:panda[0;1m >--------------------------[m
+[[1;34mINFO[m] [1mBuilding panda 1.0.1[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mpanda[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mpanda[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 2 source files to /home/workspace/Maven/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:testResources[m [1m(default-testResources)[m @ [36mpanda[0;1m ---[m
+[[1;34mINFO[m] Not copying test resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mpanda[0;1m ---[m
+[[1;34mINFO[m] Not compiling test sources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.19.1:test[m [1m(default-test)[m @ [36mpanda[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.1.2:jar[m [1m(default-jar)[m @ [36mpanda[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/workspace/Maven/target/panda-1.0.1.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspring-boot-maven-plugin:2.2.4.RELEASE:repackage[m [1m(repackage)[m @ [36mpanda[0;1m ---[m
+[[1;34mINFO[m] Replacing main artifact with repackaged archive
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.5.2:install[m [1m(default-install)[m @ [36mpanda[0;1m ---[m
+[[1;34mINFO[m] Installing /home/workspace/Maven/target/panda-1.0.1.jar to /root/.m2/repository/pl/pandait/panda/1.0.1/panda-1.0.1.jar
+[[1;34mINFO[m] Installing /home/workspace/Maven/pom.xml to /root/.m2/repository/pl/pandait/panda/1.0.1/panda-1.0.1.pom
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  3.984 s
+[[1;34mINFO[m] Finished at: 2020-03-25T19:39:00Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[Maven] $ mvn test
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------------< [0;36mpl.pandait:panda[0;1m >--------------------------[m
+[[1;34mINFO[m] [1mBuilding panda 1.0.1[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mpanda[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mpanda[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:testResources[m [1m(default-testResources)[m @ [36mpanda[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/workspace/Maven/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mpanda[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 3 source files to /home/workspace/Maven/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.19.1:test[m [1m(default-test)[m @ [36mpanda[0;1m ---[m
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running pl.pandait.panda.HelloControllerTest
+19:39:06.234 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+19:39:06.245 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+19:39:06.270 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [pl.pandait.panda.HelloControllerTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+19:39:06.286 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [pl.pandait.panda.HelloControllerTest], using SpringBootContextLoader
+19:39:06.291 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [pl.pandait.panda.HelloControllerTest]: class path resource [pl/pandait/panda/HelloControllerTest-context.xml] does not exist
+19:39:06.292 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [pl.pandait.panda.HelloControllerTest]: class path resource [pl/pandait/panda/HelloControllerTestContext.groovy] does not exist
+19:39:06.292 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [pl.pandait.panda.HelloControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+19:39:06.293 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [pl.pandait.panda.HelloControllerTest]: HelloControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+19:39:06.326 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [pl.pandait.panda.HelloControllerTest]
+19:39:06.399 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/home/workspace/Maven/target/classes/pl/pandait/panda/PandaApplication.class]
+19:39:06.404 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration pl.pandait.panda.PandaApplication for test class pl.pandait.panda.HelloControllerTest
+19:39:06.490 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [pl.pandait.panda.HelloControllerTest]: using defaults.
+19:39:06.490 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+19:39:06.509 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/TransactionDefinition]
+19:39:06.510 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+19:39:06.510 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@437da279, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@23c30a20, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1e1a0406, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3cebbb30, org.springframework.test.context.support.DirtiesContextTestExecutionListener@12aba8be, org.springframework.test.context.event.EventPublishingTestExecutionListener@290222c1, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@67f639d3, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6253c26, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@49049a04, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@71a8adcf, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@27462a88]
+19:39:06.520 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@4b0d79fc testClass = HelloControllerTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@4c1909a3 testClass = HelloControllerTest, locations = '{}', classes = '{class pl.pandait.panda.PandaApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3d680b5a, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@3c419631, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@654f0d9c, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@15eb5ee5], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> false]], class annotated with @DirtiesContext [false] with mode [null].
+19:39:06.536 [main] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@4b0d79fc testClass = HelloControllerTest, testInstance = pl.pandait.panda.HelloControllerTest@f09733f, testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@4c1909a3 testClass = HelloControllerTest, locations = '{}', classes = '{class pl.pandait.panda.PandaApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3d680b5a, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@3c419631, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@654f0d9c, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@15eb5ee5], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> false]]].
+19:39:06.554 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2020-03-25 19:39:06.793  INFO 232 --- [           main] pl.pandait.panda.HelloControllerTest     : Starting HelloControllerTest on 72e32ef8b92b with PID 232 (started by root in /home/workspace/Maven)
+2020-03-25 19:39:06.797  INFO 232 --- [           main] pl.pandait.panda.HelloControllerTest     : No active profile set, falling back to default profiles: default
+2020-03-25 19:39:07.842  INFO 232 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2020-03-25 19:39:07.853  INFO 232 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-25 19:39:07.854  INFO 232 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-03-25 19:39:07.916  INFO 232 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-25 19:39:07.916  INFO 232 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1090 ms
+2020-03-25 19:39:08.187  INFO 232 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 19:39:08.277  INFO 232 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-03-25 19:39:08.858  INFO 232 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 41613 (http) with context path ''
+2020-03-25 19:39:08.861  INFO 232 --- [           main] pl.pandait.panda.HelloControllerTest     : Started HelloControllerTest in 2.305 seconds (JVM running for 3.275)
+2020-03-25 19:39:09.015  INFO 232 --- [           main] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2020-03-25 19:39:09.016  INFO 232 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-03-25 19:39:09.018  INFO 232 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.932 sec - in pl.pandait.panda.HelloControllerTest
+Running pl.pandait.panda.PandaApplicationTest
+2020-03-25 19:39:09.083  INFO 232 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [pl.pandait.panda.PandaApplicationTest], using SpringBootContextLoader
+2020-03-25 19:39:09.083  INFO 232 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [pl.pandait.panda.PandaApplicationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-03-25 19:39:09.083  INFO 232 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [pl.pandait.panda.PandaApplicationTest]: PandaApplicationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-03-25 19:39:09.084  INFO 232 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration pl.pandait.panda.PandaApplication for test class pl.pandait.panda.PandaApplicationTest
+2020-03-25 19:39:09.086  INFO 232 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-03-25 19:39:09.087  INFO 232 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7e53339, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@58fef7f7, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@31ddb930, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@12eedfee, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3c3c4a71, org.springframework.test.context.event.EventPublishingTestExecutionListener@1352434e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4f9a6c2d, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2b6fcb9f, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@75de6341, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@74170687, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@68f0f72c]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2020-03-25 19:39:09.135  INFO 232 --- [           main] pl.pandait.panda.PandaApplicationTest    : Starting PandaApplicationTest on 72e32ef8b92b with PID 232 (started by root in /home/workspace/Maven)
+2020-03-25 19:39:09.139  INFO 232 --- [           main] pl.pandait.panda.PandaApplicationTest    : No active profile set, falling back to default profiles: default
+2020-03-25 19:39:09.480  INFO 232 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 19:39:09.539  INFO 232 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-03-25 19:39:09.667  INFO 232 --- [           main] pl.pandait.panda.PandaApplicationTest    : Started PandaApplicationTest in 0.577 seconds (JVM running for 4.081)
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.577 sec - in pl.pandait.panda.PandaApplicationTest
+2020-03-25 19:39:09.697  INFO 232 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-25 19:39:09.697  INFO 232 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  8.552 s
+[[1;34mINFO[m] Finished at: 2020-03-25T19:39:10Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[Maven] $ /bin/sh -xe /tmp/jenkins8224096139188166517.sh
++ sleep 5
++ java -jar target/panda-0.0.2-SNAPSHOT.jar target/panda-1.0.1.jar
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2020-03-25 19:39:11.347  INFO 277 --- [           main] pl.pandait.panda.PandaApplication        : Starting PandaApplication v0.0.2-SNAPSHOT on 72e32ef8b92b with PID 277 (/home/workspace/Maven/target/panda-0.0.2-SNAPSHOT.jar started by root in /home/workspace/Maven)
+2020-03-25 19:39:11.351  INFO 277 --- [           main] pl.pandait.panda.PandaApplication        : No active profile set, falling back to default profiles: default
+2020-03-25 19:39:12.555  INFO 277 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-25 19:39:12.569  INFO 277 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-25 19:39:12.570  INFO 277 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-03-25 19:39:12.642  INFO 277 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-25 19:39:12.643  INFO 277 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1087 ms
+2020-03-25 19:39:12.786  INFO 277 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 19:39:12.843  INFO 277 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-03-25 19:39:12.969  INFO 277 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-25 19:39:12.972  INFO 277 --- [           main] pl.pandait.panda.PandaApplication        : Started PandaApplication in 2.159 seconds (JVM running for 2.792)
+Process leaked file descriptors. See https://jenkins.io/redirect/troubleshooting/process-leaked-file-descriptors for more information
+[Maven] $ mvn test -Pselenium
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------------< [0;36mpl.pandait:panda[0;1m >--------------------------[m
+[[1;34mINFO[m] [1mBuilding panda 1.0.1[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mpanda[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mpanda[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:testResources[m [1m(default-testResources)[m @ [36mpanda[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/workspace/Maven/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mpanda[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.19.1:test[m [1m(default-test)[m @ [36mpanda[0;1m ---[m
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running pl.pandait.panda.PandaApplicationSeleniumTest
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.514 sec <<< FAILURE! - in pl.pandait.panda.PandaApplicationSeleniumTest
+pl.pandait.panda.PandaApplicationSeleniumTest  Time elapsed: 0.513 sec  <<< ERROR!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '72e32ef8b92b', ip: '192.168.32.5', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-42-generic', java.version: '1.8.0_201'
+Driver info: driver.version: RemoteWebDriver
+	at pl.pandait.panda.PandaApplicationSeleniumTest.startup(PandaApplicationSeleniumTest.java:31)
+Caused by: java.net.ConnectException: Failed to connect to /127.0.0.1:4444
+	at pl.pandait.panda.PandaApplicationSeleniumTest.startup(PandaApplicationSeleniumTest.java:31)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at pl.pandait.panda.PandaApplicationSeleniumTest.startup(PandaApplicationSeleniumTest.java:31)
+
+
+Results :
+
+Tests in error: 
+  PandaApplicationSeleniumTest.startup:31 » UnreachableBrowser Could not start a...
+
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0
+
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  3.525 s
+[[1;34mINFO[m] Finished at: 2020-03-25T19:39:29Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-surefire-plugin:2.19.1:test[m [1m(default-test)[m on project [36mpanda[m: [1;31mThere are test failures.[m
+[[1;31mERROR[m] [1;31m[m
+[[1;31mERROR[m] [1;31mPlease refer to /home/workspace/Maven/target/surefire-reports for the individual test results.[m
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Build step 'Invoke top-level Maven targets' marked build as failure
+2020-03-25 19:39:30.808  INFO 277 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+Finished: FAILURE
