@@ -200,3 +200,7 @@
 2020-03-27 09:20:33,068 [AUDIT] Token created by 'jfrt@01e49j7nt5qc6w0satw40506g3': tokenId='7a59515c-a986-4080-82ec-0f092619a4fe', issuer='jfrt@01e49j7nt5qc6w0satw40506g3', subject='jfrt@01e49j7nt5qc6w0satw40506g3', expiry=2531380833066, refreshable=false
 2020-03-27 09:20:40,612 [AUDIT] Token created by 'anonymous': tokenId='9fc3b816-b09a-4523-a76b-bfa2be42625c', issuer='jffe@000', subject='jffe@000', expiry=none, refreshable=false
 2020-03-27 09:20:40,694 [AUDIT] Token created by 'jffe@000': tokenId='ad74503a-792d-4776-b1d6-7f2e8af2e9bb', issuer='jffe@000', subject='jffe@000', expiry=1585301440692, refreshable=false
+2020-03-27 09:30:43,194 [AUDIT] Token created by 'jffe@000': tokenId='bdb05c38-adb8-48d3-8d72-5cbc0fef1fe6', issuer='jffe@000', subject='jffe@000', expiry=1585302043192, refreshable=false
+2020-03-27 09:30:43,197 [AUDIT] Token created by 'jffe@000': tokenId='f1fefc3a-0e38-46ad-8104-d997513d42c7', issuer='jffe@000', subject='jffe@000', expiry=1585302043192, refreshable=false
+2020-03-27 09:30:43,210 [AUDIT] Token created by 'jffe@000': tokenId='be2737c3-f6bd-4632-974c-1d16fea9f192', issuer='jffe@000', subject='jffe@000', expiry=1585302043199, refreshable=false
+2020-03-27 09:30:43,212 [AUDIT] Token created by 'jffe@000': tokenId='9eda4816-4ebf-4611-a894-302d61f74786', issuer='jffe@000', subject='jffe@000', expiry=1585302043200, refreshable=false
