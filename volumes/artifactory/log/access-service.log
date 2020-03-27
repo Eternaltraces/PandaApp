@@ -387,3 +387,4 @@
 2020-03-27T09:20:31.666Z [jfac ] [INFO ] [10a24653c6566dc ] [s.r.NodeRegistryServiceImpl:63] [http-nio-8040-exec-2] - Cluster join: Successfully joined jfrt@01e49j7nt5qc6w0satw40506g3 with node id 84aaf299c769
 2020-03-27T09:20:40.618Z [jfac ] [INFO ] [f1515b7d19df120 ] [s.r.NodeRegistryServiceImpl:63] [http-nio-8040-exec-9] - Cluster join: Successfully joined jffe@000 with node id 84aaf299c769
 2020-03-27T09:20:51.309Z [jfac ] [INFO ] [                ] [alConfigurationServiceBase:182] [c-default-executor-0] - Loading configuration from db finished successfully
+2020-03-27T09:25:32.902Z [jfac ] [INFO ] [412dc866738dc9ed] [.r.s.RpcPermissionResource:197] [jf-access-task1     ] - server identified client canceled subscription

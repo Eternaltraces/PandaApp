@@ -3062,3 +3062,4 @@ Node ID: '84aaf299c769'
 2020-03-27T09:20:53.304Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server_configuration.go:61    ] [main                ] - Server configuration reloaded on :8082
 2020-03-27T09:20:53.304Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server_configuration.go:61    ] [main                ] - Server configuration reloaded on localhost:8046
 2020-03-27T09:20:53.304Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server_configuration.go:61    ] [main                ] - Server configuration reloaded on localhost:8049
+2020-03-27T09:25:32.902Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [412dc866738dc9ed] [.r.s.RpcPermissionResource:197] [jf-access-task1     ] - server identified client canceled subscription
