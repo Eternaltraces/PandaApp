@@ -1,0 +1,205 @@
+2020-03-25T19:20:18.813Z [jfrou] [INFO ] [                ] [bootstrap.go:70               ] [main                ] - Router (jfrou) service initialization started. Version: 1.1.0 Revision: c2646fcb28e2d4ca095b07aacebe509d934cef77 PID: 2398 Home: /opt/jfrog/artifactory
+2020-03-25T19:20:18.813Z [jfrou] [INFO ] [                ] [bootstrap.go:73               ] [main                ] - JFrog Router IP: 172.30.0.2
+2020-03-25T19:20:23.815Z [jfrou] [INFO ] [                ] [security_keys.go:114          ] [main                ] - Master key is missing. Pending for 5 seconds with 2m0s timeout
+2020-03-25T19:20:28.818Z [jfrou] [INFO ] [                ] [security_keys.go:114          ] [main                ] - Master key is missing. Pending for 10 seconds with 2m0s timeout
+2020-03-25T19:20:33.822Z [jfrou] [INFO ] [                ] [security_keys.go:128          ] [main                ] - Cluster join: Join key is missing. Pending for 15 seconds with 2m0s timeout
+2020-03-25T19:20:34.823Z [jfrou] [INFO ] [                ] [bootstrap.go:159              ] [main                ] - System configuration encryption report:
+shared.newrelic.licenseKey: does not exist in the config file
+shared.security.joinKeyFile: file '/opt/jfrog/artifactory/var/etc/security/join.key' - already encrypted
+2020-03-25T19:20:34.824Z [jfrou] [INFO ] [                ] [bootstrap.go:78               ] [main                ] - JFrog Router Service ID: jfrou@01e49j78r7vs30xv5qb9mj5w52
+2020-03-25T19:20:34.824Z [jfrou] [INFO ] [                ] [bootstrap.go:79               ] [main                ] - JFrog Router Node ID: 83445bab5f1f
+2020-03-25T19:20:36.815Z [jfrou] [INFO ] [                ] [config_holder.go:107          ] [main                ] - configuration update detected
+2020-03-25T19:20:38.146Z [jfrou] [INFO ] [                ] [join_executor.go:180          ] [main                ] - Cluster join: Successfully joined the cluster
+2020-03-25T19:20:38.164Z [jfrou] [INFO ] [                ] [main.go:36                    ] [main                ] - Router (jfrou) service initialization completed in 19.356 seconds. Listening on port: 8082
+2020-03-25T19:21:08.190Z [jfrou] [INFO ] [7b85a8e755628e6c] [local_topology.go:212         ] [main                ] - 
+###############################################################
+###   All services started successfully in 49.382 seconds   ###
+###############################################################
+2020-03-25T19:22:10.393Z [jfrou] [ERROR] [27468e73f41d6665] [external_topology.go:85       ] [main                ] - failed fetching external topology from Access: Get http://localhost:8040/access/api/v1/topology: read tcp 127.0.0.1:56952->127.0.0.1:8040: read: connection reset by peer
+2020-03-25T19:22:11.187Z [jfrou] [ERROR] [5f7c4967841b034e] [external_topology.go:85       ] [main                ] - failed fetching external topology from Access: Get http://localhost:8040/access/api/v1/topology: dial tcp 127.0.0.1:8040: connect: connection refused
+2020-03-25T19:22:36.850Z [jfrou] [INFO ] [                ] [bootstrap.go:70               ] [main                ] - Router (jfrou) service initialization started. Version: 1.1.0 Revision: c2646fcb28e2d4ca095b07aacebe509d934cef77 PID: 2724 Home: /opt/jfrog/artifactory
+2020-03-25T19:22:36.850Z [jfrou] [INFO ] [                ] [bootstrap.go:73               ] [main                ] - JFrog Router IP: 172.31.0.2
+2020-03-25T19:22:36.852Z [jfrou] [INFO ] [                ] [bootstrap.go:159              ] [main                ] - System configuration encryption report:
+shared.newrelic.licenseKey: does not exist in the config file
+shared.security.joinKeyFile: file '/opt/jfrog/artifactory/var/etc/security/join.key' - already encrypted
+2020-03-25T19:22:36.853Z [jfrou] [INFO ] [                ] [bootstrap.go:78               ] [main                ] - JFrog Router Service ID: jfrou@01e49j78r7vs30xv5qb9mj5w52
+2020-03-25T19:22:36.853Z [jfrou] [INFO ] [                ] [bootstrap.go:79               ] [main                ] - JFrog Router Node ID: a25a48c41896
+2020-03-25T19:22:38.849Z [jfrou] [INFO ] [                ] [config_holder.go:107          ] [main                ] - configuration update detected
+2020-03-25T19:22:55.940Z [jfrou] [INFO ] [                ] [join_executor.go:180          ] [main                ] - Cluster join: Successfully joined the cluster
+2020-03-25T19:22:55.952Z [jfrou] [INFO ] [                ] [main.go:36                    ] [main                ] - Router (jfrou) service initialization completed in 19.106 seconds. Listening on port: 8082
+2020-03-25T19:23:16.033Z [jfrou] [INFO ] [632c59c5e42b9822] [local_topology.go:212         ] [main                ] - 
+###############################################################
+###   All services started successfully in 39.187 seconds   ###
+###############################################################
+2020-03-25T19:25:40.658Z [jfrou] [ERROR] [307dbe5545c0f952] [external_topology.go:85       ] [main                ] - failed fetching external topology from Access: Get http://localhost:8040/access/api/v1/topology: read tcp 127.0.0.1:57794->127.0.0.1:8040: read: connection reset by peer
+2020-03-25T19:25:41.100Z [jfrou] [ERROR] [730fe1b677b43556] [external_topology.go:85       ] [main                ] - failed fetching external topology from Access: Get http://localhost:8040/access/api/v1/topology: dial tcp 127.0.0.1:8040: connect: connection refused
+2020-03-25T19:29:19.638Z [jfrou] [INFO ] [                ] [bootstrap.go:70               ] [main                ] - Router (jfrou) service initialization started. Version: 1.1.0 Revision: c2646fcb28e2d4ca095b07aacebe509d934cef77 PID: 2734 Home: /opt/jfrog/artifactory
+2020-03-25T19:29:19.639Z [jfrou] [INFO ] [                ] [bootstrap.go:73               ] [main                ] - JFrog Router IP: 192.168.16.3
+2020-03-25T19:29:19.640Z [jfrou] [INFO ] [                ] [bootstrap.go:159              ] [main                ] - System configuration encryption report:
+shared.newrelic.licenseKey: does not exist in the config file
+shared.security.joinKeyFile: file '/opt/jfrog/artifactory/var/etc/security/join.key' - already encrypted
+2020-03-25T19:29:19.641Z [jfrou] [INFO ] [                ] [bootstrap.go:78               ] [main                ] - JFrog Router Service ID: jfrou@01e49j78r7vs30xv5qb9mj5w52
+2020-03-25T19:29:19.641Z [jfrou] [INFO ] [                ] [bootstrap.go:79               ] [main                ] - JFrog Router Node ID: 69a6fcca9118
+2020-03-25T19:29:21.639Z [jfrou] [INFO ] [                ] [config_holder.go:107          ] [main                ] - configuration update detected
+2020-03-25T19:30:52.741Z [jfrou] [INFO ] [                ] [bootstrap.go:70               ] [main                ] - Router (jfrou) service initialization started. Version: 1.1.0 Revision: c2646fcb28e2d4ca095b07aacebe509d934cef77 PID: 2691 Home: /opt/jfrog/artifactory
+2020-03-25T19:30:52.745Z [jfrou] [INFO ] [                ] [bootstrap.go:73               ] [main                ] - JFrog Router IP: 192.168.32.3
+2020-03-25T19:30:52.747Z [jfrou] [INFO ] [                ] [bootstrap.go:159              ] [main                ] - System configuration encryption report:
+shared.newrelic.licenseKey: does not exist in the config file
+shared.security.joinKeyFile: file '/opt/jfrog/artifactory/var/etc/security/join.key' - already encrypted
+2020-03-25T19:30:52.748Z [jfrou] [INFO ] [                ] [bootstrap.go:78               ] [main                ] - JFrog Router Service ID: jfrou@01e49j78r7vs30xv5qb9mj5w52
+2020-03-25T19:30:52.748Z [jfrou] [INFO ] [                ] [bootstrap.go:79               ] [main                ] - JFrog Router Node ID: f4a81002ab39
+2020-03-25T19:30:54.743Z [jfrou] [INFO ] [                ] [config_holder.go:107          ] [main                ] - configuration update detected
+2020-03-25T19:31:23.624Z [jfrou] [INFO ] [                ] [join_executor.go:180          ] [main                ] - Cluster join: Successfully joined the cluster
+2020-03-25T19:31:23.736Z [jfrou] [INFO ] [                ] [main.go:36                    ] [main                ] - Router (jfrou) service initialization completed in 30.999 seconds. Listening on port: 8082
+2020-03-25T19:31:53.754Z [jfrou] [INFO ] [72f82e841f999fe5] [local_topology.go:212         ] [main                ] - 
+###############################################################
+###   All services started successfully in 61.014 seconds   ###
+###############################################################
+2020-03-25T19:34:14.638Z [jfrou] [ERROR] [297ff50ed0e27446] [external_topology.go:85       ] [main                ] - failed fetching external topology from Access: Get http://localhost:8040/access/api/v1/topology: net/http: request canceled (Client.Timeout exceeded while awaiting headers)
+2020-03-25T19:36:35.152Z [jfrou] [INFO ] [                ] [bootstrap.go:70               ] [main                ] - Router (jfrou) service initialization started. Version: 1.1.0 Revision: c2646fcb28e2d4ca095b07aacebe509d934cef77 PID: 2643 Home: /opt/jfrog/artifactory
+2020-03-25T19:36:35.153Z [jfrou] [INFO ] [                ] [bootstrap.go:73               ] [main                ] - JFrog Router IP: 192.168.32.4
+2020-03-25T19:36:35.347Z [jfrou] [INFO ] [                ] [bootstrap.go:159              ] [main                ] - System configuration encryption report:
+shared.newrelic.licenseKey: does not exist in the config file
+shared.security.joinKeyFile: file '/opt/jfrog/artifactory/var/etc/security/join.key' - already encrypted
+2020-03-25T19:36:35.406Z [jfrou] [INFO ] [                ] [bootstrap.go:78               ] [main                ] - JFrog Router Service ID: jfrou@01e49j78r7vs30xv5qb9mj5w52
+2020-03-25T19:36:35.406Z [jfrou] [INFO ] [                ] [bootstrap.go:79               ] [main                ] - JFrog Router Node ID: f4a81002ab39
+2020-03-25T19:36:37.093Z [jfrou] [INFO ] [                ] [config_holder.go:107          ] [main                ] - configuration update detected
+2020-03-25T19:36:40.631Z [jfrou] [INFO ] [                ] [join_executor.go:148          ] [main                ] - Cluster join: Retry 5: Service registry ping failed, will retry. Error: Get http://localhost:8040/access/api/v1/system/ping: dial tcp 127.0.0.1:8040: connect: connection refused
+2020-03-25T19:37:19.707Z [jfrou] [INFO ] [                ] [join_executor.go:180          ] [main                ] - Cluster join: Successfully joined the cluster
+2020-03-25T19:37:19.733Z [jfrou] [INFO ] [                ] [registry_handler.go:89        ] [main                ] - the following services were registered automatically based on persisted data: jfac@01e49j73ccnr7c17gd5ayt0916, jffe@000, jfmd@01e49j7a9f9sx346488s7y6rc7, jfrt@01e49j7nt5qc6w0satw40506g3
+2020-03-25T19:37:19.761Z [jfrou] [INFO ] [                ] [main.go:36                    ] [main                ] - Router (jfrou) service initialization completed in 44.728 seconds. Listening on port: 8082
+2020-03-25T19:37:39.777Z [jfrou] [INFO ] [60c217110ba5bab0] [local_topology.go:212         ] [main                ] - 
+###############################################################
+###   All services started successfully in 64.739 seconds   ###
+###############################################################
+2020-03-25T20:50:12.388Z [jfrou] [ERROR] [5be4adc94a428179] [external_topology.go:85       ] [main                ] - failed fetching external topology from Access: Get http://localhost:8040/access/api/v1/topology: net/http: request canceled (Client.Timeout exceeded while awaiting headers)
+2020-03-25T20:51:36.922Z [jfrou] [ERROR] [5cb53dcb7bf5abea] [external_topology.go:85       ] [main                ] - failed fetching external topology from Access: Get http://localhost:8040/access/api/v1/topology: net/http: request canceled (Client.Timeout exceeded while awaiting headers)
+2020-03-25T20:54:09.542Z [jfrou] [INFO ] [                ] [bootstrap.go:70               ] [main                ] - Router (jfrou) service initialization started. Version: 1.1.0 Revision: c2646fcb28e2d4ca095b07aacebe509d934cef77 PID: 2651 Home: /opt/jfrog/artifactory
+2020-03-25T20:54:09.543Z [jfrou] [INFO ] [                ] [bootstrap.go:73               ] [main                ] - JFrog Router IP: 192.168.32.4
+2020-03-25T20:54:09.547Z [jfrou] [INFO ] [                ] [bootstrap.go:159              ] [main                ] - System configuration encryption report:
+shared.newrelic.licenseKey: does not exist in the config file
+shared.security.joinKeyFile: file '/opt/jfrog/artifactory/var/etc/security/join.key' - already encrypted
+2020-03-25T20:54:09.558Z [jfrou] [INFO ] [                ] [bootstrap.go:78               ] [main                ] - JFrog Router Service ID: jfrou@01e49j78r7vs30xv5qb9mj5w52
+2020-03-25T20:54:09.567Z [jfrou] [INFO ] [                ] [bootstrap.go:79               ] [main                ] - JFrog Router Node ID: f4a81002ab39
+2020-03-25T20:54:11.498Z [jfrou] [INFO ] [                ] [config_holder.go:107          ] [main                ] - configuration update detected
+2020-03-25T20:54:29.065Z [jfrou] [INFO ] [                ] [join_executor.go:148          ] [main                ] - Cluster join: Retry 5: Service registry ping failed, will retry. Error: Get http://localhost:8040/access/api/v1/system/ping: net/http: request canceled (Client.Timeout exceeded while awaiting headers)
+2020-03-25T20:54:47.445Z [jfrou] [INFO ] [                ] [join_executor.go:180          ] [main                ] - Cluster join: Successfully joined the cluster
+2020-03-25T20:54:47.515Z [jfrou] [INFO ] [                ] [registry_handler.go:89        ] [main                ] - the following services were registered automatically based on persisted data: jfac@01e49j73ccnr7c17gd5ayt0916, jffe@000, jfmd@01e49j7a9f9sx346488s7y6rc7, jfrt@01e49j7nt5qc6w0satw40506g3
+2020-03-25T20:54:47.557Z [jfrou] [INFO ] [                ] [main.go:36                    ] [main                ] - Router (jfrou) service initialization completed in 38.083 seconds. Listening on port: 8082
+2020-03-25T20:55:02.635Z [jfrou] [INFO ] [4c78c4e11bced082] [local_topology.go:212         ] [main                ] - 
+###############################################################
+###   All services started successfully in 53.160 seconds   ###
+###############################################################
+2020-03-25T21:23:18.822Z [jfrou] [ERROR] [479401b08da294d2] [external_topology.go:85       ] [main                ] - failed fetching external topology from Access: Get http://localhost:8040/access/api/v1/topology: read tcp 127.0.0.1:53794->127.0.0.1:8040: read: connection reset by peer
+2020-03-25T21:23:19.008Z [jfrou] [ERROR] [713a3a3340996a22] [external_topology.go:85       ] [main                ] - failed fetching external topology from Access: Get http://localhost:8040/access/api/v1/topology: dial tcp 127.0.0.1:8040: connect: connection refused
+2020-03-26T08:01:42.447Z [jfrou] [INFO ] [                ] [bootstrap.go:70               ] [main                ] - Router (jfrou) service initialization started. Version: 1.1.0 Revision: c2646fcb28e2d4ca095b07aacebe509d934cef77 PID: 2702 Home: /opt/jfrog/artifactory
+2020-03-26T08:01:42.448Z [jfrou] [INFO ] [                ] [bootstrap.go:73               ] [main                ] - JFrog Router IP: 172.19.0.4
+2020-03-26T08:01:42.450Z [jfrou] [INFO ] [                ] [bootstrap.go:159              ] [main                ] - System configuration encryption report:
+shared.newrelic.licenseKey: does not exist in the config file
+shared.security.joinKeyFile: file '/opt/jfrog/artifactory/var/etc/security/join.key' - already encrypted
+2020-03-26T08:01:42.453Z [jfrou] [INFO ] [                ] [bootstrap.go:78               ] [main                ] - JFrog Router Service ID: jfrou@01e49j78r7vs30xv5qb9mj5w52
+2020-03-26T08:01:42.453Z [jfrou] [INFO ] [                ] [bootstrap.go:79               ] [main                ] - JFrog Router Node ID: ce7748b97ec4
+2020-03-26T08:01:44.446Z [jfrou] [INFO ] [                ] [config_holder.go:107          ] [main                ] - configuration update detected
+2020-03-26T08:02:01.694Z [jfrou] [INFO ] [                ] [join_executor.go:148          ] [main                ] - Cluster join: Retry 5: Service registry ping failed, will retry. Error: Get http://localhost:8040/access/api/v1/system/ping: net/http: request canceled (Client.Timeout exceeded while awaiting headers)
+2020-03-26T08:02:21.455Z [jfrou] [INFO ] [                ] [join_executor.go:180          ] [main                ] - Cluster join: Successfully joined the cluster
+2020-03-26T08:02:21.701Z [jfrou] [INFO ] [                ] [main.go:36                    ] [main                ] - Router (jfrou) service initialization completed in 39.261 seconds. Listening on port: 8082
+2020-03-26T08:02:41.783Z [jfrou] [INFO ] [1e4f9e82e2842c2a] [local_topology.go:212         ] [main                ] - 
+###############################################################
+###   All services started successfully in 59.343 seconds   ###
+###############################################################
+2020-03-26T08:06:32.985Z [jfrou] [ERROR] [68de73d5b92ff09d] [external_topology.go:85       ] [main                ] - failed fetching external topology from Access: Get http://localhost:8040/access/api/v1/topology: read tcp 127.0.0.1:57954->127.0.0.1:8040: read: connection reset by peer
+2020-03-26T08:06:33.092Z [jfrou] [ERROR] [20c7a548a92eb96c] [external_topology.go:85       ] [main                ] - failed fetching external topology from Access: Get http://localhost:8040/access/api/v1/topology: dial tcp 127.0.0.1:8040: connect: connection refused
+2020-03-26T11:47:50.740Z [jfrou] [INFO ] [                ] [bootstrap.go:70               ] [main                ] - Router (jfrou) service initialization started. Version: 1.1.0 Revision: c2646fcb28e2d4ca095b07aacebe509d934cef77 PID: 2697 Home: /opt/jfrog/artifactory
+2020-03-26T11:47:50.740Z [jfrou] [INFO ] [                ] [bootstrap.go:73               ] [main                ] - JFrog Router IP: 172.19.0.2
+2020-03-26T11:47:50.750Z [jfrou] [INFO ] [                ] [bootstrap.go:159              ] [main                ] - System configuration encryption report:
+shared.newrelic.licenseKey: does not exist in the config file
+shared.security.joinKeyFile: file '/opt/jfrog/artifactory/var/etc/security/join.key' - already encrypted
+2020-03-26T11:47:50.755Z [jfrou] [INFO ] [                ] [bootstrap.go:78               ] [main                ] - JFrog Router Service ID: jfrou@01e49j78r7vs30xv5qb9mj5w52
+2020-03-26T11:47:50.755Z [jfrou] [INFO ] [                ] [bootstrap.go:79               ] [main                ] - JFrog Router Node ID: d341d4b850ee
+2020-03-26T11:47:52.737Z [jfrou] [INFO ] [                ] [config_holder.go:107          ] [main                ] - configuration update detected
+2020-03-26T11:48:22.588Z [jfrou] [INFO ] [                ] [join_executor.go:180          ] [main                ] - Cluster join: Successfully joined the cluster
+2020-03-26T11:48:22.875Z [jfrou] [INFO ] [                ] [main.go:36                    ] [main                ] - Router (jfrou) service initialization completed in 32.145 seconds. Listening on port: 8082
+2020-03-26T11:48:47.944Z [jfrou] [INFO ] [4c2e98d3ef5fa7b5] [local_topology.go:212         ] [main                ] - 
+###############################################################
+###   All services started successfully in 57.217 seconds   ###
+###############################################################
+2020-03-26T11:50:42.992Z [jfrou] [INFO ] [                ] [bootstrap.go:70               ] [main                ] - Router (jfrou) service initialization started. Version: 1.1.0 Revision: c2646fcb28e2d4ca095b07aacebe509d934cef77 PID: 2679 Home: /opt/jfrog/artifactory
+2020-03-26T11:50:43.000Z [jfrou] [INFO ] [                ] [bootstrap.go:73               ] [main                ] - JFrog Router IP: 172.19.0.4
+2020-03-26T11:50:43.042Z [jfrou] [INFO ] [                ] [bootstrap.go:159              ] [main                ] - System configuration encryption report:
+shared.newrelic.licenseKey: does not exist in the config file
+shared.security.joinKeyFile: file '/opt/jfrog/artifactory/var/etc/security/join.key' - already encrypted
+2020-03-26T11:50:43.049Z [jfrou] [INFO ] [                ] [bootstrap.go:78               ] [main                ] - JFrog Router Service ID: jfrou@01e49j78r7vs30xv5qb9mj5w52
+2020-03-26T11:50:43.049Z [jfrou] [INFO ] [                ] [bootstrap.go:79               ] [main                ] - JFrog Router Node ID: d341d4b850ee
+2020-03-26T11:50:44.990Z [jfrou] [INFO ] [                ] [config_holder.go:107          ] [main                ] - configuration update detected
+2020-03-26T11:51:02.872Z [jfrou] [INFO ] [                ] [join_executor.go:148          ] [main                ] - Cluster join: Retry 5: Service registry ping failed, will retry. Error: Get http://localhost:8040/access/api/v1/system/ping: net/http: request canceled (Client.Timeout exceeded while awaiting headers)
+2020-03-26T11:51:39.258Z [jfrou] [INFO ] [                ] [join_executor.go:180          ] [main                ] - Cluster join: Successfully joined the cluster
+2020-03-26T11:51:39.331Z [jfrou] [INFO ] [                ] [registry_handler.go:89        ] [main                ] - the following services were registered automatically based on persisted data: jfac@01e49j73ccnr7c17gd5ayt0916, jffe@000, jfmd@01e49j7a9f9sx346488s7y6rc7, jfrt@01e49j7nt5qc6w0satw40506g3
+2020-03-26T11:51:39.369Z [jfrou] [INFO ] [                ] [main.go:36                    ] [main                ] - Router (jfrou) service initialization completed in 56.438 seconds. Listening on port: 8082
+2020-03-26T11:51:54.452Z [jfrou] [INFO ] [b457eb64d0a9377 ] [local_topology.go:212         ] [main                ] - 
+###############################################################
+###   All services started successfully in 71.521 seconds   ###
+###############################################################
+2020-03-26T11:58:12.009Z [jfrou] [ERROR] [673eb76fcf95c812] [external_topology.go:85       ] [main                ] - failed fetching external topology from Access: Get http://localhost:8040/access/api/v1/topology: read tcp 127.0.0.1:48184->127.0.0.1:8040: read: connection reset by peer
+2020-03-26T11:58:12.116Z [jfrou] [ERROR] [6b5ab031f1cc39ad] [external_topology.go:85       ] [main                ] - failed fetching external topology from Access: Get http://localhost:8040/access/api/v1/topology: dial tcp 127.0.0.1:8040: connect: connection refused
+2020-03-26T11:59:12.501Z [jfrou] [INFO ] [                ] [bootstrap.go:70               ] [main                ] - Router (jfrou) service initialization started. Version: 1.1.0 Revision: c2646fcb28e2d4ca095b07aacebe509d934cef77 PID: 2688 Home: /opt/jfrog/artifactory
+2020-03-26T11:59:12.502Z [jfrou] [INFO ] [                ] [bootstrap.go:73               ] [main                ] - JFrog Router IP: 172.19.0.2
+2020-03-26T11:59:12.508Z [jfrou] [INFO ] [                ] [bootstrap.go:159              ] [main                ] - System configuration encryption report:
+shared.newrelic.licenseKey: does not exist in the config file
+shared.security.joinKeyFile: file '/opt/jfrog/artifactory/var/etc/security/join.key' - already encrypted
+2020-03-26T11:59:12.515Z [jfrou] [INFO ] [                ] [bootstrap.go:78               ] [main                ] - JFrog Router Service ID: jfrou@01e49j78r7vs30xv5qb9mj5w52
+2020-03-26T11:59:12.515Z [jfrou] [INFO ] [                ] [bootstrap.go:79               ] [main                ] - JFrog Router Node ID: 9a39cb09b316
+2020-03-26T11:59:14.493Z [jfrou] [INFO ] [                ] [config_holder.go:107          ] [main                ] - configuration update detected
+2020-03-26T11:59:37.852Z [jfrou] [INFO ] [                ] [join_executor.go:180          ] [main                ] - Cluster join: Successfully joined the cluster
+2020-03-26T11:59:37.913Z [jfrou] [INFO ] [                ] [main.go:36                    ] [main                ] - Router (jfrou) service initialization completed in 25.426 seconds. Listening on port: 8082
+2020-03-26T11:59:57.929Z [jfrou] [INFO ] [799d92ab2bfb5494] [local_topology.go:212         ] [main                ] - 
+###############################################################
+###   All services started successfully in 45.442 seconds   ###
+###############################################################
+2020-03-26T12:07:18.516Z [jfrou] [ERROR] [580712371592584e] [external_topology.go:85       ] [main                ] - failed fetching external topology from Access: Get http://localhost:8040/access/api/v1/topology: read tcp 127.0.0.1:49916->127.0.0.1:8040: read: connection reset by peer
+2020-03-26T12:07:18.621Z [jfrou] [ERROR] [3be4b4c1a1eb17fa] [external_topology.go:85       ] [main                ] - failed fetching external topology from Access: Get http://localhost:8040/access/api/v1/topology: dial tcp 127.0.0.1:8040: connect: connection refused
+2020-03-26T12:14:26.907Z [jfrou] [INFO ] [                ] [bootstrap.go:70               ] [main                ] - Router (jfrou) service initialization started. Version: 1.1.0 Revision: c2646fcb28e2d4ca095b07aacebe509d934cef77 PID: 2700 Home: /opt/jfrog/artifactory
+2020-03-26T12:14:26.907Z [jfrou] [INFO ] [                ] [bootstrap.go:73               ] [main                ] - JFrog Router IP: 172.20.0.4
+2020-03-26T12:14:26.911Z [jfrou] [INFO ] [                ] [bootstrap.go:159              ] [main                ] - System configuration encryption report:
+shared.newrelic.licenseKey: does not exist in the config file
+shared.security.joinKeyFile: file '/opt/jfrog/artifactory/var/etc/security/join.key' - already encrypted
+2020-03-26T12:14:26.912Z [jfrou] [INFO ] [                ] [bootstrap.go:78               ] [main                ] - JFrog Router Service ID: jfrou@01e49j78r7vs30xv5qb9mj5w52
+2020-03-26T12:14:26.912Z [jfrou] [INFO ] [                ] [bootstrap.go:79               ] [main                ] - JFrog Router Node ID: 0626da7bb99e
+2020-03-26T12:14:28.901Z [jfrou] [INFO ] [                ] [config_holder.go:107          ] [main                ] - configuration update detected
+2020-03-26T12:14:54.478Z [jfrou] [INFO ] [                ] [join_executor.go:180          ] [main                ] - Cluster join: Successfully joined the cluster
+2020-03-26T12:14:54.566Z [jfrou] [INFO ] [                ] [main.go:36                    ] [main                ] - Router (jfrou) service initialization completed in 27.670 seconds. Listening on port: 8082
+2020-03-26T12:15:14.581Z [jfrou] [INFO ] [af54426e04b40df ] [local_topology.go:212         ] [main                ] - 
+###############################################################
+###   All services started successfully in 47.685 seconds   ###
+###############################################################
+2020-03-26T12:20:30.312Z [jfrou] [WARN ] [4fb6fce78dad75be] [ternal_topology_verifier.go:93] [main                ] - failed pinging external node '0626da7bb99e' at address 'http://172.20.0.4:8082': Get http://172.20.0.4:8082/router/api/v1/system/ping: context deadline exceeded
+2020-03-26T12:22:10.125Z [jfrou] [INFO ] [                ] [bootstrap.go:70               ] [main                ] - Router (jfrou) service initialization started. Version: 1.1.0 Revision: c2646fcb28e2d4ca095b07aacebe509d934cef77 PID: 2679 Home: /opt/jfrog/artifactory
+2020-03-26T12:22:10.126Z [jfrou] [INFO ] [                ] [bootstrap.go:73               ] [main                ] - JFrog Router IP: 172.20.0.4
+2020-03-26T12:22:10.129Z [jfrou] [INFO ] [                ] [bootstrap.go:159              ] [main                ] - System configuration encryption report:
+shared.newrelic.licenseKey: does not exist in the config file
+shared.security.joinKeyFile: file '/opt/jfrog/artifactory/var/etc/security/join.key' - already encrypted
+2020-03-26T12:22:10.131Z [jfrou] [INFO ] [                ] [bootstrap.go:78               ] [main                ] - JFrog Router Service ID: jfrou@01e49j78r7vs30xv5qb9mj5w52
+2020-03-26T12:22:10.132Z [jfrou] [INFO ] [                ] [bootstrap.go:79               ] [main                ] - JFrog Router Node ID: 0626da7bb99e
+2020-03-26T12:22:12.119Z [jfrou] [INFO ] [                ] [config_holder.go:107          ] [main                ] - configuration update detected
+2020-03-26T12:22:42.417Z [jfrou] [INFO ] [                ] [join_executor.go:180          ] [main                ] - Cluster join: Successfully joined the cluster
+2020-03-26T12:22:42.441Z [jfrou] [INFO ] [                ] [registry_handler.go:89        ] [main                ] - the following services were registered automatically based on persisted data: jfac@01e49j73ccnr7c17gd5ayt0916, jffe@000, jfmd@01e49j7a9f9sx346488s7y6rc7, jfrt@01e49j7nt5qc6w0satw40506g3
+2020-03-26T12:22:42.465Z [jfrou] [INFO ] [                ] [main.go:36                    ] [main                ] - Router (jfrou) service initialization completed in 32.355 seconds. Listening on port: 8082
+2020-03-26T12:23:02.482Z [jfrou] [INFO ] [4f61f346760642e1] [local_topology.go:212         ] [main                ] - 
+###############################################################
+###   All services started successfully in 52.372 seconds   ###
+###############################################################
+2020-03-26T12:56:51.690Z [jfrou] [ERROR] [19c0c307fc49d8  ] [external_topology.go:85       ] [main                ] - failed fetching external topology from Access: Get http://localhost:8040/access/api/v1/topology: read tcp 127.0.0.1:33294->127.0.0.1:8040: read: connection reset by peer
+2020-03-26T12:56:51.797Z [jfrou] [ERROR] [326408212f737a4d] [external_topology.go:85       ] [main                ] - failed fetching external topology from Access: Get http://localhost:8040/access/api/v1/topology: dial tcp 127.0.0.1:8040: connect: connection refused
+2020-03-27T09:19:54.718Z [jfrou] [INFO ] [                ] [bootstrap.go:70               ] [main                ] - Router (jfrou) service initialization started. Version: 1.1.0 Revision: c2646fcb28e2d4ca095b07aacebe509d934cef77 PID: 2710 Home: /opt/jfrog/artifactory
+2020-03-27T09:19:54.719Z [jfrou] [INFO ] [                ] [bootstrap.go:73               ] [main                ] - JFrog Router IP: 172.19.0.3
+2020-03-27T09:19:54.724Z [jfrou] [INFO ] [                ] [bootstrap.go:159              ] [main                ] - System configuration encryption report:
+shared.newrelic.licenseKey: does not exist in the config file
+shared.security.joinKeyFile: file '/opt/jfrog/artifactory/var/etc/security/join.key' - already encrypted
+2020-03-27T09:19:54.726Z [jfrou] [INFO ] [                ] [bootstrap.go:78               ] [main                ] - JFrog Router Service ID: jfrou@01e49j78r7vs30xv5qb9mj5w52
+2020-03-27T09:19:54.726Z [jfrou] [INFO ] [                ] [bootstrap.go:79               ] [main                ] - JFrog Router Node ID: 84aaf299c769
+2020-03-27T09:19:56.721Z [jfrou] [INFO ] [                ] [config_holder.go:107          ] [main                ] - configuration update detected
+2020-03-27T09:20:26.117Z [jfrou] [INFO ] [                ] [join_executor.go:180          ] [main                ] - Cluster join: Successfully joined the cluster
+2020-03-27T09:20:26.256Z [jfrou] [INFO ] [                ] [main.go:36                    ] [main                ] - Router (jfrou) service initialization completed in 31.552 seconds. Listening on port: 8082
+2020-03-27T09:20:51.277Z [jfrou] [INFO ] [7d7c74e3ca75a907] [local_topology.go:212         ] [main                ] - 
+###############################################################
+###   All services started successfully in 56.573 seconds   ###
+###############################################################
