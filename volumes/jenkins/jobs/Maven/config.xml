@@ -48,9 +48,9 @@
       <injectBuildVariables>false</injectBuildVariables>
     </hudson.tasks.Maven>
     <hudson.tasks.Shell>
-      <command>cp target/panda*.jar Dockerfile/
-cd Dockerfile
-docker build -t pandaapp_${BUILD_NUMBER}  .
+      <command>cp target/panda*.jar dockerfiles/pandaapp
+cd dockerfiles/pandaapp
+docker build -t pandaapp_${BUILD_NUMBER} .
 docker run -d -p 0.0.0.0:8080:8080 --name app${BUILD_NUMBER} -t pandaapp_${BUILD_NUMBER}</command>
     </hudson.tasks.Shell>
     <hudson.tasks.Maven>

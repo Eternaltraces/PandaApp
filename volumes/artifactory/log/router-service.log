@@ -203,3 +203,81 @@ shared.security.joinKeyFile: file '/opt/jfrog/artifactory/var/etc/security/join.
 ###############################################################
 ###   All services started successfully in 56.573 seconds   ###
 ###############################################################
+2020-03-27T10:16:25.119Z [jfrou] [INFO ] [                ] [bootstrap.go:70               ] [main                ] - Router (jfrou) service initialization started. Version: 1.1.0 Revision: c2646fcb28e2d4ca095b07aacebe509d934cef77 PID: 2693 Home: /opt/jfrog/artifactory
+2020-03-27T10:16:25.121Z [jfrou] [INFO ] [                ] [bootstrap.go:73               ] [main                ] - JFrog Router IP: 172.20.0.2
+2020-03-27T10:16:25.125Z [jfrou] [INFO ] [                ] [bootstrap.go:159              ] [main                ] - System configuration encryption report:
+shared.newrelic.licenseKey: does not exist in the config file
+shared.security.joinKeyFile: file '/opt/jfrog/artifactory/var/etc/security/join.key' - already encrypted
+2020-03-27T10:16:25.130Z [jfrou] [INFO ] [                ] [bootstrap.go:78               ] [main                ] - JFrog Router Service ID: jfrou@01e49j78r7vs30xv5qb9mj5w52
+2020-03-27T10:16:25.130Z [jfrou] [INFO ] [                ] [bootstrap.go:79               ] [main                ] - JFrog Router Node ID: 675df15c9597
+2020-03-27T10:16:27.108Z [jfrou] [INFO ] [                ] [config_holder.go:107          ] [main                ] - configuration update detected
+2020-03-27T10:16:54.404Z [jfrou] [INFO ] [                ] [join_executor.go:180          ] [main                ] - Cluster join: Successfully joined the cluster
+2020-03-27T10:16:54.486Z [jfrou] [INFO ] [                ] [main.go:36                    ] [main                ] - Router (jfrou) service initialization completed in 29.383 seconds. Listening on port: 8082
+2020-03-27T10:17:14.508Z [jfrou] [INFO ] [7ee7e8a81ac850ba] [local_topology.go:212         ] [main                ] - 
+###############################################################
+###   All services started successfully in 49.404 seconds   ###
+###############################################################
+2020-03-27T10:25:17.441Z [jfrou] [INFO ] [                ] [bootstrap.go:70               ] [main                ] - Router (jfrou) service initialization started. Version: 1.1.0 Revision: c2646fcb28e2d4ca095b07aacebe509d934cef77 PID: 2708 Home: /opt/jfrog/artifactory
+2020-03-27T10:25:17.450Z [jfrou] [INFO ] [                ] [bootstrap.go:73               ] [main                ] - JFrog Router IP: 172.19.0.3
+2020-03-27T10:25:17.459Z [jfrou] [INFO ] [                ] [bootstrap.go:159              ] [main                ] - System configuration encryption report:
+shared.newrelic.licenseKey: does not exist in the config file
+shared.security.joinKeyFile: file '/opt/jfrog/artifactory/var/etc/security/join.key' - already encrypted
+2020-03-27T10:25:17.463Z [jfrou] [INFO ] [                ] [bootstrap.go:78               ] [main                ] - JFrog Router Service ID: jfrou@01e49j78r7vs30xv5qb9mj5w52
+2020-03-27T10:25:17.463Z [jfrou] [INFO ] [                ] [bootstrap.go:79               ] [main                ] - JFrog Router Node ID: 2b65911f14eb
+2020-03-27T10:25:19.418Z [jfrou] [INFO ] [                ] [config_holder.go:107          ] [main                ] - configuration update detected
+2020-03-27T10:25:43.183Z [jfrou] [INFO ] [                ] [join_executor.go:180          ] [main                ] - Cluster join: Successfully joined the cluster
+2020-03-27T10:25:43.297Z [jfrou] [INFO ] [                ] [main.go:36                    ] [main                ] - Router (jfrou) service initialization completed in 25.902 seconds. Listening on port: 8082
+2020-03-27T10:26:03.316Z [jfrou] [INFO ] [15dd9e805570f049] [local_topology.go:212         ] [main                ] - 
+###############################################################
+###   All services started successfully in 45.920 seconds   ###
+###############################################################
+2020-03-27T10:33:25.406Z [jfrou] [ERROR] [5d21d31c31d83e7e] [external_topology.go:85       ] [main                ] - failed fetching external topology from Access: Get http://localhost:8040/access/api/v1/topology: read tcp 127.0.0.1:58732->127.0.0.1:8040: read: connection reset by peer
+2020-03-27T10:33:25.510Z [jfrou] [ERROR] [66d7ff7ec4fe85be] [external_topology.go:85       ] [main                ] - failed fetching external topology from Access: Get http://localhost:8040/access/api/v1/topology: dial tcp 127.0.0.1:8040: connect: connection refused
+2020-03-27T10:34:44.493Z [jfrou] [INFO ] [                ] [bootstrap.go:70               ] [main                ] - Router (jfrou) service initialization started. Version: 1.1.0 Revision: c2646fcb28e2d4ca095b07aacebe509d934cef77 PID: 2692 Home: /opt/jfrog/artifactory
+2020-03-27T10:34:44.494Z [jfrou] [INFO ] [                ] [bootstrap.go:73               ] [main                ] - JFrog Router IP: 172.20.0.3
+2020-03-27T10:34:44.497Z [jfrou] [INFO ] [                ] [bootstrap.go:159              ] [main                ] - System configuration encryption report:
+shared.newrelic.licenseKey: does not exist in the config file
+shared.security.joinKeyFile: file '/opt/jfrog/artifactory/var/etc/security/join.key' - already encrypted
+2020-03-27T10:34:44.501Z [jfrou] [INFO ] [                ] [bootstrap.go:78               ] [main                ] - JFrog Router Service ID: jfrou@01e49j78r7vs30xv5qb9mj5w52
+2020-03-27T10:34:44.501Z [jfrou] [INFO ] [                ] [bootstrap.go:79               ] [main                ] - JFrog Router Node ID: cb4d73b98a3b
+2020-03-27T10:34:46.493Z [jfrou] [INFO ] [                ] [config_holder.go:107          ] [main                ] - configuration update detected
+2020-03-27T10:35:15.488Z [jfrou] [INFO ] [                ] [join_executor.go:180          ] [main                ] - Cluster join: Successfully joined the cluster
+2020-03-27T10:35:15.518Z [jfrou] [INFO ] [                ] [main.go:36                    ] [main                ] - Router (jfrou) service initialization completed in 31.035 seconds. Listening on port: 8082
+2020-03-27T10:35:30.725Z [jfrou] [INFO ] [4ef4692b8e967451] [local_topology.go:212         ] [main                ] - 
+###############################################################
+###   All services started successfully in 46.242 seconds   ###
+###############################################################
+2020-03-27T10:39:54.882Z [jfrou] [ERROR] [581287f8f11a64de] [external_topology.go:85       ] [main                ] - failed fetching external topology from Access: Get http://localhost:8040/access/api/v1/topology: read tcp 127.0.0.1:59908->127.0.0.1:8040: read: connection reset by peer
+2020-03-27T10:39:54.985Z [jfrou] [ERROR] [363d33cb1a03e5b6] [external_topology.go:85       ] [main                ] - failed fetching external topology from Access: Get http://localhost:8040/access/api/v1/topology: dial tcp 127.0.0.1:8040: connect: connection refused
+2020-03-27T10:40:30.238Z [jfrou] [INFO ] [                ] [bootstrap.go:70               ] [main                ] - Router (jfrou) service initialization started. Version: 1.1.0 Revision: c2646fcb28e2d4ca095b07aacebe509d934cef77 PID: 2690 Home: /opt/jfrog/artifactory
+2020-03-27T10:40:30.238Z [jfrou] [INFO ] [                ] [bootstrap.go:73               ] [main                ] - JFrog Router IP: 172.21.0.2
+2020-03-27T10:40:30.239Z [jfrou] [INFO ] [                ] [bootstrap.go:159              ] [main                ] - System configuration encryption report:
+shared.newrelic.licenseKey: does not exist in the config file
+shared.security.joinKeyFile: file '/opt/jfrog/artifactory/var/etc/security/join.key' - already encrypted
+2020-03-27T10:40:30.240Z [jfrou] [INFO ] [                ] [bootstrap.go:78               ] [main                ] - JFrog Router Service ID: jfrou@01e49j78r7vs30xv5qb9mj5w52
+2020-03-27T10:40:30.240Z [jfrou] [INFO ] [                ] [bootstrap.go:79               ] [main                ] - JFrog Router Node ID: c4b7c385ecd8
+2020-03-27T10:40:32.230Z [jfrou] [INFO ] [                ] [config_holder.go:107          ] [main                ] - configuration update detected
+2020-03-27T10:40:56.537Z [jfrou] [INFO ] [                ] [join_executor.go:180          ] [main                ] - Cluster join: Successfully joined the cluster
+2020-03-27T10:40:56.553Z [jfrou] [INFO ] [                ] [main.go:36                    ] [main                ] - Router (jfrou) service initialization completed in 26.337 seconds. Listening on port: 8082
+2020-03-27T10:41:16.565Z [jfrou] [INFO ] [6eeb8f2dcf380635] [local_topology.go:212         ] [main                ] - 
+###############################################################
+###   All services started successfully in 46.349 seconds   ###
+###############################################################
+2020-03-27T10:52:55.714Z [jfrou] [ERROR] [48aabc06efbd40b ] [external_topology.go:85       ] [main                ] - failed fetching external topology from Access: Get http://localhost:8040/access/api/v1/topology: read tcp 127.0.0.1:34010->127.0.0.1:8040: read: connection reset by peer
+2020-03-27T10:52:55.819Z [jfrou] [ERROR] [11a493d0d2f94b33] [external_topology.go:85       ] [main                ] - failed fetching external topology from Access: Get http://localhost:8040/access/api/v1/topology: dial tcp 127.0.0.1:8040: connect: connection refused
+2020-03-27T10:53:51.090Z [jfrou] [INFO ] [                ] [bootstrap.go:70               ] [main                ] - Router (jfrou) service initialization started. Version: 1.1.0 Revision: c2646fcb28e2d4ca095b07aacebe509d934cef77 PID: 2708 Home: /opt/jfrog/artifactory
+2020-03-27T10:53:51.090Z [jfrou] [INFO ] [                ] [bootstrap.go:73               ] [main                ] - JFrog Router IP: 172.22.0.2
+2020-03-27T10:53:51.106Z [jfrou] [INFO ] [                ] [bootstrap.go:159              ] [main                ] - System configuration encryption report:
+shared.newrelic.licenseKey: does not exist in the config file
+shared.security.joinKeyFile: file '/opt/jfrog/artifactory/var/etc/security/join.key' - already encrypted
+2020-03-27T10:53:51.107Z [jfrou] [INFO ] [                ] [bootstrap.go:78               ] [main                ] - JFrog Router Service ID: jfrou@01e49j78r7vs30xv5qb9mj5w52
+2020-03-27T10:53:51.108Z [jfrou] [INFO ] [                ] [bootstrap.go:79               ] [main                ] - JFrog Router Node ID: 8d49900853d8
+2020-03-27T10:53:53.098Z [jfrou] [INFO ] [                ] [config_holder.go:107          ] [main                ] - configuration update detected
+2020-03-27T10:54:23.742Z [jfrou] [INFO ] [                ] [join_executor.go:180          ] [main                ] - Cluster join: Successfully joined the cluster
+2020-03-27T10:54:23.762Z [jfrou] [INFO ] [                ] [main.go:36                    ] [main                ] - Router (jfrou) service initialization completed in 32.680 seconds. Listening on port: 8082
+2020-03-27T10:54:48.786Z [jfrou] [INFO ] [61c5abada2b39712] [local_topology.go:212         ] [main                ] - 
+###############################################################
+###   All services started successfully in 57.704 seconds   ###
+###############################################################
+2020-03-27T10:58:17.909Z [jfrou] [ERROR] [50b51e299542cb20] [routing_handler.go:231        ] [main                ] - failed reading current external routes from file: /opt/jfrog/artifactory/var/data/router/traefik/routes/external/external-routes.toml error: open /opt/jfrog/artifactory/var/data/router/traefik/routes/external/external-routes.toml: permission denied
+2020-03-27T10:58:17.912Z [jfrou] [ERROR] [50b51e299542cb20] [external_topology.go:99       ] [main                ] - failed updating external topology routing rules: failed performing atomic write to file: '/opt/jfrog/artifactory/var/data/router/traefik/routes/external/external-routes.toml'; failed renaming file '/tmp/router772331778' to '/opt/jfrog/artifactory/var/data/router/traefik/routes/external/external-routes.toml'. error: open /opt/jfrog/artifactory/var/data/router/traefik/routes/external/external-routes.toml: permission denied
