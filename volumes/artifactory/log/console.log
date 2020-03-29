@@ -4269,3 +4269,584 @@ Node ID: '8d49900853d8'
 2020-03-27T10:56:52.364Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [16ef4716287686f ] [o.a.e.UploadServiceImpl:279   ] [http-nio-8081-exec-9] - Deploy to 'libs-release-local:pl/pandait/panda/maven-metadata.xml.sha1' Content-Length: 40
 2020-03-27T10:56:52.373Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [2c62bbc4e6d15cb2] [o.a.e.UploadServiceImpl:279   ] [ttp-nio-8081-exec-10] - Deploy to 'libs-release-local:pl/pandait/panda/maven-metadata.xml.md5' Content-Length: 32
 2020-03-27T10:57:20.636Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [313e8b5ef3f76e13] [o.a.s.a.ArchiveIndexerImpl:146] [art-exec-7          ] - Indexing archive: libs-release-local:pl/pandait/panda/1.0.1/panda-1.0.1.jar
+2020-03-28T19:00:28.000Z [shell] [38;5;69m[INFO ][0m [] [installerCommon.sh:1125       ] [main] - Checking open files and processes limits
+2020-03-28T19:00:28.000Z [shell] [38;5;69m[INFO ][0m [] [installerCommon.sh:1128       ] [main] - Current max open files is 1048576
+2020-03-28T19:00:28.000Z [shell] [38;5;69m[INFO ][0m [] [installerCommon.sh:1139       ] [main] - Current max open processes is unlimited
+2020-03-28T19:00:28.000Z [shell] [38;5;69m[INFO ][0m [] [installerCommon.sh:1206       ] [main] - Testing directory /opt/jfrog/artifactory/var has read/write permissions for user id 1030
+2020-03-28T19:00:28.000Z [shell] [38;5;69m[INFO ][0m [] [installerCommon.sh:1221       ] [main] - Permissions for /opt/jfrog/artifactory/var are good
+2020-03-28T19:00:28.000Z [shell] [38;5;69m[INFO ][0m [] [installerCommon.sh:2518       ] [main] - Setting JF_SHARED_NODE_ID to 8d49900853d8
+2020-03-28T19:00:28.000Z [shell] [38;5;69m[INFO ][0m [] [installerCommon.sh:2518       ] [main] - Setting JF_SHARED_NODE_IP to 172.22.0.2
+2020-03-28T19:00:28.000Z [shell] [38;5;69m[INFO ][0m [] [installerCommon.sh:2518       ] [main] - Setting JF_SHARED_NODE_NAME to 8d49900853d8
+2020-03-28T19:00:28.000Z [shell] [38;5;69m[INFO ][0m [] [artifactoryCommon.sh:104      ] [main] - Final command: -server -Xms512m -Xmx2g -Xss256k -XX:+UseG1GC -XX:OnOutOfMemoryError="kill -9 %p" --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.desktop/java.awt.font=ALL-UNNAMED -Dfile.encoding=UTF8 -Djruby.compile.invokedynamic=false -Djruby.bytecode.version=1.8 -Dorg.apache.tomcat.util.buf.UDecoder.ALLOW_ENCODED_SLASH=true -Djava.security.egd=file:/dev/./urandom -Dartdist=zip -Djf.product.home=/opt/jfrog/artifactory
+2020-03-28T19:00:28.000Z [shell] [38;5;69m[INFO ][0m [] [artifactoryCommon.sh:129      ] [main] - Using Tomcat template to generate : /opt/jfrog/artifactory/app/artifactory/tomcat/conf/server.xml
+2020-03-28T19:00:29.000Z [shell] [38;5;69m[INFO ][0m [] [artifactoryCommon.sh:621      ] [main] - Resolved ${artifactory.port||8081} to default value : 8081
+2020-03-28T19:00:29.000Z [shell] [38;5;69m[INFO ][0m [] [artifactoryCommon.sh:621      ] [main] - Resolved ${artifactory.tomcat.connector.maxThreads||200} to default value : 200
+2020-03-28T19:00:29.000Z [shell] [38;5;69m[INFO ][0m [] [artifactoryCommon.sh:621      ] [main] - Resolved ${access.http.port||8040} to default value : 8040
+2020-03-28T19:00:29.000Z [shell] [38;5;69m[INFO ][0m [] [artifactoryCommon.sh:621      ] [main] - Resolved ${access.tomcat.connector.maxThreads||50} to default value : 50
+2020-03-28T19:00:29.000Z [shell] [38;5;69m[INFO ][0m [] [systemYamlHelper.sh:261       ] [main] - Resolved JF_PRODUCT_HOME (/opt/jfrog/artifactory) from environment variable
+2020-03-28T19:00:29.000Z [shell] [38;5;69m[INFO ][0m [] [artifactoryCommon.sh:621      ] [main] - Resolved ${shared.tomcat.workDir||/opt/jfrog/artifactory/var/work/artifactory/tomcat} to default value : /opt/jfrog/artifactory/var/work/artifactory/tomcat
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+2020-03-28T19:00:31.349Z [36m[jfrou][0m [34m[INFO ][0m [                ] [bootstrap.go:70               ] [main                ] - Router (jfrou) service initialization started. Version: 1.1.0 Revision: c2646fcb28e2d4ca095b07aacebe509d934cef77 PID: 2676 Home: /opt/jfrog/artifactory
+2020-03-28T19:00:31.350Z [36m[jfrou][0m [34m[INFO ][0m [                ] [bootstrap.go:73               ] [main                ] - JFrog Router IP: 172.22.0.2
+2020-03-28T19:00:31.366Z [36m[jfrou][0m [34m[INFO ][0m [                ] [bootstrap.go:159              ] [main                ] - System configuration encryption report:
+shared.newrelic.licenseKey: does not exist in the config file
+shared.security.joinKeyFile: file '/opt/jfrog/artifactory/var/etc/security/join.key' - already encrypted
+2020-03-28T19:00:31.373Z [36m[jfrou][0m [34m[INFO ][0m [                ] [bootstrap.go:78               ] [main                ] - JFrog Router Service ID: jfrou@01e49j78r7vs30xv5qb9mj5w52
+2020-03-28T19:00:31.373Z [36m[jfrou][0m [34m[INFO ][0m [                ] [bootstrap.go:79               ] [main                ] - JFrog Router Node ID: 8d49900853d8
+[DEBUG] Resolved system configuration file path: /opt/jfrog/artifactory/var/etc/system.yaml
+2020-03-28T19:00:31.424Z [34;1m[jfmd ][0m [34m[INFO ][0m [31195dbee7adc262] [database_bearer.go:67         ] [main                ] - Connecting to (db config: {sqlite /opt/jfrog/artifactory/var/data/metadata/sqlite.db?_fk=yes&_busy_timeout=5000&_txlock=immediate&cache=shared}) [database]
+2020-03-28T19:00:31.602Z [34;1m[jfmd ][0m [34m[INFO ][0m [31195dbee7adc262] [migrator.go:61                ] [main                ] - Applying 36 migrations files [database]
+2020-03-28T19:00:31.603Z [34;1m[jfmd ][0m [34m[INFO ][0m [31195dbee7adc262] [application.go:72             ] [main                ] - Metadata (jfmd) service initialization started. Version: 2.2.2  Revision: 20202900 PID: 2985 Home: /opt/jfrog/artifactory/var [app_initializer]
+2020-03-28T19:00:31.620Z [34;1m[jfmd ][0m [34m[INFO ][0m [31195dbee7adc262] [server_bearer.go:152          ] [main                ] - Got service_id from datastore: jfmd@01e49j7a9f9sx346488s7y6rc7 [ServerInit]
+2020-03-28T19:00:33.064Z [33m[jffe ][39m [34m[INFO ][39m [1m[                ][22m [                              ] [main                ] - frontend (jffe) service initialization started. Version: 1.2.0 Revision: 0.0.0 PID: 2793 Home: /opt/jfrog/artifactory
+2020-03-28T19:00:33.351Z [36m[jfrou][0m [34m[INFO ][0m [                ] [config_holder.go:107          ] [main                ] - configuration update detected
+2020-03-28T19:00:34.491L [35m[tomct][0m [INFO ] [                ] [org.apache.coyote.http11.Http11NioProtocol] [org.apache.coyote.AbstractProtocol init] - Initializing ProtocolHandler ["http-nio-8081"]
+2020-03-28T19:00:34.614L [35m[tomct][0m [INFO ] [                ] [org.apache.tomcat.util.net.NioSelectorPool] [org.apache.tomcat.util.net.NioSelectorPool getSharedSelector] - Using a shared selector for servlet write/read
+2020-03-28T19:00:34.667L [35m[tomct][0m [INFO ] [                ] [org.apache.coyote.http11.Http11NioProtocol] [org.apache.coyote.AbstractProtocol init] - Initializing ProtocolHandler ["http-nio-8040"]
+2020-03-28T19:00:34.673L [35m[tomct][0m [INFO ] [                ] [org.apache.tomcat.util.net.NioSelectorPool] [org.apache.tomcat.util.net.NioSelectorPool getSharedSelector] - Using a shared selector for servlet write/read
+2020-03-28T19:00:34.696L [35m[tomct][0m [INFO ] [                ] [org.apache.catalina.core.StandardService] [org.apache.catalina.core.StandardService startInternal] - Starting service [Catalina]
+2020-03-28T19:00:34.700L [35m[tomct][0m [INFO ] [                ] [org.apache.catalina.core.StandardEngine] [org.apache.catalina.core.StandardEngine startInternal] - Starting Servlet Engine: Apache Tomcat/8.5.41
+2020-03-28T19:00:34.751L [35m[tomct][0m [INFO ] [                ] [org.apache.catalina.startup.HostConfig] [org.apache.catalina.startup.HostConfig deployDescriptor] - Deploying configuration descriptor [/opt/jfrog/artifactory/app/artifactory/tomcat/conf/Catalina/localhost/access.xml]
+2020-03-28T19:00:34.752L [35m[tomct][0m [INFO ] [                ] [org.apache.catalina.startup.HostConfig] [org.apache.catalina.startup.HostConfig deployDescriptor] - Deploying configuration descriptor [/opt/jfrog/artifactory/app/artifactory/tomcat/conf/Catalina/localhost/artifactory.xml]
+2020-03-28T19:00:34.870L [35m[tomct][0m [WARNING] [                ] [org.apache.catalina.startup.HostConfig] [org.apache.catalina.startup.HostConfig deployDescriptor] - A docBase [/opt/jfrog/artifactory/app/artifactory/tomcat/webapps/access.war] inside the host appBase has been specified, and will be ignored
+2020-03-28T19:00:34.874L [35m[tomct][0m [WARNING] [                ] [org.apache.catalina.startup.HostConfig] [org.apache.catalina.startup.HostConfig deployDescriptor] - A docBase [/opt/jfrog/artifactory/app/artifactory/tomcat/webapps/artifactory.war] inside the host appBase has been specified, and will be ignored
+2020-03-28T19:00:35.736Z [34;1m[jfmd ][0m [34m[INFO ][0m [31195dbee7adc262] [accessclient.go:49            ] [main                ] - Cluster join: Retry 5: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get http://localhost:8046/access/api/v1/system/ping: dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2020-03-28T19:00:40.587Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [b38bdcd88c9350d3] [o.a.c.h.HaNodeProperties:67   ] [ocalhost-startStop-2] - Artifactory is running in non-clustered mode.
+2020-03-28T19:00:40.670Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [b38bdcd88c9350d3] [tifactoryHomeConfigListener:70] [ocalhost-startStop-2] - Resolved Home: '/opt/jfrog/artifactory
+2020-03-28T19:00:40.750Z [34;1m[jfmd ][0m [34m[INFO ][0m [31195dbee7adc262] [accessclient.go:49            ] [main                ] - Cluster join: Retry 10: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get http://localhost:8046/access/api/v1/system/ping: dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2020-03-28T19:00:40.767Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [                ] [o.j.c.w.FileWatchingManager:75] [Thread-4            ] - Starting watch of folder configurations
+2020-03-28T19:00:40.991Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [b38bdcd88c9350d3] [.a.w.s.BasicConfigManagers:140] [ocalhost-startStop-2] - Artifactory (jfrt) service initialization started. Version: 7.2.1 Revision: 70201900 PID: 3075 Home: /opt/jfrog/artifactory
+2020-03-28T19:00:41.020Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [b38bdcd88c9350d3] [.a.c.ConvertersManagerImpl:142] [ocalhost-startStop-2] - Triggering PRE_INIT conversion, from 7.2.1 to org.artifactory.version.ArtifactoryVersionImpl@64a9666f
+2020-03-28T19:00:41.032Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [b38bdcd88c9350d3] [.a.c.ConvertersManagerImpl:144] [ocalhost-startStop-2] - Finished PRE_INIT conversion, current version is: org.artifactory.version.ArtifactoryVersionImpl@64a9666f
+2020-03-28T19:00:42.764Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [825c88f998eb141f] [licationContextInitializer:162] [ocalhost-startStop-1] - Access (jfac) service initialization started. Version: 5.2.8 Revision: 50208900 PID: 3075 Home: /opt/jfrog/artifactory
+2020-03-28T19:00:42.837Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [825c88f998eb141f] [o.j.a.AccessApplication:50    ] [ocalhost-startStop-1] - Starting AccessApplication v5.2.8 on 8d49900853d8 with PID 3075 (/opt/jfrog/artifactory/app/artifactory/tomcat/webapps/access/WEB-INF/lib/access-application-5.2.8.jar started by artifactory in /var/opt/jfrog/artifactory)
+2020-03-28T19:00:42.838Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [825c88f998eb141f] [o.j.a.AccessApplication:651   ] [ocalhost-startStop-1] - The following profiles are active: production
+2020-03-28T19:00:45.760Z [34;1m[jfmd ][0m [34m[INFO ][0m [31195dbee7adc262] [accessclient.go:49            ] [main                ] - Cluster join: Retry 15: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get http://localhost:8046/access/api/v1/system/ping: dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2020-03-28T19:00:46.354Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [b38bdcd88c9350d3] [.w.ConfigurationManagerImpl:94] [ocalhost-startStop-2] - Starting file sync
+2020-03-28T19:00:48.338Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [218eb9bc77a22c16] [ctoryContextConfigListener:308] [art-init            ] -
+_   _  __           _                     _____
+/\        | | (_)/ _|         | |                   |  __ \
+/  \   _ __| |_ _| |_ __ _  ___| |_ ___  _ __ _   _  | |__) | __ ___
+/ /\ \ | '__| __| |  _/ _` |/ __| __/ _ \| '__| | | | |  ___/ '__/ _ \
+/ ____ \| |  | |_| | || (_| | (__| || (_) | |  | |_| | | |   | | | (_) |
+/_/    \_\_|   \__|_|_| \__,_|\___|\__\___/|_|   \__, | |_|   |_|  \___/
+Version:  7.2.1                                   __/ |
+Revision: 70201900                               |___/
+Artifactory Home: '/opt/jfrog/artifactory'
+Node ID: '8d49900853d8'
+
+2020-03-28T19:00:48.365Z [1;32m[jfrt ][0;39m [31m[WARN ][0;39m [218eb9bc77a22c16] [o.a.f.l.ArtifactoryLockFile:65] [art-init            ] - Found existing lock file. Artifactory was not shutdown properly. [/opt/jfrog/artifactory/var/data/artifactory/.lock]
+2020-03-28T19:00:48.905L [35m[tomct][0m [INFO ] [                ] [org.apache.catalina.startup.HostConfig] [org.apache.catalina.startup.HostConfig deployDescriptor] - Deployment of configuration descriptor [/opt/jfrog/artifactory/app/artifactory/tomcat/conf/Catalina/localhost/artifactory.xml] has finished in [14,138] ms
+2020-03-28T19:00:49.116Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [218eb9bc77a22c16] [ifactoryApplicationContext:522] [art-init            ] - Artifactory application context set to NOT READY by refresh
+2020-03-28T19:00:50.765Z [34;1m[jfmd ][0m [34m[INFO ][0m [31195dbee7adc262] [accessclient.go:49            ] [main                ] - Cluster join: Retry 20: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get http://localhost:8046/access/api/v1/system/ping: dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2020-03-28T19:00:55.774Z [34;1m[jfmd ][0m [34m[INFO ][0m [31195dbee7adc262] [accessclient.go:49            ] [main                ] - Cluster join: Retry 25: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get http://localhost:8046/access/api/v1/system/ping: dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2020-03-28T19:01:00.799Z [34;1m[jfmd ][0m [34m[INFO ][0m [31195dbee7adc262] [accessclient.go:49            ] [main                ] - Cluster join: Retry 30: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get http://localhost:8046/access/api/v1/system/ping: dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2020-03-28T19:01:05.807Z [34;1m[jfmd ][0m [34m[INFO ][0m [31195dbee7adc262] [accessclient.go:49            ] [main                ] - Cluster join: Retry 35: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get http://localhost:8046/access/api/v1/system/ping: dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2020-03-28T19:01:08.443Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [825c88f998eb141f] [s.d.u.AccessJdbcHelperImpl:138] [ocalhost-startStop-1] - Database: Apache Derby 10.14.2.0 - (1828579). Driver: Apache Derby Embedded JDBC Driver 10.14.2.0 - (1828579)
+2020-03-28T19:01:08.453Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [825c88f998eb141f] [s.d.u.AccessJdbcHelperImpl:141] [ocalhost-startStop-1] - Connection URL: jdbc:derby:/opt/jfrog/artifactory/var/data/access/derby
+2020-03-28T19:01:09.501Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [218eb9bc77a22c16] [o.a.s.d.DbServiceImpl:282     ] [art-init            ] - Database: Apache Derby 10.14.2.0 - (1828579). Driver: Apache Derby Embedded JDBC Driver 10.14.2.0 - (1828579) Pool: derby
+2020-03-28T19:01:09.503Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [218eb9bc77a22c16] [o.a.s.d.DbServiceImpl:285     ] [art-init            ] - Connection URL: jdbc:derby:/opt/jfrog/artifactory/var/data/artifactory/derby
+2020-03-28T19:01:09.556Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [218eb9bc77a22c16] [o.a.s.d.v.DerbyValidator:26   ] [art-init            ] - Validating connection collation for derby database
+2020-03-28T19:01:10.242Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [825c88f998eb141f] [alConfigurationServiceBase:182] [ocalhost-startStop-1] - Loading configuration from db finished successfully
+2020-03-28T19:01:10.821Z [34;1m[jfmd ][0m [34m[INFO ][0m [31195dbee7adc262] [accessclient.go:49            ] [main                ] - Cluster join: Retry 40: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get http://localhost:8046/access/api/v1/system/ping: dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2020-03-28T19:01:10.958Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [825c88f998eb141f] [.h.AccessNodeIdProviderImpl:62] [ocalhost-startStop-1] - Service id initialized: jfac@01e49j73ccnr7c17gd5ayt0916
+2020-03-28T19:01:11.719Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [825c88f998eb141f] [j.a.s.s.t.TokenServiceImpl:106] [ocalhost-startStop-1] - Scheduling task for revoking expired tokens using cron expression: 0 0 0/1 * * ?
+2020-03-28T19:01:12.466Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [218eb9bc77a22c16] [ritiesStorageServiceFactory:25] [art-init            ] - Initializing DB-based Priorities Storage Service
+2020-03-28T19:01:14.625Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [825c88f998eb141f] [.AccessServerBootstrapImpl:124] [ocalhost-startStop-1] - [ACCESS BOOTSTRAP] Starting JFrog Access bootstrap...
+2020-03-28T19:01:15.845Z [34;1m[jfmd ][0m [34m[INFO ][0m [31195dbee7adc262] [accessclient.go:49            ] [main                ] - Cluster join: Retry 45: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get http://localhost:8046/access/api/v1/system/ping: dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2020-03-28T19:01:17.350Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [825c88f998eb141f] [o.j.a.s.r.s.GrpcServerImpl:62 ] [ocalhost-startStop-1] - Starting gRPC Server on port 8045
+2020-03-28T19:01:17.745Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [825c88f998eb141f] [o.j.a.s.r.s.GrpcServerImpl:80 ] [ocalhost-startStop-1] - gRPC Server started, listening on 8045
+2020-03-28T19:01:17.978Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [825c88f998eb141f] [.AccessServerBootstrapImpl:143] [ocalhost-startStop-1] - [ACCESS BOOTSTRAP] JFrog Access bootstrap finished.
+2020-03-28T19:01:20.395Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [218eb9bc77a22c16] [actorySchedulerFactoryBean:726] [art-init            ] - Starting Quartz Scheduler now
+2020-03-28T19:01:20.702Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [218eb9bc77a22c16] [ifactoryApplicationContext:270] [art-init            ] - Artifactory context starting up 58 Spring Beans...
+2020-03-28T19:01:20.780Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [825c88f998eb141f] [o.j.a.s.s.JoinKeyAccess:166   ] [ocalhost-startStop-1] - Cluster join: Join key loaded successfully (from: /opt/jfrog/artifactory/var/etc/security/join.key)
+2020-03-28T19:01:20.871Z [34;1m[jfmd ][0m [34m[INFO ][0m [31195dbee7adc262] [accessclient.go:49            ] [main                ] - Cluster join: Retry 50: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get http://localhost:8046/access/api/v1/system/ping: dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2020-03-28T19:01:21.037Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [30806de0128ed4ea] [a.c.RefreshableScheduledJob:53] [ocalhost-startStop-1] - Scheduling heartbeat task to run every 5 seconds
+2020-03-28T19:01:21.052Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [30806de0128ed4ea] [a.c.RefreshableScheduledJob:53] [ocalhost-startStop-1] - Scheduling federationCleanupService task to run every 1209600 seconds
+2020-03-28T19:01:21.099Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [9dd4a2ea015a12b7] [a.c.RefreshableScheduledJob:53] [ocalhost-startStop-1] - Scheduling loadCertificates task to run every 30 seconds
+2020-03-28T19:01:21.127Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [9dd4a2ea015a12b7] [a.c.RefreshableScheduledJob:53] [ocalhost-startStop-1] - Scheduling staleTokenCleanup task to run every 3600 seconds
+2020-03-28T19:01:21.620Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [218eb9bc77a22c16] [o.a.s.a.AccessServiceImpl:408 ] [art-init            ] - Initialized new service id: jfrt@01e49j7nt5qc6w0satw40506g3
+2020-03-28T19:01:21.861Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [218eb9bc77a22c16] [oryAccessClientConfigStore:589] [art-init            ] - Using Access Server URL: http://localhost:8046/access source: System Config
+2020-03-28T19:01:22.065Z [36m[jfrou][0m [34m[INFO ][0m [                ] [join_executor.go:148          ] [main                ] - Cluster join: Retry 5: Service registry ping failed, will retry. Error: Get http://localhost:8040/access/api/v1/system/ping: net/http: request canceled (Client.Timeout exceeded while awaiting headers)
+2020-03-28T19:01:24.459Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [218eb9bc77a22c16] [o.j.c.ExecutionUtils:141      ] [pool-12-thread-1    ] - Cluster join: Retry 5: Service registry ping failed, will retry. Error while trying to connect to local router at address ‘http://localhost:8046/access’: Connect to localhost:8046 [localhost/127.0.0.1] failed: Connection refused (Connection refused)
+2020-03-28T19:01:25.186Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [9dd4a2ea015a12b7] [o.j.a.AccessApplication:59    ] [ocalhost-startStop-1] - Started AccessApplication in 46.157 seconds (JVM running for 54.019)
+2020-03-28T19:01:25.257L [35m[tomct][0m [INFO ] [                ] [org.apache.catalina.startup.HostConfig] [org.apache.catalina.startup.HostConfig deployDescriptor] - Deployment of configuration descriptor [/opt/jfrog/artifactory/app/artifactory/tomcat/conf/Catalina/localhost/access.xml] has finished in [50,506] ms
+2020-03-28T19:01:25.262L [35m[tomct][0m [INFO ] [                ] [org.apache.catalina.startup.HostConfig] [org.apache.catalina.startup.HostConfig deployDirectory] - Deploying web application directory [/opt/jfrog/artifactory/app/artifactory/tomcat/webapps/ROOT]
+2020-03-28T19:01:25.304L [35m[tomct][0m [INFO ] [                ] [org.apache.catalina.startup.HostConfig] [org.apache.catalina.startup.HostConfig deployDirectory] - Deployment of web application directory [/opt/jfrog/artifactory/app/artifactory/tomcat/webapps/ROOT] has finished in [41] ms
+2020-03-28T19:01:25.311L [35m[tomct][0m [INFO ] [                ] [org.apache.coyote.http11.Http11NioProtocol] [org.apache.coyote.AbstractProtocol start] - Starting ProtocolHandler ["http-nio-8081"]
+2020-03-28T19:01:25.331L [35m[tomct][0m [INFO ] [                ] [org.apache.coyote.http11.Http11NioProtocol] [org.apache.coyote.AbstractProtocol start] - Starting ProtocolHandler ["http-nio-8040"]
+2020-03-28T19:01:25.881Z [34;1m[jfmd ][0m [34m[INFO ][0m [31195dbee7adc262] [accessclient.go:49            ] [main                ] - Cluster join: Retry 55: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get http://localhost:8046/access/api/v1/system/ping: dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2020-03-28T19:01:27.433Z [1;33m[jfac ][0;39m [31m[WARN ][0;39m [825c88f998eb141f] [o.j.c.ExecutionUtils:141      ] [pool-11-thread-2    ] - Retry 20 Elapsed 9.47 secs failed: Registration with router on URL http://localhost:8046 failed with error: UNAVAILABLE: io exception. Trying again
+2020-03-28T19:01:29.114Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [f32925d1cf14730f] [s.r.NodeRegistryServiceImpl:63] [http-nio-8040-exec-5] - Cluster join: Successfully joined jfrou@01e49j78r7vs30xv5qb9mj5w52 with node id 8d49900853d8
+2020-03-28T19:01:29.408Z [36m[jfrou][0m [34m[INFO ][0m [                ] [join_executor.go:180          ] [main                ] - Cluster join: Successfully joined the cluster
+2020-03-28T19:01:29.476Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [218eb9bc77a22c16] [o.j.c.ExecutionUtils:141      ] [pool-12-thread-2    ] - Cluster join: Retry 10: Service registry ping failed, will retry. Error while trying to connect to local router at address ‘http://localhost:8046/access’: Connect to localhost:8046 [localhost/127.0.0.1] failed: Connection refused (Connection refused)
+2020-03-28T19:01:29.608Z [36m[jfrou][0m [34m[INFO ][0m [                ] [registry_handler.go:89        ] [main                ] - the following services were registered automatically based on persisted data: jfac@01e49j73ccnr7c17gd5ayt0916, jffe@000, jfmd@01e49j7a9f9sx346488s7y6rc7, jfrt@01e49j7nt5qc6w0satw40506g3
+2020-03-28T19:01:29.654Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server.go:568                 ] [main                ] - Preparing server internal &{Address:localhost:8046 TLS:<nil> Redirect:<nil> Auth:<nil> WhitelistSourceRange:[] WhiteList:<nil> Compress:false ProxyProtocol:<nil> ForwardedHeaders:0xc000b25c20} with readTimeout=0s writeTimeout=0s idleTimeout=3m0s
+2020-03-28T19:01:29.657Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server.go:568                 ] [main                ] - Preparing server api &{Address:localhost:8049 TLS:<nil> Redirect:<nil> Auth:<nil> WhitelistSourceRange:[] WhiteList:<nil> Compress:false ProxyProtocol:<nil> ForwardedHeaders:0xc000b25c40} with readTimeout=0s writeTimeout=0s idleTimeout=3m0s
+2020-03-28T19:01:29.681Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server.go:524                 ] [main                ] - Starting server on localhost:8046
+2020-03-28T19:01:29.688Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server.go:524                 ] [main                ] - Starting server on localhost:8049
+2020-03-28T19:01:29.691Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server.go:568                 ] [main                ] - Preparing server external &{Address::8082 TLS:<nil> Redirect:<nil> Auth:<nil> WhitelistSourceRange:[] WhiteList:<nil> Compress:false ProxyProtocol:<nil> ForwardedHeaders:0xc000b25c60} with readTimeout=0s writeTimeout=0s idleTimeout=3m0s
+2020-03-28T19:01:29.700Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server.go:524                 ] [main                ] - Starting server on :8082
+2020-03-28T19:01:29.707Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server.go:420                 ] [main                ] - Starting provider configuration.ProviderAggregator {}
+2020-03-28T19:01:29.713Z [36m[jfrou][0m [34m[INFO ][0m [                ] [provider_aggregator.go:103    ] [main                ] - Starting provider *file.Provider {"Watch":true,"Filename":"","Constraints":null,"Trace":false,"TemplateVersion":0,"DebugLogGeneratedTemplate":false,"Directory":"/opt/jfrog/artifactory/var/data/router/traefik/routes","TraefikFile":""}
+2020-03-28T19:01:29.735Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server_configuration.go:61    ] [main                ] - Server configuration reloaded on :8082
+2020-03-28T19:01:29.735Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server_configuration.go:61    ] [main                ] - Server configuration reloaded on localhost:8046
+2020-03-28T19:01:29.736Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server_configuration.go:61    ] [main                ] - Server configuration reloaded on localhost:8049
+2020-03-28T19:01:29.736Z [36m[jfrou][0m [34m[INFO ][0m [                ] [main.go:36                    ] [main                ] - Router (jfrou) service initialization completed in 58.419 seconds. Listening on port: 8082
+2020-03-28T19:01:30.172Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [11e69f1a2a86acfa] [s.r.NodeRegistryServiceImpl:63] [http-nio-8040-exec-9] - Cluster join: Successfully joined jfmd@01e49j7a9f9sx346488s7y6rc7 with node id 8d49900853d8
+2020-03-28T19:01:30.195Z [34;1m[jfmd ][0m [34m[INFO ][0m [31195dbee7adc262] [accessclient.go:49            ] [main                ] - Cluster join: Successfully joined the cluster [access_client]
+2020-03-28T19:01:30.197Z [34;1m[jfmd ][0m [34m[INFO ][0m [31195dbee7adc262] [accessclient.go:49            ] [main                ] - Executing Router register at: localhost:8046 [access_client]
+2020-03-28T19:01:30.390Z [34;1m[jfmd ][0m [34m[INFO ][0m [31195dbee7adc262] [router_middlewares.go:59      ] [main                ] - Metadata (jfmd) service initialization completed in 58.787 seconds. Listening on port: 8086 [router]
+2020-03-28T19:01:31.010Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [c148358af1df3ab ] [s.r.NodeRegistryServiceImpl:63] [http-nio-8040-exec-2] - Cluster join: Successfully joined jfrt@01e49j7nt5qc6w0satw40506g3 with node id 8d49900853d8
+2020-03-28T19:01:31.113Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [                ] [o.j.c.w.ConfigWrapperImpl:504 ] [Thread-4            ] - [Node ID: 8d49900853d8]  detected local  modify for config 'artifactory.security.access/access.admin.token'
+2020-03-28T19:01:31.106Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [218eb9bc77a22c16] [.a.c.AccessClientBootstrap:169] [art-init            ] - Cluster join: Successfully joined the cluster
+2020-03-28T19:01:31.134Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [218eb9bc77a22c16] [o.j.a.c.g.AccessGrpcClient:74 ] [art-init            ] - Connecting to grpc server on localhost:8046
+2020-03-28T19:01:31.734Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server_configuration.go:61    ] [main                ] - Server configuration reloaded on localhost:8046
+2020-03-28T19:01:31.734Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server_configuration.go:61    ] [main                ] - Server configuration reloaded on localhost:8049
+2020-03-28T19:01:31.735Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server_configuration.go:61    ] [main                ] - Server configuration reloaded on :8082
+2020-03-28T19:01:32.381Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server_configuration.go:319   ] [main                ] - Skipping same configuration for provider file
+2020-03-28T19:01:32.438Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [218eb9bc77a22c16] [o.a.s.a.AccessServiceImpl:352 ] [art-init            ] - Initialized access service successfully with client id 458907610, closing old client id [null]
+2020-03-28T19:01:32.439Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [218eb9bc77a22c16] [o.a.s.a.AccessServiceImpl:1246] [art-init            ] - Updating access configuration with password expiration data
+2020-03-28T19:01:32.492Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server_configuration.go:319   ] [main                ] - Skipping same configuration for provider file
+2020-03-28T19:01:32.500Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [825c88f998eb141f] [.AccessWithRouterRegistrar:106] [pool-11-thread-2    ] - Access Server successfully registered on Router on URL: http://localhost:8046
+2020-03-28T19:01:32.641Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [825c88f998eb141f] [.AccessServerBootstrapImpl:178] [pool-11-thread-2    ] - [ACCESS BOOTSTRAP] Updating server '8d49900853d8' private key finger print to: 9b1341f8b5424351da52dbd79e19b7288a519f0abf55497e9bb0274a9cc931bc ca private key finger print to: 1819b9a858b3ebd63ad57f168b7c8ccf77f0a6a69a4d67044143824bf1490ec7
+2020-03-28T19:01:35.061Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [218eb9bc77a22c16] [.c.r.ReplicatorServiceImpl:112] [art-init            ] - initializing Replicator Service
+2020-03-28T19:01:35.062Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [218eb9bc77a22c16] [.c.r.ReplicatorServiceImpl:332] [art-init            ] - Local Replicator is setting up in non-bundled mode
+2020-03-28T19:01:35.109Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [218eb9bc77a22c16] [tegrationCleanupServiceImpl:75] [art-init            ] - Using generated cron 0 19 0 ? * * for jobs table cleanup
+2020-03-28T19:01:37.549Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [218eb9bc77a22c16] [askServiceDescriptorHandler:43] [art-init            ] - Removing all job Replication from task service handler.
+2020-03-28T19:01:37.550Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [218eb9bc77a22c16] [askServiceDescriptorHandler:51] [art-init            ] - No Replication configured. Replication is disabled.
+2020-03-28T19:01:37.819Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [218eb9bc77a22c16] [ifactoryApplicationContext:522] [art-init            ] - Artifactory application context set to READY by refresh
+2020-03-28T19:01:38.015Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [218eb9bc77a22c16] [o.a.s.a.AccessServiceImpl:1549] [art-init            ] - Successful register of Artifactory serviceId jfrt@01e49j7nt5qc6w0satw40506g3 in Access Federation
+2020-03-28T19:01:38.095Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [a0202d02f023abe4] [adsFolderCleanupServiceImpl:51] [art-exec-4          ] - Starting docker temp folder cleanup
+2020-03-28T19:01:38.098Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [a0202d02f023abe4] [adsFolderCleanupServiceImpl:53] [art-exec-4          ] - Docker temp folder cleanup finished, time took: 3 millis
+2020-03-28T19:01:38.119Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [218eb9bc77a22c16] [.w.NodeEventTaskManagerImpl:43] [art-init            ] - Event management started on behalf of Event Operator with ID 'metadata-operator-events'
+2020-03-28T19:01:38.152Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [218eb9bc77a22c16] [o.a.s.s.StorageServiceImpl:425] [art-init            ] - Scheduling CalculateReposStorageSummaryJob to run at '0 52 * ? * *'
+2020-03-28T19:01:38.259Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [218eb9bc77a22c16] [ctoryContextConfigListener:250] [art-init            ] - Artifactory (jfrt) service initialization completed in 49.931 seconds. Listening on port: 8081
+2020-03-28T19:01:47.899Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [50aff4758fd82e4d] [a.e.EventsLogCleanUpService:53] [art-exec-12         ] - Starting cleanup of old events from event log
+2020-03-28T19:01:48.130Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [50aff4758fd82e4d] [a.e.EventsLogCleanUpService:74] [art-exec-12         ] - Cleanup of old events from event log finished
+2020-03-28T19:01:48.117Z [33m[jffe ][39m [34m[INFO ][39m [1m[                ][22m [                              ] [main                ] - setting service id - jffe@000
+2020-03-28T19:01:48.301Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [8ced855860bea68 ] [s.r.NodeRegistryServiceImpl:63] [http-nio-8040-exec-3] - Cluster join: Successfully joined jffe@000 with node id 8d49900853d8
+2020-03-28T19:01:48.308Z [33m[jffe ][39m [34m[INFO ][39m [1m[                ][22m [                              ] [main                ] - Cluster join: Successfully joined the cluster
+2020-03-28T19:01:48.443Z [33m[jffe ][39m [34m[INFO ][39m [1m[                ][22m [                              ] [main                ] - UI service successfully registered on router, serviceId: jffe@000
+2020-03-28T19:01:48.455Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server_configuration.go:319   ] [main                ] - Skipping same configuration for provider file
+2020-03-28T19:01:49.003Z [33m[jffe ][39m [34m[INFO ][39m [1m[                ][22m [                              ] [main                ] - Recurring tasks started
+2020-03-28T19:01:49.474Z [33m[jffe ][39m [34m[INFO ][39m [1m[                ][22m [                              ] [main                ] - frontend (jffe) service initialization completed in 76.41 seconds. Listening on port: port 8070
+2020-03-28T19:01:54.766Z [36m[jfrou][0m [34m[INFO ][0m [7e92aa62fe068c11] [local_topology.go:212         ] [main                ] -
+###############################################################
+###   All services started successfully in 83.448 seconds   ###
+###############################################################
+2020-03-28T19:01:54.839Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server_configuration.go:61    ] [main                ] - Server configuration reloaded on :8082
+2020-03-28T19:01:54.841Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server_configuration.go:61    ] [main                ] - Server configuration reloaded on localhost:8046
+2020-03-28T19:01:54.841Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server_configuration.go:61    ] [main                ] - Server configuration reloaded on localhost:8049
+2020-03-28T19:01:54.913Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [                ] [alConfigurationServiceBase:182] [c-default-executor-1] - Loading configuration from db finished successfully
+2020-03-28T19:01:56.848Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server_configuration.go:61    ] [main                ] - Server configuration reloaded on :8082
+2020-03-28T19:01:56.848Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server_configuration.go:61    ] [main                ] - Server configuration reloaded on localhost:8046
+2020-03-28T19:01:56.848Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server_configuration.go:61    ] [main                ] - Server configuration reloaded on localhost:8049
+2020-03-28T19:02:15.923Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [7d76b8bc3f564bc7] [o.a.e.UploadServiceImpl:399   ] [http-nio-8081-exec-7] - Deploy to 'libs-release-local:pl/pandait/panda/1.0.1/panda-1.0.1.jar' Content-Length: 27351405
+2020-03-28T19:02:18.274Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [dd00cda3059cee15] [o.a.e.UploadServiceImpl:279   ] [http-nio-8081-exec-1] - Deploy to 'libs-release-local:pl/pandait/panda/1.0.1/panda-1.0.1.jar.sha1' Content-Length: 40
+2020-03-28T19:02:18.300Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [f8d34643e0e7613f] [o.a.e.UploadServiceImpl:279   ] [http-nio-8081-exec-9] - Deploy to 'libs-release-local:pl/pandait/panda/1.0.1/panda-1.0.1.jar.md5' Content-Length: 32
+2020-03-28T19:02:18.323Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [bdfe7a2ca3dfcd8b] [o.a.e.UploadServiceImpl:399   ] [http-nio-8081-exec-8] - Deploy to 'libs-release-local:pl/pandait/panda/1.0.1/panda-1.0.1.pom' Content-Length: 3724
+2020-03-28T19:02:18.478Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [7ce0dd7a0fc05d1a] [o.a.e.UploadServiceImpl:279   ] [ttp-nio-8081-exec-10] - Deploy to 'libs-release-local:pl/pandait/panda/1.0.1/panda-1.0.1.pom.sha1' Content-Length: 40
+2020-03-28T19:02:18.517Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [953a16a9055f3ac3] [o.a.e.UploadServiceImpl:279   ] [http-nio-8081-exec-2] - Deploy to 'libs-release-local:pl/pandait/panda/1.0.1/panda-1.0.1.pom.md5' Content-Length: 32
+2020-03-28T19:02:18.704Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [99d7a344a4dcc74c] [o.a.e.UploadServiceImpl:399   ] [http-nio-8081-exec-3] - Deploy to 'libs-release-local:pl/pandait/panda/maven-metadata.xml' Content-Length: 322
+2020-03-28T19:02:18.746Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [4df62ba9ccea8a15] [o.a.e.UploadServiceImpl:279   ] [http-nio-8081-exec-6] - Deploy to 'libs-release-local:pl/pandait/panda/maven-metadata.xml.sha1' Content-Length: 40
+2020-03-28T19:02:18.752Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [d70c74346a8c22aa] [o.a.e.UploadServiceImpl:279   ] [http-nio-8081-exec-7] - Deploy to 'libs-release-local:pl/pandait/panda/maven-metadata.xml.md5' Content-Length: 32
+2020-03-28T19:03:16.267Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [6f9e17a4ad5f22bb] [o.a.s.a.ArchiveIndexerImpl:146] [art-exec-4          ] - Indexing archive: libs-release-local:pl/pandait/panda/1.0.1/panda-1.0.1.jar
+2020-03-28T19:03:56.297L [35m[tomct][0m [INFO ] [                ] [org.apache.catalina.core.StandardServer] [org.apache.catalina.core.StandardServer await] - A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+2020-03-28T19:03:56.299L [35m[tomct][0m [INFO ] [                ] [org.apache.coyote.http11.Http11NioProtocol] [org.apache.coyote.AbstractProtocol pause] - Pausing ProtocolHandler ["http-nio-8081"]
+2020-03-28T19:03:56.308L [35m[tomct][0m [INFO ] [                ] [org.apache.coyote.http11.Http11NioProtocol] [org.apache.coyote.AbstractProtocol pause] - Pausing ProtocolHandler ["http-nio-8040"]
+2020-03-28T19:03:56.315L [35m[tomct][0m [INFO ] [                ] [org.apache.catalina.core.StandardService] [org.apache.catalina.core.StandardService stopInternal] - Stopping service [Catalina]
+2020-03-28T19:03:56.408Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [                ] [ifactoryApplicationContext:522] [ocalhost-startStop-5] - Artifactory application context set to NOT READY by destroy
+2020-03-28T19:03:56.413Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [                ] [.j.c.w.FileWatchingManager:127] [Thread-4            ] - Watch service ended on destroy
+2020-03-28T19:03:56.413Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [                ] [.j.c.w.FileWatchingManager:133] [Thread-4            ] - End watch of folder configurations
+2020-03-28T19:03:56.419Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [                ] [ifactoryApplicationContext:360] [ocalhost-startStop-5] - Destroying 58 Artifactory Spring Beans
+2020-03-28T19:03:56.421Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [                ] [askServiceDescriptorHandler:43] [ocalhost-startStop-5] - Removing all job Backup from task service handler.
+2020-03-28T19:03:56.422Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [                ] [askServiceDescriptorHandler:43] [ocalhost-startStop-5] - Removing all job Artifact Cleanup from task service handler.
+2020-03-28T19:03:56.423Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [                ] [askServiceDescriptorHandler:43] [ocalhost-startStop-5] - Removing all job Garbage Collector from task service handler.
+2020-03-28T19:03:56.436Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [                ] [askServiceDescriptorHandler:43] [ocalhost-startStop-5] - Removing all job Replication from task service handler.
+2020-03-28T19:03:56.478Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [                ] [.w.NodeEventTaskManagerImpl:59] [ocalhost-startStop-5] - Removing dispatcher thread for operator 'metadata-operator-events'
+2020-03-28T19:03:56.480Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [                ] [askServiceDescriptorHandler:43] [ocalhost-startStop-5] - Removing all job Indexer from task service handler.
+2020-03-28T19:03:56.570Z [1;32m[jfrt ][0;39m [1;31m[ERROR][0;39m [                ] [ifactoryApplicationContext:371] [ocalhost-startStop-5] - Exception while destroying org.artifactory.state.model.ArtifactoryStateManager (UNAVAILABLE: Channel shutdown invoked).
+2020-03-28T19:03:56.584Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [                ] [actorySchedulerFactoryBean:844] [ocalhost-startStop-5] - Shutting down Quartz Scheduler
+Exception in thread "grpc-nio-worker-ELG-1-2" java.lang.NoClassDefFoundError: io/netty/buffer/PoolArena$1
+at io.netty.buffer.PoolArena.freeChunk(PoolArena.java:296)
+at io.netty.buffer.PoolThreadCache$MemoryRegionCache.freeEntry(PoolThreadCache.java:464)
+at io.netty.buffer.PoolThreadCache$MemoryRegionCache.free(PoolThreadCache.java:430)
+at io.netty.buffer.PoolThreadCache$MemoryRegionCache.free(PoolThreadCache.java:422)
+at io.netty.buffer.PoolThreadCache.free(PoolThreadCache.java:279)
+at io.netty.buffer.PoolThreadCache.free(PoolThreadCache.java:270)
+at io.netty.buffer.PoolThreadCache.free(PoolThreadCache.java:241)
+at io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache.onRemoval(PooledByteBufAllocator.java:477)
+at io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache.onRemoval(PooledByteBufAllocator.java:444)
+at io.netty.util.concurrent.FastThreadLocal.remove(FastThreadLocal.java:256)
+at io.netty.util.concurrent.FastThreadLocal.removeAll(FastThreadLocal.java:67)
+at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:955)
+at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.ClassNotFoundException: Illegal access: this web application instance has been stopped already. Could not load [io.netty.buffer.PoolArena$1]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1374)
+at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1224)
+at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1185)
+... 15 more
+Caused by: java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [io.netty.buffer.PoolArena$1]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1384)
+at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1372)
+... 17 more
+Exception in thread "grpc-nio-worker-ELG-1-4" Exception in thread "grpc-nio-worker-ELG-1-1" Exception in thread "grpc-nio-worker-ELG-1-5" Exception in thread "grpc-nio-worker-ELG-1-3" java.lang.NoClassDefFoundError: io/netty/util/concurrent/DefaultPromise$1
+at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:421)
+at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:538)
+at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:527)
+at io.netty.util.concurrent.DefaultPromise.setSuccess(DefaultPromise.java:90)
+at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:963)
+at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "grpc-nio-worker-ELG-1-6" Caused by: java.lang.ClassNotFoundException: Illegal access: this web application instance has been stopped already. Could not load [io.netty.util.concurrent.DefaultPromise$1]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1374)
+at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1224)
+at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1185)
+... 8 more
+Caused by: java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [io.netty.util.concurrent.DefaultPromise$1]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1384)
+at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1372)
+... 10 more
+java.lang.NoClassDefFoundError: io/netty/util/concurrent/DefaultPromise$1
+at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:421)
+at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:538)
+at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:527)
+at io.netty.util.concurrent.DefaultPromise.setSuccess(DefaultPromise.java:90)
+at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:963)
+at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+at java.base/java.lang.Thread.run(Thread.java:834)
+java.lang.NoClassDefFoundError: io/netty/util/concurrent/DefaultPromise$1
+at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:421)
+at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:538)
+at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:527)
+at io.netty.util.concurrent.DefaultPromise.setSuccess(DefaultPromise.java:90)
+at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:963)
+at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+at java.base/java.lang.Thread.run(Thread.java:834)
+java.lang.NoClassDefFoundError: io/netty/util/concurrent/DefaultPromise$1
+at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:421)
+at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:538)
+at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:527)
+at io.netty.util.concurrent.DefaultPromise.setSuccess(DefaultPromise.java:90)
+at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:963)
+at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+at java.base/java.lang.Thread.run(Thread.java:834)
+java.lang.NoClassDefFoundError: io/netty/util/concurrent/DefaultPromise$1
+at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:421)
+at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:538)
+at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:527)
+at io.netty.util.concurrent.DefaultPromise.setSuccess(DefaultPromise.java:90)
+at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:963)
+at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+at java.base/java.lang.Thread.run(Thread.java:834)
+2020-03-28T19:04:01.634L [35m[tomct][0m [INFO ] [                ] [org.apache.coyote.http11.Http11NioProtocol] [org.apache.coyote.AbstractProtocol stop] - Stopping ProtocolHandler ["http-nio-8081"]
+2020-03-28T19:04:01.638L [35m[tomct][0m [INFO ] [                ] [org.apache.coyote.http11.Http11NioProtocol] [org.apache.coyote.AbstractProtocol stop] - Stopping ProtocolHandler ["http-nio-8040"]
+2020-03-28T19:04:01.639L [35m[tomct][0m [INFO ] [                ] [org.apache.coyote.http11.Http11NioProtocol] [org.apache.coyote.AbstractProtocol destroy] - Destroying ProtocolHandler ["http-nio-8081"]
+2020-03-28T19:04:01.645L [35m[tomct][0m [INFO ] [                ] [org.apache.coyote.http11.Http11NioProtocol] [org.apache.coyote.AbstractProtocol destroy] - Destroying ProtocolHandler ["http-nio-8040"]
+2020-03-28T19:04:01.646Z [36m[jfrou][0m [31;1m[ERROR][0m [39b33a253dadd68a] [external_topology.go:85       ] [main                ] - failed fetching external topology from Access: Get http://localhost:8040/access/api/v1/topology: read tcp 127.0.0.1:57660->127.0.0.1:8040: read: connection reset by peer
+2020-03-28T19:04:01.766Z [36m[jfrou][0m [31;1m[ERROR][0m [30eb3b05c9e06ca4] [external_topology.go:85       ] [main                ] - failed fetching external topology from Access: Get http://localhost:8040/access/api/v1/topology: dial tcp 127.0.0.1:8040: connect: connection refused
+2020-03-28T19:49:00.000Z [shell] [38;5;69m[INFO ][0m [] [installerCommon.sh:1125       ] [main] - Checking open files and processes limits
+2020-03-28T19:49:00.000Z [shell] [38;5;69m[INFO ][0m [] [installerCommon.sh:1128       ] [main] - Current max open files is 1048576
+2020-03-28T19:49:00.000Z [shell] [38;5;69m[INFO ][0m [] [installerCommon.sh:1139       ] [main] - Current max open processes is unlimited
+2020-03-28T19:49:00.000Z [shell] [38;5;69m[INFO ][0m [] [installerCommon.sh:1206       ] [main] - Testing directory /opt/jfrog/artifactory/var has read/write permissions for user id 1030
+2020-03-28T19:49:00.000Z [shell] [38;5;69m[INFO ][0m [] [installerCommon.sh:1221       ] [main] - Permissions for /opt/jfrog/artifactory/var are good
+2020-03-28T19:49:00.000Z [shell] [38;5;69m[INFO ][0m [] [installerCommon.sh:2518       ] [main] - Setting JF_SHARED_NODE_ID to 9cdea2b8f285
+2020-03-28T19:49:00.000Z [shell] [38;5;69m[INFO ][0m [] [installerCommon.sh:2518       ] [main] - Setting JF_SHARED_NODE_IP to 172.19.0.2
+2020-03-28T19:49:00.000Z [shell] [38;5;69m[INFO ][0m [] [installerCommon.sh:2518       ] [main] - Setting JF_SHARED_NODE_NAME to 9cdea2b8f285
+2020-03-28T19:49:00.000Z [shell] [38;5;69m[INFO ][0m [] [artifactoryCommon.sh:104      ] [main] - Final command: -server -Xms512m -Xmx2g -Xss256k -XX:+UseG1GC -XX:OnOutOfMemoryError="kill -9 %p" --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.desktop/java.awt.font=ALL-UNNAMED -Dfile.encoding=UTF8 -Djruby.compile.invokedynamic=false -Djruby.bytecode.version=1.8 -Dorg.apache.tomcat.util.buf.UDecoder.ALLOW_ENCODED_SLASH=true -Djava.security.egd=file:/dev/./urandom -Dartdist=zip -Djf.product.home=/opt/jfrog/artifactory
+2020-03-28T19:49:01.000Z [shell] [38;5;69m[INFO ][0m [] [artifactoryCommon.sh:121      ] [main] - Saving /opt/jfrog/artifactory/app/artifactory/tomcat/conf/server.xml as /opt/jfrog/artifactory/app/artifactory/tomcat/conf/server.xml.orig
+2020-03-28T19:49:01.000Z [shell] [38;5;69m[INFO ][0m [] [artifactoryCommon.sh:129      ] [main] - Using Tomcat template to generate : /opt/jfrog/artifactory/app/artifactory/tomcat/conf/server.xml
+2020-03-28T19:49:01.000Z [shell] [38;5;69m[INFO ][0m [] [artifactoryCommon.sh:621      ] [main] - Resolved ${artifactory.port||8081} to default value : 8081
+2020-03-28T19:49:01.000Z [shell] [38;5;69m[INFO ][0m [] [artifactoryCommon.sh:621      ] [main] - Resolved ${artifactory.tomcat.connector.maxThreads||200} to default value : 200
+2020-03-28T19:49:01.000Z [shell] [38;5;69m[INFO ][0m [] [artifactoryCommon.sh:621      ] [main] - Resolved ${access.http.port||8040} to default value : 8040
+2020-03-28T19:49:01.000Z [shell] [38;5;69m[INFO ][0m [] [artifactoryCommon.sh:621      ] [main] - Resolved ${access.tomcat.connector.maxThreads||50} to default value : 50
+2020-03-28T19:49:01.000Z [shell] [38;5;69m[INFO ][0m [] [systemYamlHelper.sh:261       ] [main] - Resolved JF_PRODUCT_HOME (/opt/jfrog/artifactory) from environment variable
+2020-03-28T19:49:01.000Z [shell] [38;5;69m[INFO ][0m [] [artifactoryCommon.sh:621      ] [main] - Resolved ${shared.tomcat.workDir||/opt/jfrog/artifactory/var/work/artifactory/tomcat} to default value : /opt/jfrog/artifactory/var/work/artifactory/tomcat
+2020-03-28T19:49:03.199Z [36m[jfrou][0m [34m[INFO ][0m [                ] [bootstrap.go:70               ] [main                ] - Router (jfrou) service initialization started. Version: 1.1.0 Revision: c2646fcb28e2d4ca095b07aacebe509d934cef77 PID: 2708 Home: /opt/jfrog/artifactory
+2020-03-28T19:49:03.200Z [36m[jfrou][0m [34m[INFO ][0m [                ] [bootstrap.go:73               ] [main                ] - JFrog Router IP: 172.19.0.2
+2020-03-28T19:49:03.216Z [36m[jfrou][0m [34m[INFO ][0m [                ] [bootstrap.go:159              ] [main                ] - System configuration encryption report:
+shared.newrelic.licenseKey: does not exist in the config file
+shared.security.joinKeyFile: file '/opt/jfrog/artifactory/var/etc/security/join.key' - already encrypted
+2020-03-28T19:49:03.218Z [36m[jfrou][0m [34m[INFO ][0m [                ] [bootstrap.go:78               ] [main                ] - JFrog Router Service ID: jfrou@01e49j78r7vs30xv5qb9mj5w52
+2020-03-28T19:49:03.218Z [36m[jfrou][0m [34m[INFO ][0m [                ] [bootstrap.go:79               ] [main                ] - JFrog Router Node ID: 9cdea2b8f285
+[DEBUG] Resolved system configuration file path: /opt/jfrog/artifactory/var/etc/system.yaml
+2020-03-28T19:49:03.568Z [34;1m[jfmd ][0m [34m[INFO ][0m [6e9ab2deab93bc4f] [database_bearer.go:67         ] [main                ] - Connecting to (db config: {sqlite /opt/jfrog/artifactory/var/data/metadata/sqlite.db?_fk=yes&_busy_timeout=5000&_txlock=immediate&cache=shared}) [database]
+2020-03-28T19:49:03.643Z [34;1m[jfmd ][0m [34m[INFO ][0m [6e9ab2deab93bc4f] [migrator.go:61                ] [main                ] - Applying 36 migrations files [database]
+2020-03-28T19:49:03.652Z [34;1m[jfmd ][0m [34m[INFO ][0m [6e9ab2deab93bc4f] [application.go:72             ] [main                ] - Metadata (jfmd) service initialization started. Version: 2.2.2  Revision: 20202900 PID: 3024 Home: /opt/jfrog/artifactory/var [app_initializer]
+2020-03-28T19:49:03.653Z [34;1m[jfmd ][0m [34m[INFO ][0m [6e9ab2deab93bc4f] [server_bearer.go:152          ] [main                ] - Got service_id from datastore: jfmd@01e49j7a9f9sx346488s7y6rc7 [ServerInit]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+2020-03-28T19:49:04.487Z [33m[jffe ][39m [34m[INFO ][39m [1m[                ][22m [                              ] [main                ] - frontend (jffe) service initialization started. Version: 1.2.0 Revision: 0.0.0 PID: 2832 Home: /opt/jfrog/artifactory
+2020-03-28T19:49:05.193Z [36m[jfrou][0m [34m[INFO ][0m [                ] [config_holder.go:107          ] [main                ] - configuration update detected
+2020-03-28T19:49:06.143L [35m[tomct][0m [INFO ] [                ] [org.apache.coyote.http11.Http11NioProtocol] [org.apache.coyote.AbstractProtocol init] - Initializing ProtocolHandler ["http-nio-8081"]
+2020-03-28T19:49:06.235L [35m[tomct][0m [INFO ] [                ] [org.apache.tomcat.util.net.NioSelectorPool] [org.apache.tomcat.util.net.NioSelectorPool getSharedSelector] - Using a shared selector for servlet write/read
+2020-03-28T19:49:06.286L [35m[tomct][0m [INFO ] [                ] [org.apache.coyote.http11.Http11NioProtocol] [org.apache.coyote.AbstractProtocol init] - Initializing ProtocolHandler ["http-nio-8040"]
+2020-03-28T19:49:06.287L [35m[tomct][0m [INFO ] [                ] [org.apache.tomcat.util.net.NioSelectorPool] [org.apache.tomcat.util.net.NioSelectorPool getSharedSelector] - Using a shared selector for servlet write/read
+2020-03-28T19:49:06.300L [35m[tomct][0m [INFO ] [                ] [org.apache.catalina.core.StandardService] [org.apache.catalina.core.StandardService startInternal] - Starting service [Catalina]
+2020-03-28T19:49:06.301L [35m[tomct][0m [INFO ] [                ] [org.apache.catalina.core.StandardEngine] [org.apache.catalina.core.StandardEngine startInternal] - Starting Servlet Engine: Apache Tomcat/8.5.41
+2020-03-28T19:49:06.358L [35m[tomct][0m [INFO ] [                ] [org.apache.catalina.startup.HostConfig] [org.apache.catalina.startup.HostConfig deployDescriptor] - Deploying configuration descriptor [/opt/jfrog/artifactory/app/artifactory/tomcat/conf/Catalina/localhost/access.xml]
+2020-03-28T19:49:06.363L [35m[tomct][0m [INFO ] [                ] [org.apache.catalina.startup.HostConfig] [org.apache.catalina.startup.HostConfig deployDescriptor] - Deploying configuration descriptor [/opt/jfrog/artifactory/app/artifactory/tomcat/conf/Catalina/localhost/artifactory.xml]
+2020-03-28T19:49:06.469L [35m[tomct][0m [WARNING] [                ] [org.apache.catalina.startup.HostConfig] [org.apache.catalina.startup.HostConfig deployDescriptor] - A docBase [/opt/jfrog/artifactory/app/artifactory/tomcat/webapps/access.war] inside the host appBase has been specified, and will be ignored
+2020-03-28T19:49:06.471L [35m[tomct][0m [WARNING] [                ] [org.apache.catalina.startup.HostConfig] [org.apache.catalina.startup.HostConfig deployDescriptor] - A docBase [/opt/jfrog/artifactory/app/artifactory/tomcat/webapps/artifactory.war] inside the host appBase has been specified, and will be ignored
+2020-03-28T19:49:07.718Z [34;1m[jfmd ][0m [34m[INFO ][0m [6e9ab2deab93bc4f] [accessclient.go:49            ] [main                ] - Cluster join: Retry 5: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get http://localhost:8046/access/api/v1/system/ping: dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2020-03-28T19:49:11.023Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [286a7d66b1320bf9] [o.a.c.h.HaNodeProperties:67   ] [ocalhost-startStop-2] - Artifactory is running in non-clustered mode.
+2020-03-28T19:49:11.044Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [286a7d66b1320bf9] [tifactoryHomeConfigListener:70] [ocalhost-startStop-2] - Resolved Home: '/opt/jfrog/artifactory
+2020-03-28T19:49:11.105Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [                ] [o.j.c.w.FileWatchingManager:75] [Thread-7            ] - Starting watch of folder configurations
+2020-03-28T19:49:11.179Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [848352b7bb413251] [licationContextInitializer:162] [ocalhost-startStop-1] - Access (jfac) service initialization started. Version: 5.2.8 Revision: 50208900 PID: 3117 Home: /opt/jfrog/artifactory
+2020-03-28T19:49:11.204Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [286a7d66b1320bf9] [.a.w.s.BasicConfigManagers:140] [ocalhost-startStop-2] - Artifactory (jfrt) service initialization started. Version: 7.2.1 Revision: 70201900 PID: 3117 Home: /opt/jfrog/artifactory
+2020-03-28T19:49:11.216Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [286a7d66b1320bf9] [.a.c.ConvertersManagerImpl:142] [ocalhost-startStop-2] - Triggering PRE_INIT conversion, from 7.2.1 to org.artifactory.version.ArtifactoryVersionImpl@64a9666f
+2020-03-28T19:49:11.217Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [286a7d66b1320bf9] [.a.c.ConvertersManagerImpl:144] [ocalhost-startStop-2] - Finished PRE_INIT conversion, current version is: org.artifactory.version.ArtifactoryVersionImpl@64a9666f
+2020-03-28T19:49:11.277Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [848352b7bb413251] [o.j.a.AccessApplication:50    ] [ocalhost-startStop-1] - Starting AccessApplication v5.2.8 on 9cdea2b8f285 with PID 3117 (/opt/jfrog/artifactory/app/artifactory/tomcat/webapps/access/WEB-INF/lib/access-application-5.2.8.jar started by artifactory in /var/opt/jfrog/artifactory)
+2020-03-28T19:49:11.285Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [848352b7bb413251] [o.j.a.AccessApplication:651   ] [ocalhost-startStop-1] - The following profiles are active: production
+2020-03-28T19:49:12.752Z [34;1m[jfmd ][0m [34m[INFO ][0m [6e9ab2deab93bc4f] [accessclient.go:49            ] [main                ] - Cluster join: Retry 10: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get http://localhost:8046/access/api/v1/system/ping: dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2020-03-28T19:49:14.357Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [286a7d66b1320bf9] [.w.ConfigurationManagerImpl:94] [ocalhost-startStop-2] - Starting file sync
+2020-03-28T19:49:16.239Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [901fe4730eef3291] [ctoryContextConfigListener:308] [art-init            ] -
+_   _  __           _                     _____
+/\        | | (_)/ _|         | |                   |  __ \
+/  \   _ __| |_ _| |_ __ _  ___| |_ ___  _ __ _   _  | |__) | __ ___
+/ /\ \ | '__| __| |  _/ _` |/ __| __/ _ \| '__| | | | |  ___/ '__/ _ \
+/ ____ \| |  | |_| | || (_| | (__| || (_) | |  | |_| | | |   | | | (_) |
+/_/    \_\_|   \__|_|_| \__,_|\___|\__\___/|_|   \__, | |_|   |_|  \___/
+Version:  7.2.1                                   __/ |
+Revision: 70201900                               |___/
+Artifactory Home: '/opt/jfrog/artifactory'
+Node ID: '9cdea2b8f285'
+
+2020-03-28T19:49:16.545L [35m[tomct][0m [INFO ] [                ] [org.apache.catalina.startup.HostConfig] [org.apache.catalina.startup.HostConfig deployDescriptor] - Deployment of configuration descriptor [/opt/jfrog/artifactory/app/artifactory/tomcat/conf/Catalina/localhost/artifactory.xml] has finished in [10,172] ms
+2020-03-28T19:49:16.856Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [901fe4730eef3291] [ifactoryApplicationContext:522] [art-init            ] - Artifactory application context set to NOT READY by refresh
+2020-03-28T19:49:17.758Z [34;1m[jfmd ][0m [34m[INFO ][0m [6e9ab2deab93bc4f] [accessclient.go:49            ] [main                ] - Cluster join: Retry 15: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get http://localhost:8046/access/api/v1/system/ping: dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2020-03-28T19:49:19.641Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [848352b7bb413251] [s.d.u.AccessJdbcHelperImpl:138] [ocalhost-startStop-1] - Database: Apache Derby 10.14.2.0 - (1828579). Driver: Apache Derby Embedded JDBC Driver 10.14.2.0 - (1828579)
+2020-03-28T19:49:19.646Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [848352b7bb413251] [s.d.u.AccessJdbcHelperImpl:141] [ocalhost-startStop-1] - Connection URL: jdbc:derby:/opt/jfrog/artifactory/var/data/access/derby
+2020-03-28T19:49:21.297Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [848352b7bb413251] [alConfigurationServiceBase:182] [ocalhost-startStop-1] - Loading configuration from db finished successfully
+2020-03-28T19:49:21.892Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [848352b7bb413251] [.h.AccessNodeIdProviderImpl:62] [ocalhost-startStop-1] - Service id initialized: jfac@01e49j73ccnr7c17gd5ayt0916
+2020-03-28T19:49:22.772Z [34;1m[jfmd ][0m [34m[INFO ][0m [6e9ab2deab93bc4f] [accessclient.go:49            ] [main                ] - Cluster join: Retry 20: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get http://localhost:8046/access/api/v1/system/ping: dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2020-03-28T19:49:23.404Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [848352b7bb413251] [j.a.s.s.t.TokenServiceImpl:106] [ocalhost-startStop-1] - Scheduling task for revoking expired tokens using cron expression: 0 0 0/1 * * ?
+2020-03-28T19:49:24.232Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [848352b7bb413251] [.AccessServerBootstrapImpl:124] [ocalhost-startStop-1] - [ACCESS BOOTSTRAP] Starting JFrog Access bootstrap...
+2020-03-28T19:49:24.936Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [848352b7bb413251] [o.j.a.s.r.s.GrpcServerImpl:62 ] [ocalhost-startStop-1] - Starting gRPC Server on port 8045
+2020-03-28T19:49:25.161Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [848352b7bb413251] [o.j.a.s.r.s.GrpcServerImpl:80 ] [ocalhost-startStop-1] - gRPC Server started, listening on 8045
+2020-03-28T19:49:25.402Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [848352b7bb413251] [.AccessServerBootstrapImpl:143] [ocalhost-startStop-1] - [ACCESS BOOTSTRAP] JFrog Access bootstrap finished.
+2020-03-28T19:49:26.698Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [848352b7bb413251] [o.j.a.s.s.JoinKeyAccess:166   ] [ocalhost-startStop-1] - Cluster join: Join key loaded successfully (from: /opt/jfrog/artifactory/var/etc/security/join.key)
+2020-03-28T19:49:26.858Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [90babeba89c941  ] [a.c.RefreshableScheduledJob:53] [ocalhost-startStop-1] - Scheduling heartbeat task to run every 5 seconds
+2020-03-28T19:49:26.861Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [90babeba89c941  ] [a.c.RefreshableScheduledJob:53] [ocalhost-startStop-1] - Scheduling federationCleanupService task to run every 1209600 seconds
+2020-03-28T19:49:26.872Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [6e56861c0e6ba37a] [a.c.RefreshableScheduledJob:53] [ocalhost-startStop-1] - Scheduling loadCertificates task to run every 30 seconds
+2020-03-28T19:49:26.912Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [6e56861c0e6ba37a] [a.c.RefreshableScheduledJob:53] [ocalhost-startStop-1] - Scheduling staleTokenCleanup task to run every 3600 seconds
+2020-03-28T19:49:27.779Z [34;1m[jfmd ][0m [34m[INFO ][0m [6e9ab2deab93bc4f] [accessclient.go:49            ] [main                ] - Cluster join: Retry 25: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get http://localhost:8046/access/api/v1/system/ping: dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2020-03-28T19:49:27.831Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [901fe4730eef3291] [o.a.s.d.DbServiceImpl:282     ] [art-init            ] - Database: Apache Derby 10.14.2.0 - (1828579). Driver: Apache Derby Embedded JDBC Driver 10.14.2.0 - (1828579) Pool: derby
+2020-03-28T19:49:27.832Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [901fe4730eef3291] [o.a.s.d.DbServiceImpl:285     ] [art-init            ] - Connection URL: jdbc:derby:/opt/jfrog/artifactory/var/data/artifactory/derby
+2020-03-28T19:49:27.892Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [901fe4730eef3291] [o.a.s.d.v.DerbyValidator:26   ] [art-init            ] - Validating connection collation for derby database
+2020-03-28T19:49:29.441Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [6e56861c0e6ba37a] [o.j.a.AccessApplication:59    ] [ocalhost-startStop-1] - Started AccessApplication in 21.008 seconds (JVM running for 25.641)
+2020-03-28T19:49:29.543L [35m[tomct][0m [INFO ] [                ] [org.apache.catalina.startup.HostConfig] [org.apache.catalina.startup.HostConfig deployDescriptor] - Deployment of configuration descriptor [/opt/jfrog/artifactory/app/artifactory/tomcat/conf/Catalina/localhost/access.xml] has finished in [23,185] ms
+2020-03-28T19:49:29.557L [35m[tomct][0m [INFO ] [                ] [org.apache.catalina.startup.HostConfig] [org.apache.catalina.startup.HostConfig deployDirectory] - Deploying web application directory [/opt/jfrog/artifactory/app/artifactory/tomcat/webapps/ROOT]
+2020-03-28T19:49:29.588L [35m[tomct][0m [INFO ] [                ] [org.apache.catalina.startup.HostConfig] [org.apache.catalina.startup.HostConfig deployDirectory] - Deployment of web application directory [/opt/jfrog/artifactory/app/artifactory/tomcat/webapps/ROOT] has finished in [31] ms
+2020-03-28T19:49:29.605L [35m[tomct][0m [INFO ] [                ] [org.apache.coyote.http11.Http11NioProtocol] [org.apache.coyote.AbstractProtocol start] - Starting ProtocolHandler ["http-nio-8081"]
+2020-03-28T19:49:29.727L [35m[tomct][0m [INFO ] [                ] [org.apache.coyote.http11.Http11NioProtocol] [org.apache.coyote.AbstractProtocol start] - Starting ProtocolHandler ["http-nio-8040"]
+2020-03-28T19:49:31.203Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [901fe4730eef3291] [ritiesStorageServiceFactory:25] [art-init            ] - Initializing DB-based Priorities Storage Service
+2020-03-28T19:49:32.796Z [34;1m[jfmd ][0m [34m[INFO ][0m [6e9ab2deab93bc4f] [accessclient.go:49            ] [main                ] - Cluster join: Retry 30: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get http://localhost:8046/access/api/v1/system/ping: dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2020-03-28T19:49:34.648Z [1;33m[jfac ][0;39m [31m[WARN ][0;39m [848352b7bb413251] [o.j.c.ExecutionUtils:141      ] [pool-5-thread-2     ] - Retry 20 Elapsed 9.26 secs failed: Registration with router on URL http://localhost:8046 failed with error: UNAVAILABLE: io exception. Trying again
+2020-03-28T19:49:34.797Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [beeb914dca8a3fd8] [s.r.NodeRegistryServiceImpl:63] [http-nio-8040-exec-2] - Cluster join: Successfully joined jfrou@01e49j78r7vs30xv5qb9mj5w52 with node id 9cdea2b8f285
+2020-03-28T19:49:35.298Z [36m[jfrou][0m [34m[INFO ][0m [                ] [join_executor.go:180          ] [main                ] - Cluster join: Successfully joined the cluster
+2020-03-28T19:49:35.364Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server.go:568                 ] [main                ] - Preparing server api &{Address:localhost:8049 TLS:<nil> Redirect:<nil> Auth:<nil> WhitelistSourceRange:[] WhiteList:<nil> Compress:false ProxyProtocol:<nil> ForwardedHeaders:0xc0003977e0} with readTimeout=0s writeTimeout=0s idleTimeout=3m0s
+2020-03-28T19:49:35.368Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server.go:568                 ] [main                ] - Preparing server external &{Address::8082 TLS:<nil> Redirect:<nil> Auth:<nil> WhitelistSourceRange:[] WhiteList:<nil> Compress:false ProxyProtocol:<nil> ForwardedHeaders:0xc000397760} with readTimeout=0s writeTimeout=0s idleTimeout=3m0s
+2020-03-28T19:49:35.368Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server.go:568                 ] [main                ] - Preparing server internal &{Address:localhost:8046 TLS:<nil> Redirect:<nil> Auth:<nil> WhitelistSourceRange:[] WhiteList:<nil> Compress:false ProxyProtocol:<nil> ForwardedHeaders:0xc000397780} with readTimeout=0s writeTimeout=0s idleTimeout=3m0s
+2020-03-28T19:49:35.368Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server.go:420                 ] [main                ] - Starting provider configuration.ProviderAggregator {}
+2020-03-28T19:49:35.368Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server.go:524                 ] [main                ] - Starting server on localhost:8049
+2020-03-28T19:49:35.368Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server.go:524                 ] [main                ] - Starting server on :8082
+2020-03-28T19:49:35.372Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server.go:524                 ] [main                ] - Starting server on localhost:8046
+2020-03-28T19:49:35.385Z [36m[jfrou][0m [34m[INFO ][0m [                ] [provider_aggregator.go:103    ] [main                ] - Starting provider *file.Provider {"Watch":true,"Filename":"","Constraints":null,"Trace":false,"TemplateVersion":0,"DebugLogGeneratedTemplate":false,"Directory":"/opt/jfrog/artifactory/var/data/router/traefik/routes","TraefikFile":""}
+2020-03-28T19:49:35.398Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server_configuration.go:61    ] [main                ] - Server configuration reloaded on :8082
+2020-03-28T19:49:35.398Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server_configuration.go:61    ] [main                ] - Server configuration reloaded on localhost:8046
+2020-03-28T19:49:35.399Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server_configuration.go:61    ] [main                ] - Server configuration reloaded on localhost:8049
+2020-03-28T19:49:35.413Z [36m[jfrou][0m [34m[INFO ][0m [                ] [main.go:36                    ] [main                ] - Router (jfrou) service initialization completed in 32.217 seconds. Listening on port: 8082
+2020-03-28T19:49:36.294Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [848352b7bb413251] [.AccessWithRouterRegistrar:106] [pool-5-thread-1     ] - Access Server successfully registered on Router on URL: http://localhost:8046
+2020-03-28T19:49:37.266Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [901fe4730eef3291] [actorySchedulerFactoryBean:726] [art-init            ] - Starting Quartz Scheduler now
+2020-03-28T19:49:37.369Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [901fe4730eef3291] [ifactoryApplicationContext:270] [art-init            ] - Artifactory context starting up 58 Spring Beans...
+2020-03-28T19:49:37.396Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server_configuration.go:61    ] [main                ] - Server configuration reloaded on :8082
+2020-03-28T19:49:37.396Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server_configuration.go:61    ] [main                ] - Server configuration reloaded on localhost:8046
+2020-03-28T19:49:37.396Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server_configuration.go:61    ] [main                ] - Server configuration reloaded on localhost:8049
+2020-03-28T19:49:37.897Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [340ea71c354aaf3b] [s.r.NodeRegistryServiceImpl:63] [http-nio-8040-exec-4] - Cluster join: Successfully joined jfmd@01e49j7a9f9sx346488s7y6rc7 with node id 9cdea2b8f285
+2020-03-28T19:49:37.908Z [34;1m[jfmd ][0m [34m[INFO ][0m [6e9ab2deab93bc4f] [accessclient.go:49            ] [main                ] - Cluster join: Successfully joined the cluster [access_client]
+2020-03-28T19:49:37.908Z [34;1m[jfmd ][0m [34m[INFO ][0m [6e9ab2deab93bc4f] [accessclient.go:49            ] [main                ] - Executing Router register at: localhost:8046 [access_client]
+2020-03-28T19:49:37.925Z [34;1m[jfmd ][0m [34m[INFO ][0m [6e9ab2deab93bc4f] [router_middlewares.go:59      ] [main                ] - Metadata (jfmd) service initialization completed in 34.272 seconds. Listening on port: 8086 [router]
+2020-03-28T19:49:38.004Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [901fe4730eef3291] [o.a.s.a.AccessServiceImpl:408 ] [art-init            ] - Initialized new service id: jfrt@01e49j7nt5qc6w0satw40506g3
+2020-03-28T19:49:38.075Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [901fe4730eef3291] [oryAccessClientConfigStore:589] [art-init            ] - Using Access Server URL: http://localhost:8046/access source: System Config
+2020-03-28T19:49:38.099Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [848352b7bb413251] [.AccessServerBootstrapImpl:178] [pool-5-thread-1     ] - [ACCESS BOOTSTRAP] Updating server '9cdea2b8f285' private key finger print to: 9b1341f8b5424351da52dbd79e19b7288a519f0abf55497e9bb0274a9cc931bc ca private key finger print to: 1819b9a858b3ebd63ad57f168b7c8ccf77f0a6a69a4d67044143824bf1490ec7
+2020-03-28T19:49:38.573Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [33dadf5582ef180f] [s.r.NodeRegistryServiceImpl:63] [http-nio-8040-exec-8] - Cluster join: Successfully joined jfrt@01e49j7nt5qc6w0satw40506g3 with node id 9cdea2b8f285
+2020-03-28T19:49:38.612Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [                ] [o.j.c.w.ConfigWrapperImpl:504 ] [Thread-7            ] - [Node ID: 9cdea2b8f285]  detected local  modify for config 'artifactory.security.access/access.admin.token'
+2020-03-28T19:49:38.620Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [901fe4730eef3291] [.a.c.AccessClientBootstrap:169] [art-init            ] - Cluster join: Successfully joined the cluster
+2020-03-28T19:49:38.625Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [901fe4730eef3291] [o.j.a.c.g.AccessGrpcClient:74 ] [art-init            ] - Connecting to grpc server on localhost:8046
+2020-03-28T19:49:39.396Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server_configuration.go:61    ] [main                ] - Server configuration reloaded on :8082
+2020-03-28T19:49:39.396Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server_configuration.go:61    ] [main                ] - Server configuration reloaded on localhost:8046
+2020-03-28T19:49:39.396Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server_configuration.go:61    ] [main                ] - Server configuration reloaded on localhost:8049
+2020-03-28T19:49:39.758Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [901fe4730eef3291] [o.a.s.a.AccessServiceImpl:352 ] [art-init            ] - Initialized access service successfully with client id 738428823, closing old client id [null]
+2020-03-28T19:49:39.758Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [901fe4730eef3291] [o.a.s.a.AccessServiceImpl:1246] [art-init            ] - Updating access configuration with password expiration data
+2020-03-28T19:49:41.396Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server_configuration.go:61    ] [main                ] - Server configuration reloaded on localhost:8046
+2020-03-28T19:49:41.397Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server_configuration.go:61    ] [main                ] - Server configuration reloaded on localhost:8049
+2020-03-28T19:49:41.397Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server_configuration.go:61    ] [main                ] - Server configuration reloaded on :8082
+2020-03-28T19:49:41.675Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [901fe4730eef3291] [.c.r.ReplicatorServiceImpl:112] [art-init            ] - initializing Replicator Service
+2020-03-28T19:49:41.676Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [901fe4730eef3291] [.c.r.ReplicatorServiceImpl:332] [art-init            ] - Local Replicator is setting up in non-bundled mode
+2020-03-28T19:49:41.687Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [901fe4730eef3291] [tegrationCleanupServiceImpl:75] [art-init            ] - Using generated cron 0 15 0 ? * * for jobs table cleanup
+2020-03-28T19:49:42.109Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [901fe4730eef3291] [askServiceDescriptorHandler:43] [art-init            ] - Removing all job Replication from task service handler.
+2020-03-28T19:49:42.111Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [901fe4730eef3291] [askServiceDescriptorHandler:51] [art-init            ] - No Replication configured. Replication is disabled.
+2020-03-28T19:49:42.244Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [901fe4730eef3291] [ifactoryApplicationContext:522] [art-init            ] - Artifactory application context set to READY by refresh
+2020-03-28T19:49:42.295Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [901fe4730eef3291] [o.a.s.a.AccessServiceImpl:1549] [art-init            ] - Successful register of Artifactory serviceId jfrt@01e49j7nt5qc6w0satw40506g3 in Access Federation
+2020-03-28T19:49:42.347Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [9b02cdd7bfe2ecae] [adsFolderCleanupServiceImpl:51] [art-exec-4          ] - Starting docker temp folder cleanup
+2020-03-28T19:49:42.352Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [9b02cdd7bfe2ecae] [adsFolderCleanupServiceImpl:53] [art-exec-4          ] - Docker temp folder cleanup finished, time took: 5 millis
+2020-03-28T19:49:42.342Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [901fe4730eef3291] [.w.NodeEventTaskManagerImpl:43] [art-init            ] - Event management started on behalf of Event Operator with ID 'metadata-operator-events'
+2020-03-28T19:49:42.376Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [901fe4730eef3291] [o.a.s.s.StorageServiceImpl:425] [art-init            ] - Scheduling CalculateReposStorageSummaryJob to run at '0 57 * ? * *'
+2020-03-28T19:49:42.400Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [901fe4730eef3291] [ctoryContextConfigListener:250] [art-init            ] - Artifactory (jfrt) service initialization completed in 26.215 seconds. Listening on port: 8081
+2020-03-28T19:49:48.078Z [33m[jffe ][39m [34m[INFO ][39m [1m[                ][22m [                              ] [main                ] - setting service id - jffe@000
+2020-03-28T19:49:48.198Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [7ac1a589c7f49a48] [s.r.NodeRegistryServiceImpl:63] [http-nio-8040-exec-6] - Cluster join: Successfully joined jffe@000 with node id 9cdea2b8f285
+2020-03-28T19:49:48.203Z [33m[jffe ][39m [34m[INFO ][39m [1m[                ][22m [                              ] [main                ] - Cluster join: Successfully joined the cluster
+2020-03-28T19:49:48.241Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server_configuration.go:61    ] [main                ] - Server configuration reloaded on :8082
+2020-03-28T19:49:48.242Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server_configuration.go:61    ] [main                ] - Server configuration reloaded on localhost:8046
+2020-03-28T19:49:48.242Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server_configuration.go:61    ] [main                ] - Server configuration reloaded on localhost:8049
+2020-03-28T19:49:48.243Z [33m[jffe ][39m [34m[INFO ][39m [1m[                ][22m [                              ] [main                ] - UI service successfully registered on router, serviceId: jffe@000
+2020-03-28T19:49:48.695Z [33m[jffe ][39m [34m[INFO ][39m [1m[                ][22m [                              ] [main                ] - Recurring tasks started
+2020-03-28T19:49:48.810Z [33m[jffe ][39m [34m[INFO ][39m [1m[                ][22m [                              ] [main                ] - frontend (jffe) service initialization completed in 44.32 seconds. Listening on port: port 8070
+2020-03-28T19:49:52.257Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [a381cf60b39d7504] [a.e.EventsLogCleanUpService:53] [art-exec-12         ] - Starting cleanup of old events from event log
+2020-03-28T19:49:52.519Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [a381cf60b39d7504] [a.e.EventsLogCleanUpService:74] [art-exec-12         ] - Cleanup of old events from event log finished
+2020-03-28T19:49:55.416Z [36m[jfrou][0m [34m[INFO ][0m [cc9c602c964212e ] [local_topology.go:212         ] [main                ] -
+###############################################################
+###   All services started successfully in 52.233 seconds   ###
+###############################################################
+2020-03-28T19:49:55.419Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server_configuration.go:61    ] [main                ] - Server configuration reloaded on :8082
+2020-03-28T19:49:55.419Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server_configuration.go:61    ] [main                ] - Server configuration reloaded on localhost:8046
+2020-03-28T19:49:55.419Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server_configuration.go:61    ] [main                ] - Server configuration reloaded on localhost:8049
+2020-03-28T19:49:55.440Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [                ] [alConfigurationServiceBase:182] [c-default-executor-0] - Loading configuration from db finished successfully
+2020-03-28T19:49:57.421Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server_configuration.go:61    ] [main                ] - Server configuration reloaded on localhost:8049
+2020-03-28T19:49:57.421Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server_configuration.go:61    ] [main                ] - Server configuration reloaded on :8082
+2020-03-28T19:49:57.421Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server_configuration.go:61    ] [main                ] - Server configuration reloaded on localhost:8046
+2020-03-28T19:54:42.544Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [5f46eb5fd87bbba0] [.r.s.RpcPermissionResource:197] [jf-access-task1     ] - server identified client canceled subscription
+2020-03-28T19:59:38.073Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [2a927f1139f9688b] [.r.s.RpcPermissionResource:197] [jf-access-task1     ] - server identified client canceled subscription
+2020-03-28T20:00:00.030Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [9d57defc380cc4ea] [j.a.s.s.t.TokenServiceImpl:143] [jf-access-task1     ] - Revoked 12 expired tokens.
+2020-03-28T20:00:00.135Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [5016bc3fe48b85b3] [o.a.r.s.t.p.TrashcanPruner:113] [art-exec-8          ] - Trashcan pruning total execution time: '125 millis'
+2020-03-28T20:00:00.144Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [5016bc3fe48b85b3] [.s.d.b.s.BinaryServiceImpl:547] [art-exec-8          ] - Found 3 candidates for deletion
+2020-03-28T20:00:00.260Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [5016bc3fe48b85b3] [.s.b.s.GarbageCollectorInfo:82] [art-exec-8          ] - Storage garbage collector report:
+Number of binaries:      7
+Total execution time:    115 millis
+Candidates for deletion: 3
+Checksums deleted:       3
+Binaries deleted:        3
+Total size freed:        26.08 MB
+Current total size:      52.17 MB
+2020-03-28T20:04:38.669Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [22dbbf9b235e8e80] [.r.s.RpcPermissionResource:197] [jf-access-task1     ] - server identified client canceled subscription
+2020-03-28T20:09:39.281Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [9f1c54a72882e9f8] [.r.s.RpcPermissionResource:197] [jf-access-task1     ] - server identified client canceled subscription
+2020-03-28T20:14:39.842Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [824afa9b600496c5] [.r.s.RpcPermissionResource:197] [jf-access-task1     ] - server identified client canceled subscription
+2020-03-28T20:19:40.378Z [1;33m[jfac ][0;39m [34m[INFO ][0;39m [fbf32221c0e71ad7] [.r.s.RpcPermissionResource:197] [jf-access-task1     ] - server identified client canceled subscription
+2020-03-28T20:22:03.444L [35m[tomct][0m [INFO ] [                ] [org.apache.catalina.core.StandardServer] [org.apache.catalina.core.StandardServer await] - A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+2020-03-28T20:22:03.445L [35m[tomct][0m [INFO ] [                ] [org.apache.coyote.http11.Http11NioProtocol] [org.apache.coyote.AbstractProtocol pause] - Pausing ProtocolHandler ["http-nio-8081"]
+2020-03-28T20:22:03.451L [35m[tomct][0m [INFO ] [                ] [org.apache.coyote.http11.Http11NioProtocol] [org.apache.coyote.AbstractProtocol pause] - Pausing ProtocolHandler ["http-nio-8040"]
+2020-03-28T20:22:03.457L [35m[tomct][0m [INFO ] [                ] [org.apache.catalina.core.StandardService] [org.apache.catalina.core.StandardService stopInternal] - Stopping service [Catalina]
+2020-03-28T20:22:03.651Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [                ] [ifactoryApplicationContext:522] [ocalhost-startStop-5] - Artifactory application context set to NOT READY by destroy
+2020-03-28T20:22:03.671Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [                ] [.j.c.w.FileWatchingManager:127] [Thread-7            ] - Watch service ended on destroy
+2020-03-28T20:22:03.671Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [                ] [.j.c.w.FileWatchingManager:133] [Thread-7            ] - End watch of folder configurations
+2020-03-28T20:22:03.676Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [                ] [ifactoryApplicationContext:360] [ocalhost-startStop-5] - Destroying 58 Artifactory Spring Beans
+2020-03-28T20:22:03.679Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [                ] [askServiceDescriptorHandler:43] [ocalhost-startStop-5] - Removing all job Replication from task service handler.
+2020-03-28T20:22:03.686Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [                ] [askServiceDescriptorHandler:43] [ocalhost-startStop-5] - Removing all job Backup from task service handler.
+2020-03-28T20:22:03.709Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [                ] [.w.NodeEventTaskManagerImpl:59] [ocalhost-startStop-5] - Removing dispatcher thread for operator 'metadata-operator-events'
+2020-03-28T20:22:03.710Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [                ] [askServiceDescriptorHandler:43] [ocalhost-startStop-5] - Removing all job Indexer from task service handler.
+2020-03-28T20:22:03.720Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [                ] [askServiceDescriptorHandler:43] [ocalhost-startStop-5] - Removing all job Garbage Collector from task service handler.
+2020-03-28T20:22:03.722Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [                ] [askServiceDescriptorHandler:43] [ocalhost-startStop-5] - Removing all job Artifact Cleanup from task service handler.
+2020-03-28T20:22:03.813Z [1;32m[jfrt ][0;39m [1;31m[ERROR][0;39m [                ] [ifactoryApplicationContext:371] [ocalhost-startStop-5] - Exception while destroying org.artifactory.state.model.ArtifactoryStateManager (UNAVAILABLE: Channel shutdown invoked).
+2020-03-28T20:22:03.833Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [                ] [actorySchedulerFactoryBean:844] [ocalhost-startStop-5] - Shutting down Quartz Scheduler
+Exception in thread "grpc-nio-worker-ELG-1-2" java.lang.NoClassDefFoundError: io/netty/buffer/PoolArena$1
+at io.netty.buffer.PoolArena.freeChunk(PoolArena.java:296)
+at io.netty.buffer.PoolThreadCache$MemoryRegionCache.freeEntry(PoolThreadCache.java:464)
+at io.netty.buffer.PoolThreadCache$MemoryRegionCache.free(PoolThreadCache.java:430)
+at io.netty.buffer.PoolThreadCache$MemoryRegionCache.free(PoolThreadCache.java:422)
+at io.netty.buffer.PoolThreadCache.free(PoolThreadCache.java:279)
+at io.netty.buffer.PoolThreadCache.free(PoolThreadCache.java:270)
+at io.netty.buffer.PoolThreadCache.free(PoolThreadCache.java:241)
+at io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache.onRemoval(PooledByteBufAllocator.java:477)
+at io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache.onRemoval(PooledByteBufAllocator.java:444)
+at io.netty.util.concurrent.FastThreadLocal.remove(FastThreadLocal.java:256)
+at io.netty.util.concurrent.FastThreadLocal.removeAll(FastThreadLocal.java:67)
+at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:955)
+at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.ClassNotFoundException: Illegal access: this web application instance has been stopped already. Could not load [io.netty.buffer.PoolArena$1]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1374)
+at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1224)
+at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1185)
+... 15 more
+Caused by: java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [io.netty.buffer.PoolArena$1]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1384)
+at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1372)
+... 17 more
+Exception in thread "grpc-nio-worker-ELG-1-4" Exception in thread "grpc-nio-worker-ELG-1-1" Exception in thread "grpc-nio-worker-ELG-1-5" Exception in thread "grpc-nio-worker-ELG-1-3" java.lang.NoClassDefFoundError: io/netty/util/concurrent/DefaultPromise$1
+at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:421)
+at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:538)
+at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:527)
+at io.netty.util.concurrent.DefaultPromise.setSuccess(DefaultPromise.java:90)
+at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:963)
+at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.ClassNotFoundException: Illegal access: this web application instance has been stopped already. Could not load [io.netty.util.concurrent.DefaultPromise$1]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1374)
+at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1224)
+at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1185)
+... 8 more
+Caused by: java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [io.netty.util.concurrent.DefaultPromise$1]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1384)
+at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1372)
+... 10 more
+java.lang.NoClassDefFoundError: io/netty/util/concurrent/DefaultPromise$1
+at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:421)
+at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:538)
+at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:527)
+at io.netty.util.concurrent.DefaultPromise.setSuccess(DefaultPromise.java:90)
+at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:963)
+at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+at java.base/java.lang.Thread.run(Thread.java:834)
+java.lang.NoClassDefFoundError: io/netty/util/concurrent/DefaultPromise$1
+at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:421)
+at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:538)
+at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:527)
+at io.netty.util.concurrent.DefaultPromise.setSuccess(DefaultPromise.java:90)
+at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:963)
+at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+at java.base/java.lang.Thread.run(Thread.java:834)
+java.lang.NoClassDefFoundError: io/netty/util/concurrent/DefaultPromise$1
+at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:421)
+at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:538)
+at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:527)
+at io.netty.util.concurrent.DefaultPromise.setSuccess(DefaultPromise.java:90)
+at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:963)
+at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "grpc-nio-worker-ELG-1-6" java.lang.NoClassDefFoundError: io/netty/util/concurrent/DefaultPromise$1
+at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:421)
+at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:538)
+at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:527)
+at io.netty.util.concurrent.DefaultPromise.setSuccess(DefaultPromise.java:90)
+at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:963)
+at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+at java.base/java.lang.Thread.run(Thread.java:834)
+2020-03-28T20:22:08.774L [35m[tomct][0m [INFO ] [                ] [org.apache.coyote.http11.Http11NioProtocol] [org.apache.coyote.AbstractProtocol stop] - Stopping ProtocolHandler ["http-nio-8081"]
+2020-03-28T20:22:08.776L [35m[tomct][0m [INFO ] [                ] [org.apache.coyote.http11.Http11NioProtocol] [org.apache.coyote.AbstractProtocol stop] - Stopping ProtocolHandler ["http-nio-8040"]
+2020-03-28T20:22:08.778L [35m[tomct][0m [INFO ] [                ] [org.apache.coyote.http11.Http11NioProtocol] [org.apache.coyote.AbstractProtocol destroy] - Destroying ProtocolHandler ["http-nio-8081"]
+2020-03-28T20:22:08.779L [35m[tomct][0m [INFO ] [                ] [org.apache.coyote.http11.Http11NioProtocol] [org.apache.coyote.AbstractProtocol destroy] - Destroying ProtocolHandler ["http-nio-8040"]
+2020-03-28T20:22:08.780Z [36m[jfrou][0m [31;1m[ERROR][0m [2925a3f030d1f4ed] [external_topology.go:85       ] [main                ] - failed fetching external topology from Access: Get http://localhost:8040/access/api/v1/topology: read tcp 127.0.0.1:34852->127.0.0.1:8040: read: connection reset by peer
+2020-03-28T20:22:08.881Z [36m[jfrou][0m [31;1m[ERROR][0m [211fa37c732ca78 ] [external_topology.go:85       ] [main                ] - failed fetching external topology from Access: Get http://localhost:8040/access/api/v1/topology: dial tcp 127.0.0.1:8040: connect: connection refused
+2020/03/28 20:22:09 httputil: ReverseProxy read error during body copy: http2: server sent GOAWAY and closed the connection; LastStreamID=823, ErrCode=NO_ERROR, debug="app_requested"
+2020-03-28T20:22:09.460Z [34;1m[jfmd ][0m [31;1m[ERROR][0m [                ] [compatibility_logger.go:28    ] [main                ] - Refreshing affected permissions stream - got an error (status: [Internal]) [access_client]
+2020-03-28T20:22:09.461Z [34;1m[jfmd ][0m [31m[WARN ][0m [                ] [compatibility_logger.go:25    ] [main                ] - Refreshing affected permissions stream - target server is unavailable%!(EXTRA []interface {}=[]) [access_client]
+2020-03-28T20:22:09.472Z [34;1m[jfmd ][0m [31m[WARN ][0m [                ] [compatibility_logger.go:25    ] [main                ] - Refreshing affected permissions stream - target server is unavailable%!(EXTRA []interface {}=[]) [access_client]
+2020-03-28T20:22:09.494Z [34;1m[jfmd ][0m [31m[WARN ][0m [                ] [compatibility_logger.go:25    ] [main                ] - Refreshing affected permissions stream - target server is unavailable%!(EXTRA []interface {}=[]) [access_client]
+2020-03-28T20:22:09.536Z [34;1m[jfmd ][0m [31m[WARN ][0m [                ] [compatibility_logger.go:25    ] [main                ] - Refreshing affected permissions stream - target server is unavailable%!(EXTRA []interface {}=[]) [access_client]
+2020-03-28T20:22:09.622Z [34;1m[jfmd ][0m [31m[WARN ][0m [                ] [compatibility_logger.go:25    ] [main                ] - Refreshing affected permissions stream - target server is unavailable%!(EXTRA []interface {}=[]) [access_client]
+2020-03-28T20:22:09.784Z [34;1m[jfmd ][0m [31m[WARN ][0m [                ] [compatibility_logger.go:25    ] [main                ] - Refreshing affected permissions stream - target server is unavailable%!(EXTRA []interface {}=[]) [access_client]
+2020-03-28T20:22:10.106Z [34;1m[jfmd ][0m [31m[WARN ][0m [                ] [compatibility_logger.go:25    ] [main                ] - Refreshing affected permissions stream - target server is unavailable%!(EXTRA []interface {}=[]) [access_client]
