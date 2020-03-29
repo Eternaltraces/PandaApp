@@ -32,7 +32,7 @@ public class PandaApplicationSeleniumTest {
         //driver = new FirefoxDriver(capabilities);
         // Otwieramy stronę
         // Pamiętaj, że aplikacja Spring musi działać! To znaczy też musi być włączona.
-        driver.get("http://192.168.56.102:8080/");
+        driver.get("http://10.0.2.15:8080/");
         // Wyświetlamy informacje, że udało się otwozyć stronę
         System.out.println("Successfully opened the website");
         //Czekamy 2 sekundy
