@@ -230,7 +230,7 @@ metadata:
   ## Same format as under shared.database. Default embedded database is sqlite
   database:
     ## Max connections to the database the main connection pool can consume
-    #maxOpenConnections: 50
+    #maxOpenConnections: 100
 
   ## Logging Settings
   logging:
