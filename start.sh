@@ -1,3 +1,5 @@
-chown -R 1030:1030 ./volumes/artifactory
+#!/bin/bash
+useradd -u 1030 artifactory
+chown -R artifactory:artifactory ./volumes/artifactory
 cd compose
 docker-compose up -d

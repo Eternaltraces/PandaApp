@@ -10,9 +10,9 @@ services:
     volumes:
     - ../volumes/jenkins:/var/jenkins_home
     networks:
-    - brinet
+    - docker_network
 
-  ubuntuslave:
+  ubuntu_slave:
     depends_on:
       - jenkins
     container_name: ubuntu_compose
@@ -24,7 +24,7 @@ services:
       dockerfile: ./dockerfiles/slave/Dockerfile
     command: java -jar agent.jar -jnlpUrl http://10.0.2.15:8880/computer/Slave/slave-agent.jnlp -secret 8ec537bc63326f12d3a2cf02976d8d15be1fb30bb08ddfee89077524383fd88e -workDir "/home/"
     networks:
-    - brinet
+    - docker_network
 
   artifactory:
     image: docker.bintray.io/jfrog/artifactory-pro:latest
@@ -35,30 +35,29 @@ services:
     - "8081:8081"
     - "8082:8082"
     networks:
-    - brinet
-    command: useradd -u 1030 artifactory
+    - docker_network
     networks:
-    - brinet
+    - docker_network
 
-  seleniumhub:
+  selenium_hub:
     image: selenium/hub
     container_name: selenium-hub_compose
     ports:
     - "4444:4444"
     networks:
-    - brinet
+    - docker_network
 
   firefox:
     image: selenium/node-firefox
     container_name: firefox_compose
     depends_on:
-    - seleniumhub
+    - selenium_hub
     environment:
     - HUB_HOST=selenium-hub_compose
     - HUB_PORT=4444 
     networks:
-    - brinet
+    - docker_network
 
 networks:
-  brinet:
+  docker_network:
     driver: bridge

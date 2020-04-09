@@ -1,9 +1,6 @@
-2020-03-29T11:16:16.188Z [33m[jffe ][39m [34m[INFO ][39m [1m[                ][22m [                              ] [main                ] - frontend (jffe) service initialization started. Version: 1.3.1 Revision: 0.0.0 PID: 2354 Home: /opt/jfrog/artifactory
-2020-03-29T11:18:21.083Z [33m[jffe ][39m [34m[INFO ][39m [1m[                ][22m [                              ] [main                ] - setting service id - jffe@000
-2020-03-29T11:18:21.299Z [33m[jffe ][39m [34m[INFO ][39m [1m[                ][22m [                              ] [main                ] - Cluster join: Successfully joined the cluster
-2020-03-29T11:18:21.392Z [33m[jffe ][39m [34m[INFO ][39m [1m[                ][22m [                              ] [main                ] - UI service successfully registered on router, serviceId: jffe@000
-2020-03-29T11:18:22.674Z [33m[jffe ][39m [34m[INFO ][39m [1m[                ][22m [                              ] [main                ] - Recurring tasks started
-2020-03-29T11:18:23.038Z [33m[jffe ][39m [34m[INFO ][39m [1m[                ][22m [                              ] [main                ] - frontend (jffe) service initialization completed in 126.85 seconds. Listening on port: port 8070
-2020-03-29T11:22:55.799Z [33m[jffe ][39m [31m[1m[ERROR][22m[39m [1m[                ][22m [                              ] [main                ] - Error: fetchAndUpdateAnonAccessEnabled failed with error Request failed with status code 401
-    at PlatformConfiguration.fetchAndUpdateAnonAccessEnabled.catch.e (/opt/jfrog/artifactory/app/frontend/bin/server/dist/webpack:/src/PlatformState/PlatformConfiguration.ts:70:15)
-    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-04-09T10:16:41.417Z [33m[jffe ][39m [34m[INFO ][39m [1m[                ][22m [                              ] [main                ] - frontend (jffe) service initialization started. Version: 1.3.1 Revision: 0.0.0 PID: 2335 Home: /opt/jfrog/artifactory
+2020-04-09T10:18:48.949Z [33m[jffe ][39m [34m[INFO ][39m [1m[                ][22m [                              ] [main                ] - setting service id - jffe@000
+2020-04-09T10:18:49.283Z [33m[jffe ][39m [34m[INFO ][39m [1m[                ][22m [                              ] [main                ] - Cluster join: Successfully joined the cluster
+2020-04-09T10:18:49.493Z [33m[jffe ][39m [34m[INFO ][39m [1m[                ][22m [                              ] [main                ] - UI service successfully registered on router, serviceId: jffe@000
+2020-04-09T10:18:51.821Z [33m[jffe ][39m [34m[INFO ][39m [1m[                ][22m [                              ] [main                ] - Recurring tasks started
+2020-04-09T10:18:52.211Z [33m[jffe ][39m [34m[INFO ][39m [1m[                ][22m [                              ] [main                ] - frontend (jffe) service initialization completed in 130.82 seconds. Listening on port: port 8070
