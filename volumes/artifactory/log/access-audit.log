@@ -851,3 +851,38 @@
 2020-04-14 10:37:14,348 [AUDIT] Token created by 'jffe@000': tokenId='add959cf-6fbe-4247-923a-76e29600e129', issuer='jffe@000', subject='jffe@000/users/admin', expiry=1586861234346, refreshable=false
 2020-04-14 10:37:14,381 [AUDIT] Token created by 'jffe@000': tokenId='4bcc3995-fced-412b-b917-903a5d7eba3a', issuer='jffe@000', subject='jffe@000/users/admin', expiry=1586861234375, refreshable=false
 2020-04-14 10:37:15,425 [AUDIT] Token created by 'jffe@000': tokenId='752ab4f8-67cc-4b64-8b4a-7e0aa896defb', issuer='jffe@000', subject='jffe@000/users/admin', expiry=1586861235418, refreshable=false
+2020-04-14 10:46:50,829 [AUDIT] Token created by 'anonymous': tokenId='8f1d6b61-5ce4-46ab-8ddc-ab102c517956', issuer='jfrou@01e49j78r7vs30xv5qb9mj5w52', subject='jfrou@01e49j78r7vs30xv5qb9mj5w52', expiry=none, refreshable=false
+2020-04-14 10:47:01,390 [AUDIT] Token created by 'anonymous': tokenId='4acec321-dbe5-4c62-8fbb-5d4e6b87b6fe', issuer='jfac@01e49j73ccnr7c17gd5ayt0916', subject='jfac@01e49j73ccnr7c17gd5ayt0916', expiry=1586861341371, refreshable=false
+2020-04-14 10:47:01,606 [AUDIT] Token created by 'anonymous': tokenId='af8514ff-3c57-4ead-8020-0314091b7dd8', issuer='jfmd@01e49j7a9f9sx346488s7y6rc7', subject='jfmd@01e49j7a9f9sx346488s7y6rc7', expiry=none, refreshable=false
+2020-04-14 10:47:02,047 [AUDIT] Token created by 'anonymous': tokenId='87d6992f-d7ba-4e1f-a598-cf05754240da', issuer='jfrt@01e49j7nt5qc6w0satw40506g3', subject='jfrt@01e49j7nt5qc6w0satw40506g3', expiry=none, refreshable=false
+2020-04-14 10:47:05,577 [AUDIT] Token created by 'jfrt@01e49j7nt5qc6w0satw40506g3': tokenId='652a3c83-d38c-448e-b905-511304e8cb17', issuer='jfrt@01e49j7nt5qc6w0satw40506g3', subject='jfrt@01e49j7nt5qc6w0satw40506g3', expiry=2532941225572, refreshable=false
+2020-04-14 10:47:14,888 [AUDIT] Token created by 'anonymous': tokenId='3479e3eb-4de7-42d8-868a-75ab6762fdf7', issuer='jffe@000', subject='jffe@000', expiry=none, refreshable=false
+2020-04-14 10:47:14,952 [AUDIT] Token created by 'jffe@000': tokenId='1a319a5f-5a9b-473b-9fba-75f335e4712e', issuer='jffe@000', subject='jffe@000', expiry=1586861834948, refreshable=false
+2020-04-14 10:47:39,356 [AUDIT] Token created by 'jffe@000': tokenId='988c8549-c699-41c8-b4ca-d9810e5aafa8', issuer='jffe@000', subject='jffe@000/users/anonymous', expiry=1586861859346, refreshable=false
+2020-04-14 10:47:39,572 [AUDIT] Token refreshed by 'jffe@000': oldTokenId='e93bead6-86de-4e4d-a6e8-773536363164', tokenId='81d8ea36-bfab-4d27-862c-59e19f11076f', issuer='jffe@000', subject='admin', expiry=1586863059563, refreshable=true
+2020-04-14 10:47:39,577 [AUDIT] Token refreshed by 'jffe@000': oldTokenId='e93bead6-86de-4e4d-a6e8-773536363164', tokenId='31cbb4bd-bb65-499d-b9ff-b5322402de6d', issuer='jffe@000', subject='admin', expiry=1586863059554, refreshable=true
+2020-04-14 10:47:39,635 [AUDIT] Token created by 'jffe@000': tokenId='594608e5-a2bd-4c4d-a52c-93284d821de9', issuer='jffe@000', subject='jffe@000/users/admin', expiry=1586861859628, refreshable=false
+2020-04-14 10:47:39,667 [AUDIT] Token created by 'jffe@000': tokenId='92326777-320d-456b-a0ea-438ab5e826ec', issuer='jffe@000', subject='jffe@000/users/admin', expiry=1586861859649, refreshable=false
+2020-04-14 10:47:39,688 [AUDIT] Token created by 'jffe@000': tokenId='3263a647-179c-418f-8bff-518b500bc054', issuer='jffe@000', subject='jffe@000/users/admin', expiry=1586861859663, refreshable=false
+2020-04-14 10:47:40,517 [AUDIT] Token created by 'jffe@000': tokenId='bbe3f25b-bf4e-4aa1-b482-789077216d7a', issuer='jffe@000', subject='jffe@000/users/admin', expiry=1586861860511, refreshable=false
+2020-04-14 10:54:29,601 [AUDIT] Token refreshed by 'jffe@000': oldTokenId='31cbb4bd-bb65-499d-b9ff-b5322402de6d', tokenId='265a174e-bc9c-42f2-8b92-08970a84b692', issuer='jffe@000', subject='admin', expiry=1586863469595, refreshable=true
+2020-04-14 10:57:17,480 [AUDIT] Token created by 'jffe@000': tokenId='83a68486-bb81-4777-9091-472add95b662', issuer='jffe@000', subject='jffe@000', expiry=1586862437476, refreshable=false
+2020-04-14 10:57:17,482 [AUDIT] Token created by 'jffe@000': tokenId='b57b2c62-eb09-4256-b80a-c49a5911c231', issuer='jffe@000', subject='jffe@000', expiry=1586862437477, refreshable=false
+2020-04-14 10:57:17,490 [AUDIT] Token created by 'jffe@000': tokenId='2989ab9c-664c-4534-87f0-3b60a660ef58', issuer='jffe@000', subject='jffe@000', expiry=1586862437477, refreshable=false
+2020-04-14 10:57:17,491 [AUDIT] Token created by 'jffe@000': tokenId='29f99b26-b0b3-4169-b4d8-ce098d035f6b', issuer='jffe@000', subject='jffe@000', expiry=1586862437478, refreshable=false
+2020-04-14 10:57:40,971 [AUDIT] Token created by 'jffe@000': tokenId='3d10bfee-d446-4a7a-a264-3df59be8f7a4', issuer='jffe@000', subject='jffe@000/users/admin', expiry=1586862460968, refreshable=false
+2020-04-14 11:07:17,552 [AUDIT] Token created by 'jffe@000': tokenId='5201d611-b0b0-48d0-bddd-cb86fe35d905', issuer='jffe@000', subject='jffe@000', expiry=1586863037539, refreshable=false
+2020-04-14 11:07:17,556 [AUDIT] Token created by 'jffe@000': tokenId='2900f5ca-584e-4551-ba72-5c6056df2e68', issuer='jffe@000', subject='jffe@000', expiry=1586863037543, refreshable=false
+2020-04-14 11:07:17,611 [AUDIT] Token created by 'jffe@000': tokenId='2b6466b0-9d41-4570-8e62-378beb499e5e', issuer='jffe@000', subject='jffe@000', expiry=1586863037554, refreshable=false
+2020-04-14 11:07:17,619 [AUDIT] Token created by 'jffe@000': tokenId='1d8a375e-0bdf-442f-8671-146bbc007e21', issuer='jffe@000', subject='jffe@000', expiry=1586863037599, refreshable=false
+2020-04-14 11:07:41,034 [AUDIT] Token created by 'jffe@000': tokenId='8d615577-77f0-429e-9c3d-71529dd50623', issuer='jffe@000', subject='jffe@000/users/admin', expiry=1586863061033, refreshable=false
+2020-04-14 11:17:17,595 [AUDIT] Token created by 'jffe@000': tokenId='c4b27327-f35a-4d23-9e3e-1cc6b4c308f5', issuer='jffe@000', subject='jffe@000', expiry=1586863637592, refreshable=false
+2020-04-14 11:17:17,602 [AUDIT] Token created by 'jffe@000': tokenId='eeeb0aeb-607f-4e6f-93b4-796d5ad0e584', issuer='jffe@000', subject='jffe@000', expiry=1586863637592, refreshable=false
+2020-04-14 11:17:17,604 [AUDIT] Token created by 'jffe@000': tokenId='95de1ad6-5b13-46fa-b835-b1ce9a72875a', issuer='jffe@000', subject='jffe@000', expiry=1586863637596, refreshable=false
+2020-04-14 11:17:17,609 [AUDIT] Token created by 'jffe@000': tokenId='edaf279e-d3b1-41af-87ce-8cda0b26aa62', issuer='jffe@000', subject='jffe@000', expiry=1586863637597, refreshable=false
+2020-04-14 11:17:41,060 [AUDIT] Token created by 'jffe@000': tokenId='1b4b6aa3-9ddf-46e4-b600-477af6ca3266', issuer='jffe@000', subject='jffe@000/users/admin', expiry=1586863661056, refreshable=false
+2020-04-14 11:25:36,848 [AUDIT] Token created by 'jffe@000': tokenId='2ab95a1e-a1d7-40a1-a105-b648d1dd4073', issuer='jffe@000', subject='jffe@000/users/anonymous', expiry=1586864136841, refreshable=false
+2020-04-14 11:27:17,640 [AUDIT] Token created by 'jffe@000': tokenId='787785b5-412d-429c-95e0-7fef89f1df7c', issuer='jffe@000', subject='jffe@000', expiry=1586864237636, refreshable=false
+2020-04-14 11:27:17,647 [AUDIT] Token created by 'jffe@000': tokenId='ce033f3a-3da7-4432-857a-5296bd6a3eb3', issuer='jffe@000', subject='jffe@000', expiry=1586864237642, refreshable=false
+2020-04-14 11:27:17,656 [AUDIT] Token created by 'jffe@000': tokenId='699fa4fe-74bf-4144-85aa-68ffec3cf2e6', issuer='jffe@000', subject='jffe@000', expiry=1586864237647, refreshable=false
+2020-04-14 11:27:17,667 [AUDIT] Token created by 'jffe@000': tokenId='5bce699f-9437-49a6-ba4e-9849f68ef2cf', issuer='jffe@000', subject='jffe@000', expiry=1586864237648, refreshable=false

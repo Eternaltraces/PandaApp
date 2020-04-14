@@ -1,0 +1,32 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@3.4">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@2.80">
+    <parentIds>
+      <string>51</string>
+    </parentIds>
+    <id>52</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.durable_task.ShellStep</descriptorId>
+  </node>
+  <actions>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.80">
+      <arguments>
+        <entry>
+          <string>script</string>
+          <string>cp target/panda*.jar dockerfiles/pandaapp
+              cd dockerfiles/pandaapp
+              docker build -t pandaapp_${BUILD_NUMBER} .
+              docker run -d -p 0.0.0.0:8080:8080 --name app${BUILD_NUMBER} -t pandaapp_${BUILD_NUMBER}</string>
+        </entry>
+        <entry>
+          <string>label</string>
+          <string></string>
+        </entry>
+      </arguments>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@2.40">
+      <startTime>1586861603307</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogStorageAction/>
+  </actions>
+</Tag>

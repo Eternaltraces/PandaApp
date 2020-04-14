@@ -6,7 +6,7 @@
   <usages>
     <entry>
       <string>Pipeline</string>
-      <ranges>2</ranges>
+      <ranges>2-5</ranges>
     </entry>
     <entry>
       <string>Maven</string>
