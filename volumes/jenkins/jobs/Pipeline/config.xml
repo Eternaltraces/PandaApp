@@ -1,0 +1,90 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@2.37">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@1.6.0"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@1.6.0">
+      <jobProperties/>
+      <triggers/>
+      <parameters/>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2.80">
+    <script>pipeline {
+   agent {
+    label &apos;Slave&apos;
+    }
+
+   tools {
+      // Install the Maven version configured as &quot;M3&quot; and add it to the path.
+      maven &quot;M3&quot;
+   }
+
+   stages {
+      stage(&apos;Get Code&apos;) {
+         steps {
+            // Get some code from a GitHub repository
+            git branch: &apos;feature/pipeline&apos;, credentialsId: &apos;github&apos;, url: &apos;https://github.com/Eternaltraces/PandaApp.git&apos;
+         }
+         }
+      stage(&apos;Build&apos;) {
+         steps {
+            // Run Maven on a Unix agent.
+            sh &quot;mvn -Dmaven.test.failure.ignore=true -Dmaven.test.skip=true clean package&quot;
+
+         }
+         }
+      stage(&quot;Test JUnit&quot;) {
+         steps {
+            // Run Maven on a Unix agent.
+            sh &quot;mvn test&quot;
+
+         }  
+         }
+      stage(&quot;Build and Run App&quot;) {
+          steps {
+              sh label: &apos;&apos;, script: &apos;&apos;&apos;cp target/panda*.jar dockerfiles/pandaapp
+              cd dockerfiles/pandaapp
+              docker build -t pandaapp_${BUILD_NUMBER} .
+              docker run -d -p 0.0.0.0:8080:8080 --name app${BUILD_NUMBER} -t pandaapp_${BUILD_NUMBER}&apos;&apos;&apos;
+          }
+          }
+      stage(&quot;Test Selenium&quot;) {
+          steps {
+              sh &quot;mvn test -Pselenium&quot;
+          }
+          }
+        stage(&quot;Close App&quot;) {
+          steps {
+              sh label: &apos;&apos;, script: &apos;&apos;&apos;docker stop app${BUILD_NUMBER}&apos;&apos;&apos;
+          } 
+          }
+        stage(&quot;Deploy to artifactory&quot;) {
+          steps {
+              configFileProvider([configFile(fileId: &apos;9d1ed313-ea70-4fa9-9934-7108c53eca75&apos;, variable: &apos;MAVEN_GLOBAL_SETTINGS&apos;)]) {
+              sh &apos;mvn -gs $MAVEN_GLOBAL_SETTINGS deploy -Dmaven.test.skip=true&apos;
+                }
+          } 
+         post {
+            // If Maven was able to run the tests, even if some of the test
+            // failed, record the test results and archive the jar file.
+            success {
+               junit &apos;**/target/surefire-reports/TEST-*.xml&apos;
+            cleanup { 
+               deleteDir()
+                    }
+            }
+         }
+      }
+    }
+}
+
+</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

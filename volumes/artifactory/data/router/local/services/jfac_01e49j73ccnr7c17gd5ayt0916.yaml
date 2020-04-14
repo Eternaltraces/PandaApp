@@ -12,5 +12,5 @@ endpoints:
 healthcheckendpoint:
   path: /access/api/v1/system/ping
   port: 8040
-nodeid: 474147ba9440
+nodeid: cb11e36b4e38
 serviceid: jfac@01e49j73ccnr7c17gd5ayt0916

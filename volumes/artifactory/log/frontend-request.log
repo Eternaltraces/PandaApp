@@ -1,0 +1,55 @@
+2020-04-14T10:37:07.080Z|4edf0c0af68677de|::ffff:127.0.0.1|anonymous|GET|/api/v1/ui/auth/screen/footer|200|162|-|332.254|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0
+2020-04-14T10:37:07.244Z|231c9255d2414e64|::ffff:127.0.0.1|anonymous|POST|/api/v1/ui/auth/loginRelatedData|200|45|17|469.515|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0
+2020-04-14T10:37:07.412Z|7ddff3aeb43d4511|::ffff:127.0.0.1|anonymous|GET|/api/v1/ui/auth/current|200|477|-|646.810|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0
+2020-04-14T10:37:07.500Z|2b26cbb5145281eb|::ffff:127.0.0.1|anonymous|GET|/api/v1/system/status/nodes|200|425|-|29.704|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0
+2020-04-14T10:37:08.228Z|647c601a441b9bc2|::ffff:127.0.0.1|anonymous|GET|/api/v1/ui/artifactsearch/pkg/availablePackages|401|12|-|713.340|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0
+2020-04-14T10:37:08.242Z|1e400b21da1d94c3|::ffff:127.0.0.1|anonymous|GET|/api/v1/auth/issaml|200|5|-|1.395|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0
+2020-04-14T10:37:08.270Z|1da1c01d8e9575aa|::ffff:127.0.0.1|anonymous|POST|/api/v1/ui/auth/logout|200|0|0|22.737|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0
+2020-04-14T10:37:08.319Z|20e535e6b6260143|::ffff:127.0.0.1|anonymous|GET|/api/v1/ui/auth/current|200|477|-|44.186|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0
+2020-04-14T10:37:08.667Z|1785fbfe89a8333b|::ffff:127.0.0.1|anonymous|POST|/api/v1/ui/auth/loginRelatedData|200|45|17|35.430|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0
+2020-04-14T10:37:08.713Z|22aa76fc8f341e23|::ffff:127.0.0.1|anonymous|GET|/api/v1/ui/oauth2/loginRequestPlatform|200|0|-|47.103|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0
+2020-04-14T10:37:08.780Z|5ba81db1651a1348|::ffff:127.0.0.1|anonymous|GET|/api/v1/ui/auth/screen/footer|200|162|-|115.053|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0
+2020-04-14T10:37:09.452Z|6fa4a62d7d1adac9|::ffff:127.0.0.1|anonymous|GET|/api/v1/ui/treebrowser/repoOrder|401|12|-|1.782|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0
+2020-04-14T10:37:09.600Z|7daf0aa026ed2ab4|::ffff:127.0.0.1|anonymous|GET|/api/v1/ui/auth/current|200|477|-|92.791|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0
+2020-04-14T10:37:14.213Z|eb5c80f135aefd8 |::ffff:127.0.0.1|anonymous|POST|/api/v1/ui/auth/login?_spring_security_remember_me=false|200|423|54|477.333|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0
+2020-04-14T10:37:14.520Z|232479c4513aca32|::ffff:127.0.0.1|admin|GET|/api/v1/ui/auth/screen/systemMessages|200|307|-|167.450|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0
+2020-04-14T10:37:14.560Z|60c1622e0732b972|::ffff:127.0.0.1|admin|GET|/api/v1/system/onboarding|200|178|-|226.794|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0
+2020-04-14T10:37:14.712Z|21d8ae88c49cf91c|::ffff:127.0.0.1|admin|GET|/api/v1/ui/auth/screen/footer|200|815|-|50.674|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0
+2020-04-14T10:37:14.725Z|41b929c18c5e475b|::ffff:127.0.0.1|anonymous|POST|/api/v1/ui/auth/loginRelatedData|200|45|17|53.030|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0
+2020-04-14T10:37:14.743Z|594316faeb49cc71|::ffff:127.0.0.1|admin|GET|/api/v1/ui/auth/current|200|449|-|66.879|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0
+2020-04-14T10:37:15.056Z|5b37721d0d146932|::ffff:127.0.0.1|anonymous|GET|/api/v1/system/status/nodes|200|425|-|46.091|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0
+2020-04-14T10:37:15.077Z|7e06501629a65f52|::ffff:127.0.0.1|admin|GET|/api/v1/system/onboarding|200|178|-|70.576|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0
+2020-04-14T10:37:15.148Z|7c710c735039ce93|::ffff:127.0.0.1|admin|GET|/api/v1/ui/artifactsearch/pkg/availablePackages|200|-|-|41.144|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0
+2020-04-14T10:37:15.204Z|33c7702f8c006f65|::ffff:127.0.0.1|admin|GET|/api/v1/ui/repodata?packageSearch=true|200|430|-|50.671|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0
+2020-04-14T10:37:15.361Z|c329cb8dcad72e7 |::ffff:127.0.0.1|admin|GET|/api/v1/ui/home/widget/artifactCount|200|69|-|42.189|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0
+2020-04-14T10:37:15.473Z|8b17bb11b06969e |::ffff:127.0.0.1|admin|POST|/api/v1/mds/packages?jfLoader=true|200|304|242|68.643|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0
+2020-04-14T10:37:39.359Z|23b7c1a53156f13d|::ffff:127.0.0.1|admin|GET|/api/v1/ui/auth/screen/systemMessages|200|307|-|24.920|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0
+2020-04-14T10:38:04.384Z|7917a537682ff909|::ffff:127.0.0.1|admin|GET|/api/v1/ui/auth/screen/systemMessages|200|307|-|45.837|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0
+2020-04-14T10:38:29.387Z|16e90ae7fa538da8|::ffff:127.0.0.1|admin|GET|/api/v1/ui/auth/screen/systemMessages|200|307|-|49.484|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0
+2020-04-14T10:38:54.364Z|34328c57ddef301b|::ffff:127.0.0.1|admin|GET|/api/v1/ui/auth/screen/systemMessages|200|307|-|21.708|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0
+2020-04-14T10:39:19.365Z|7b836e8960b5b37 |::ffff:127.0.0.1|admin|GET|/api/v1/ui/auth/screen/systemMessages|200|307|-|21.742|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0
+2020-04-14T10:39:29.387Z|3be8143c7f606efe|::ffff:127.0.0.1|anonymous|GET|/api/v1/ui/auth/screen/footer|200|162|-|43.362|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0
+2020-04-14T10:39:29.398Z|7271de256ae68436|::ffff:127.0.0.1|anonymous|POST|/api/v1/ui/auth/loginRelatedData|200|45|17|22.035|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0
+2020-04-14T10:39:29.439Z|123728d26fd89c1b|::ffff:127.0.0.1|anonymous|GET|/api/v1/ui/auth/current|200|477|-|58.828|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0
+2020-04-14T10:39:29.459Z|b19a235ce81b532 |::ffff:127.0.0.1|anonymous|GET|/api/v1/system/status/nodes|200|425|-|14.809|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0
+2020-04-14T10:39:29.468Z|dd3e98d2cc34d8b |::ffff:127.0.0.1|anonymous|GET|/api/v1/ui/artifactsearch/pkg/availablePackages|401|12|-|2.666|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0
+2020-04-14T10:39:29.484Z|3ce20e2aedb977e3|::ffff:127.0.0.1|anonymous|GET|/api/v1/auth/issaml|200|5|-|0.808|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0
+2020-04-14T10:39:29.495Z|ac12a7de947049f |::ffff:127.0.0.1|anonymous|POST|/api/v1/ui/auth/logout|200|0|0|5.993|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0
+2020-04-14T10:39:29.527Z|10d4b4987275a440|::ffff:127.0.0.1|anonymous|GET|/api/v1/ui/auth/current|200|477|-|27.620|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0
+2020-04-14T10:39:29.784Z|62eb503ff03b1a45|::ffff:127.0.0.1|anonymous|POST|/api/v1/ui/auth/loginRelatedData|200|45|17|7.632|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0
+2020-04-14T10:39:29.842Z|17b1c17f8baadbae|::ffff:127.0.0.1|anonymous|GET|/api/v1/ui/auth/screen/footer|200|162|-|52.525|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0
+2020-04-14T10:39:29.843Z|1cda67f2230a1095|::ffff:127.0.0.1|anonymous|GET|/api/v1/ui/oauth2/loginRequestPlatform|200|0|-|56.772|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0
+2020-04-14T10:39:30.907Z|3ae633ffdb7ef419|::ffff:127.0.0.1|anonymous|GET|/api/v1/ui/treebrowser/repoOrder|401|12|-|1.382|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0
+2020-04-14T10:39:30.975Z|326b816acb4393a5|::ffff:127.0.0.1|anonymous|GET|/api/v1/ui/auth/current|200|477|-|44.101|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0
+2020-04-14T10:39:44.376Z|69249da39595c024|::ffff:127.0.0.1|admin|GET|/api/v1/ui/auth/screen/systemMessages|200|307|-|30.691|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0
+2020-04-14T10:40:09.382Z|6fbcf88741264eb1|::ffff:127.0.0.1|admin|GET|/api/v1/ui/auth/screen/systemMessages|200|307|-|35.360|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0
+2020-04-14T10:40:34.367Z|6ff89af327ea4537|::ffff:127.0.0.1|admin|GET|/api/v1/ui/auth/screen/systemMessages|200|307|-|17.231|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0
+2020-04-14T10:40:59.375Z|372538f29eeb091 |::ffff:127.0.0.1|admin|GET|/api/v1/ui/auth/screen/systemMessages|200|307|-|25.280|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0
+2020-04-14T10:41:24.371Z|18164d4638489716|::ffff:127.0.0.1|admin|GET|/api/v1/ui/auth/screen/systemMessages|200|307|-|19.584|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0
+2020-04-14T10:41:49.375Z|6c09f6e057680a17|::ffff:127.0.0.1|admin|GET|/api/v1/ui/auth/screen/systemMessages|200|307|-|16.757|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0
+2020-04-14T10:42:14.388Z|3616a33802452d81|::ffff:127.0.0.1|admin|GET|/api/v1/ui/auth/screen/systemMessages|200|307|-|29.030|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0
+2020-04-14T10:42:39.378Z|21d56bee80538598|::ffff:127.0.0.1|admin|GET|/api/v1/ui/auth/screen/systemMessages|200|307|-|16.158|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0
+2020-04-14T10:43:04.379Z|71472df92eed97a7|::ffff:127.0.0.1|admin|GET|/api/v1/ui/auth/screen/systemMessages|200|307|-|19.310|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0
+2020-04-14T10:43:29.384Z|4b956d47bbee159c|::ffff:127.0.0.1|admin|GET|/api/v1/ui/auth/screen/systemMessages|200|307|-|25.003|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0
+2020-04-14T10:43:54.376Z|b7a72ee3fc3ec1d |::ffff:127.0.0.1|admin|GET|/api/v1/ui/auth/screen/systemMessages|200|307|-|15.986|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0
+2020-04-14T10:44:19.379Z|28e36326dca04e5d|::ffff:127.0.0.1|admin|GET|/api/v1/ui/auth/screen/systemMessages|200|307|-|16.207|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0
