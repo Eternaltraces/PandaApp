@@ -12,7 +12,7 @@ pipeline {
       stage('Get Code') {
          steps {
             // Get some code from a GitHub repository
-            git branch: "$BRANCH_NAME", credentialsId: 'github', url: 'https://github.com/Eternaltraces/PandaApp.git'
+            checkout scm
          }
       }
 
