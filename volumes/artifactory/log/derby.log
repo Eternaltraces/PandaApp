@@ -1,7 +1,7 @@
 ----------------------------------------------------------------
-Tue Apr 14 10:46:16 GMT 2020:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0171-784b-f5e5-000015755fa0 
-on database directory /var/opt/jfrog/artifactory/data/artifactory/derby with class loader java.net.URLClassLoader@1d16f93d 
+Wed Apr 15 18:24:56 GMT 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0171-7f16-3de4-000014522970 
+on database directory /var/opt/jfrog/artifactory/data/artifactory/derby with class loader java.net.URLClassLoader@6325a3ee 
 Loaded from file:/opt/jfrog/artifactory/app/artifactory/tomcat/lib/derby-10.14.2.0.jar
 java.vendor=AdoptOpenJDK
 java.runtime.version=11.0.2+9
@@ -13,9 +13,9 @@ derby.system.home=null
 derby.stream.error.file=/opt/jfrog/artifactory/var/log/derby.log
 Database Class Loader started - derby.database.classpath=''
 ----------------------------------------------------------------
-Tue Apr 14 10:46:24 GMT 2020:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 20e1c02b-0171-784b-f5e5-000015755fa0 
-on database directory /var/opt/jfrog/artifactory/data/access/derby with class loader java.net.URLClassLoader@1d16f93d 
+Wed Apr 15 18:25:09 GMT 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 20e1c02b-0171-7f16-3de4-000014522970 
+on database directory /var/opt/jfrog/artifactory/data/access/derby with class loader java.net.URLClassLoader@6325a3ee 
 Loaded from file:/opt/jfrog/artifactory/app/artifactory/tomcat/lib/derby-10.14.2.0.jar
 java.vendor=AdoptOpenJDK
 java.runtime.version=11.0.2+9
@@ -26,8 +26,8 @@ os.version=5.3.0-46-generic
 derby.system.home=null
 derby.stream.error.file=/opt/jfrog/artifactory/var/data/access/derbyderby.log
 Database Class Loader started - derby.database.classpath=''
-Tue Apr 14 10:46:37 GMT 2020 Thread[localhost-startStop-2,5,main] (XID = 171286), (SESSIONID = 1), (DATABASE = /opt/jfrog/artifactory/var/data/access/derby), (DRDAID = null), Cleanup action starting
-Tue Apr 14 10:46:37 GMT 2020 Thread[localhost-startStop-2,5,main] (XID = 171286), (SESSIONID = 1), (DATABASE = /opt/jfrog/artifactory/var/data/access/derby), (DRDAID = null), Failed Statement is: INSERT INTO access_configs (config_name, modified, data) VALUES (?, ?, ?) with 3 parameters begin parameter #1: shared.security.joinKey :end parameter begin parameter #2: 1586861197005 :end parameter begin parameter #3: BLOB:Length=93 :end parameter 
+Wed Apr 15 18:25:34 GMT 2020 Thread[localhost-startStop-2,5,main] (XID = 176955), (SESSIONID = 1), (DATABASE = /opt/jfrog/artifactory/var/data/access/derby), (DRDAID = null), Cleanup action starting
+Wed Apr 15 18:25:34 GMT 2020 Thread[localhost-startStop-2,5,main] (XID = 176955), (SESSIONID = 1), (DATABASE = /opt/jfrog/artifactory/var/data/access/derby), (DRDAID = null), Failed Statement is: INSERT INTO access_configs (config_name, modified, data) VALUES (?, ?, ?) with 3 parameters begin parameter #1: shared.security.joinKey :end parameter begin parameter #2: 1586975134732 :end parameter begin parameter #3: BLOB:Length=93 :end parameter 
 ERROR 23505: The statement was aborted because it would have caused a duplicate key value in a unique or primary key constraint or unique index identified by 'ACCESS_CONFIGS_PK' defined on 'ACCESS_CONFIGS'.
 	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
 	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
@@ -49,7 +49,7 @@ ERROR 23505: The statement was aborted because it would have caused a duplicate 
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.apache.tomcat.jdbc.pool.StatementFacade$StatementProxy.invoke(StatementFacade.java:114)
-	at com.sun.proxy.$Proxy94.executeUpdate(Unknown Source)
+	at com.sun.proxy.$Proxy93.executeUpdate(Unknown Source)
 	at org.jfrog.storage.JdbcHelper.executeUpdate(JdbcHelper.java:229)
 	at org.jfrog.access.server.db.util.AccessJdbcHelperImpl.executeUpdate(AccessJdbcHelperImpl.java:104)
 	at org.jfrog.access.server.db.dao.AccessConfigsDao.createConfig(AccessConfigsDao.java:59)
@@ -60,7 +60,7 @@ ERROR 23505: The statement was aborted because it would have caused a duplicate 
 	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
-	at org.jfrog.access.server.db.dao.AccessConfigsDao$$EnhancerBySpringCGLIB$$f324624c.createConfig(<generated>)
+	at org.jfrog.access.server.db.dao.AccessConfigsDao$$EnhancerBySpringCGLIB$$f56de8b2.createConfig(<generated>)
 	at org.jfrog.access.server.startup.JoinKeyAccess.saveJoinKeyToDb(JoinKeyAccess.java:179)
 	at org.jfrog.access.server.startup.JoinKeyAccess.saveJoinKey(JoinKeyAccess.java:85)
 	at org.jfrog.access.server.startup.JoinKeyAccess.resolveJoinKey(JoinKeyAccess.java:79)

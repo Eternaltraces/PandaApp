@@ -20,9 +20,8 @@ services:
     - ../volumes/ubuntu:/home
     - /var/run/docker.sock:/var/run/docker.sock
     build:
-      context: .. 
-      dockerfile: ./dockerfiles/slave/Dockerfile
-    command: java -jar agent.jar -jnlpUrl http://10.0.2.15:8880/computer/Slave/slave-agent.jnlp -secret 8ec537bc63326f12d3a2cf02976d8d15be1fb30bb08ddfee89077524383fd88e -workDir "/home/"
+      context: ../dockerfiles/slave/
+    command: java -jar agent.jar -jnlpUrl http://jenkins_compose:8080/computer/Slave/slave-agent.jnlp -secret 8ec537bc63326f12d3a2cf02976d8d15be1fb30bb08ddfee89077524383fd88e -workDir "/home/"
     networks:
     - docker_network
 
