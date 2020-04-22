@@ -4,7 +4,7 @@
 #
 # To change the configuration in an Access service, follow these instructions:
 # 1. Find the value you want to update
-# 2. Set the value in the access.config.latest.yml file under [access-home]/etc
+# 2. Set the value in the access.config.latest.yml file under [$JFROG_HOME]/artifactory/var/etc/access
 # 3. Change access.config.latest.yml to access.config.import.yml
 # 4. Restart Access
 ---
@@ -25,7 +25,7 @@ security:
   password-strength: 8      # bcrypt password strength. A higher value means better security, but password verification will be slower
   local-interfaces-expire-in-seconds: 600 # number of seconds for which local server ips should be cached for users’ allowed-ips
   encryption-enabled: true  # specifies if users’ custom data encryption is allowed
-  tls: false #if tls is set up
+  tls: false # When set to true, JFrog Access will act as the Certificate Authority (CA) and sign the TLS certificates used by all the different JFrog Platform nodes. This ensures that the node to node communication is done over TLS.
   topology-stale-millis: 30000  # The time passed from the last heartbeat of any of the micro-services in the topology, before it is considered stale
 token:
   refresh-expiry: 86400  # grace period (seconds) during which an expired token can still be refreshed
@@ -76,7 +76,8 @@ federation:
     number-of-retries: 3               # maximum number of retries
     backoff-max-delay-millis: 10000    # maximum time between successive retries regardless of other settings
     delay-on-error-millis: 300000      # time to wait (ms) after an error occurred
-    socket-timeout-millis: 5000        # time to wait (ms) before giving up on executing a REST call on another server
+    socket-timeout-millis: 30000       # time to wait (ms) before giving up on executing a REST call on another server
+    connect-timeout-millis: 10000       # time to wait (ms) before giving up on connecting to another server
     delete-stale-events-factor: 2.0    # how much to multiply consider-stale-hours before deleting any federation events, even if not sent
     servers:
       - name: hello-1                    # the name of the target server

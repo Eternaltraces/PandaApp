@@ -1,4 +1,4 @@
-Inbound agent connected from 172.18.0.1/172.18.0.1:49612
+Inbound agent connected from ubuntu_compose.compose_docker_network/172.18.0.5:40758
 Remoting version: 3.36.1
 This is a Unix agent
 Agent successfully connected and online

@@ -29,7 +29,7 @@
         syntax - The UI highlighter syntax to for this mime type (only relevant if this is a viewable type)
         css - The css class of a display icon for this mime type
 -->
-<mimetypes version="12">
+<mimetypes version="13">
 
     <mimetype type="text/plain" extensions="txt, properties, mf, asc, log, yml, yaml" viewable="true" syntax="plain"/>
     <mimetype type="text/html" extensions="htm, html" viewable="true" syntax="xml"/>
@@ -56,6 +56,7 @@
     <mimetype type="application/x-bzip2" extensions="bz2, tar.bz2" archive="true" index="false"/>
     <mimetype type="application/x-7z-compressed" extensions="7z" archive="true" index="false"/>
     <mimetype type="application/x-nupkg" extensions="nupkg" archive="true" index="true" css="nupkg"/>
+    <mimetype type="application/x-conda" extensions="conda" archive="true" index="true" css="conda"/>
     <mimetype type="application/x-rar-compressed" extensions="rar" archive="false" css="jar"/>
     <mimetype type="application/vnd.android.package-archive" extensions="apk" archive="true" index="true" css="apk"/>
     <mimetype type="application/x-rpm" extensions="rpm" css="rpm"/>

@@ -13,6 +13,9 @@ configVersion: 1
 ## SHARED CONFIGURATIONS
 ## A shared section for keys across all services in this config
 shared:
+    ## Extra Java options to pass to the JVM. These values add to or override the defaults.
+    extraJavaOpts: "-Xms512m -Xmx2g"
+
     ## Security Configuration
     security: 
     ## Join key value for joining the cluster (takes precedence over 'joinKeyFile')
@@ -30,12 +33,13 @@ shared:
 
     ## Node Settings
     node: 
+
     ## A unique id to identify this node.
     ## Default: auto generated at startup.
-    #id: "art1"
+    id: "localhost"
 
     ## Default: auto resolved by startup script
-    #ip:
+    ip: "127.0.0.1"
 
     ## Sets this node as primary in HA installation
     #primary: true

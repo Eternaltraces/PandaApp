@@ -139,8 +139,42 @@ artifactory:
     ## Artifactory connector settings
     connector:
       #maxThreads: 200
-      ## Extra configuration to add to the Artifactory connector
+      ## An extra configuration to add to the Artifactory connector
       #extraConfig: ""
+
+    maintenanceConnector:
+      ## This port is dedicated for the maintenance requests
+      ## Currently, it is going to be used by Router to issue a health check requests
+      #port: 8091
+
+      #maxThreads: 5
+      #acceptCount: 5
+
+      ## An extra configuration to add to the maintenance connector
+      #extraConfig: ""
+
+    ## Set up an HTTPS connector for artifactory. This opens a port 
+    ## in addition to the default HTTP connector. All relevant 
+    ## properties configured for the HTTP connector are applied also
+    ## for this connector (e.g. "maxThreads")
+    httpsConnector:
+      ## Enable connector with SSL/TLS
+      #enabled: false
+
+      ## Port to use for the HTTPS connector
+      #port: 8443
+
+      ## Certificate file to use
+      #certificateFile: "$JFROG_HOME/artifactory/var/etc/artifactory/security/ssl/server.crt"
+
+      ## Certificate key file to use.
+      #certificateKeyFile: "$JFROG_HOME/artifactory/var/etc/artifactory/security/ssl/server.key"
+   
+      ## Extra configuration for the HTTPS connector.
+      ## Example: 
+      ## extraConfig: "SSLProtocol='TLSv1+TLSv1.1+TLSv1.2'"
+      #extraConfig: ""
+
 
   ## Add any custom environment variables to be passed to this service
   ## Environment variables starting with JF_ are not allowed, will be ignored with a warning if it is added
@@ -243,9 +277,9 @@ metadata:
 
       ## Specific internal packages to set with a different log level
       packages:
-        #- name: common
+        #common:
         #  level: debug
-        #- name: daos
+        #daos:
         #  level: warning
 
       ## Log rotation settings

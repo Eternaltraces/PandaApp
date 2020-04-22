@@ -26,7 +26,7 @@ services:
     - docker_network
 
   artifactory:
-    image: docker.bintray.io/jfrog/artifactory-pro:latest
+    image: docker.bintray.io/jfrog/artifactory-oss:latest
     container_name: artifactory_compose
     volumes:
     - ../volumes/artifactory:/var/opt/jfrog/artifactory

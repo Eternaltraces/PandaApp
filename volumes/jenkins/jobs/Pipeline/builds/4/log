@@ -1,393 +1,0 @@
-Started by user [8mha:////4Os3Qum0k+v+iwxPaVjsTCgaIyY3nj4o66pD3+L3infTAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9gsS8lEQACjKVYMAAAAA=[0mpanda
-Running in Durability level: MAX_SURVIVABILITY
-[8mha:////4ODiEuCyIut2QswhXgoIJfOdYTg849IhXQ5fPJA+abA5AAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
-[8mha:////4CxujMsRXWMlMZ1ELyl26SPKcDYbuJYSilY+xjeKD9mnAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
-Running on [8mha:////4BLlbWiKRwNhdSEDtrT0xMKhE1d83F8DPHIzNfFK4d7dAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgYB/eT83ILSktQi/eCcxLJUfQCng2qgxQAAAA==[0mSlave in /home/workspace/Pipeline
-[8mha:////4PAioQ1JRQNk1UvMiLv/P8RwGp5+G1PGC5ROSdXUWgQwAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
-[8mha:////4G/QVPz9Pu+5xIWMKBdoFLyrO1OZSMaqzW/unu5P6tTFAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
-[8mha:////4JVFzyQ89epmfgylrs2GKgBLVyexzLBsPeGD9IAN3uwqAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Tool Install)
-[8mha:////4I5S0LzrayKH/Pn/frfEBazTb+buJ99l/73odhZBSqs9AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] tool
-[8mha:////4GnkoVFrHMAeuRKYe7WDEzWp9S0vQmsRXxDWCwkpD9RBAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI4F2L72ED8v8DEJvAAAAA==[0m[Pipeline] envVarsForTool
-[8mha:////4Kopt//qcdNqGvIWGuHLZMs+HqvCxzmBBcB4sVYYRzWcAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbmRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j/zqggXvAAAAA==[0m[Pipeline] }
-[8mha:////4NJK/WXffQdYLERlhu3iNtuDhh6WjerjZ2Xz5TkT6a+ZAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiJoYeVY2WZoPEGEGAOZXUwWofJEXs07yMiMlb/67zXv9cYyRRw5OtVYaj2lyqsu9G56auDYXgMPquGLqpgSB6tKO5Rc29OMJYvFvCzHQmNlqQqcPDnBWjfmYYpgyBVniZM7aOS+vuOJTE9lMVG+MEZsbn2dmH6dvwGMXSfId1tBtv8AExtCpb0AAAA=[0m[Pipeline] // stage
-[8mha:////4Oz9CCluH6GWq6NYaO54zRmBiKhh9Y5VKgF3KuoMnjYhAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BKWgpeYSjSHSIitZywwtMbIwT6y7YF5KKF/E1/oAhEhVb7ay0mucLqhThQNGJzmLvMbVeDGF0uYmJYn8JNImOzqIlTBSsUHZSZOxxQUVsYUlRwkrC2mIbKHl0DBvZ6buug0ZXnzjmbS+h9OYGDyhkNrOO/IU5wvY6mkT48/wVwDwwFDuGsmk+x+oNEzd2msEAAAA=[0m[Pipeline] withEnv
-[8mha:////4LSrdjZZdBb+U/yBpwMdq7AU7LPGdTTWRkELDleRgjB+AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] {
-[8mha:////4KMN6Mjjq25f+4Pwp84FwmnwumzU8dugKCA+FpMaxH22AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] stage
-[8mha:////4OuJIr8iF/CqnaThxj+qNdVl11w+oIbKnL2M6F1vM0HOAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] { (Get Code)
-[8mha:////4NBLrjJ8LDyuh3fFMm6BmFMX811Ob6bpU/NmbJQj0RyfAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN8W7Eii+AAAA[0m[Pipeline] tool
-[8mha:////4LKPt/kKgCFdhSx66T2++C7x00jwuWIAwmC6343d+QiUAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAEG6D8DvgAAAA==[0m[Pipeline] envVarsForTool
-[8mha:////4GMigGCNvbPEqDS/mwcETdgyEf++PV8tatuQCZXJIigrAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSEgMiKlrlIUThCaEtNH/5SelnTgRV+MOtFRiwoNlW7Le6w1FZDgRO9FYbD3G2osu9G5KYiBur4EG0dBF1ISRghXKDoqMrZaqKFlYlOWwkrC2WAeKHl2CjWz0Q5dBoyvPiaftKCH35g5PyORETprTt4wM21tvIuGP8xcAY5cg3+1nO8zP4gOeMTC6wgAAAA==[0m[Pipeline] withEnv
-[8mha:////4H88fh0KvwsWG6n4rORuksXhvUeQl2P8wCoGtz4vdSTBAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] {
-[8mha:////4MlYXkuAyQQraR18tD3msUny5d9ytldfH0Dp6DzXMetrAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiOhCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBr2eB0O+AAAA[0m[Pipeline] git
-using credential github
-Fetching changes from the remote Git repository
- > git rev-parse --is-inside-work-tree # timeout=10
- > git config remote.origin.url https://github.com/Eternaltraces/PandaApp.git # timeout=10
-Fetching upstream changes from https://github.com/Eternaltraces/PandaApp.git
- > git --version # timeout=10
-using GIT_ASKPASS to set credentials githubpass
- > git fetch --tags --force --progress -- https://github.com/Eternaltraces/PandaApp.git +refs/heads/*:refs/remotes/origin/* # timeout=10
-Checking out Revision 4e3509ea4689934575a8471ff9b1e023d2ddba20 (refs/remotes/origin/feature/pipeline)
-Commit message: "init commit"
- > git rev-parse refs/remotes/origin/feature/pipeline^{commit} # timeout=10
- > git rev-parse refs/remotes/origin/origin/feature/pipeline^{commit} # timeout=10
- > git config core.sparsecheckout # timeout=10
- > git checkout -f 4e3509ea4689934575a8471ff9b1e023d2ddba20 # timeout=10
- > git branch -a -v --no-abbrev # timeout=10
- > git branch -D feature/pipeline # timeout=10
- > git checkout -b feature/pipeline 4e3509ea4689934575a8471ff9b1e023d2ddba20 # timeout=10
- > git rev-list --no-walk 4e3509ea4689934575a8471ff9b1e023d2ddba20 # timeout=10
-[8mha:////4MoQgtIsiXRqHY6VU15N4VG2ZT6uWS8xoRiNHVnFghhzAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICVEgoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AEWNdkpvgAAAA==[0m[Pipeline] }
-[8mha:////4G6AeWsgRJDCnimDT2UcGUU7wGZi5l5Om5LM60lsxfPFAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0FAgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AEi+zpyvgAAAA==[0m[Pipeline] // withEnv
-[8mha:////4LduUdW+MAVuQ0mWYJj/1+DjBmxADQoJqtzH5yOeo7/AAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRER2iSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BGVd59ofPjbYp22+AAAA[0m[Pipeline] }
-[8mha:////4JdQg+nKOxFnxAI1YikKkstTYmF9bXtOm4KRK89PlnxcAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiSImo0lppeIGJjXFi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTDYaxosxc6id6PJCycOw9XxhD1fsGOK7DS2empZ6WbBlpOGJUUJKwEbTZ3jaMkk2IpePmTlJJnqnEL+jgJKq+7whEJkc5IhfWEOsLuNKjL9PH8FMHufoDzUufb1BzCenzi+AAAA[0m[Pipeline] // stage
-[8mha:////4J/A6N2mc/0z9bg3ZgfM8/Z6ceJL+gWCUMdF3P67HRrLAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUVGyIqWuUhROEJIS00f8lSWknTsTVuAOBSkx4sGxL1nu+oIoBjhQs6wz2DqNybPCjzYlNFPqLp4l1dGaKMJI3TJhJkDbtUgUlA4uKElYc1gaVp+jQJtjwTt5l7SXa+pRC3g4cSqdv8ICCZ3KSIX3LHGB7HXUk/HH+AmAeEpS7Jluz/zyrN+6T+eXCAAAA[0m[Pipeline] stage
-[8mha:////4MeJ8UQBAVNdBaHtQtU19xpnPrI/S7z8Xy72RKW6Z13ZAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQjAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/hYjrHCAAAA[0m[Pipeline] { (Build)
-[8mha:////4JWSngLMeWXUWopCAa+85zs6qJaWjuJYY+bOwWnQrmenAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUGDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAEIWoEpvgAAAA==[0m[Pipeline] tool
-[8mha:////4Nqv1hiOwMon31MDqGQEgUZWJADANjxcNDtszGKtYtQNAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISEKRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpTb3af24Q1Ja5owvgAAAA==[0m[Pipeline] envVarsForTool
-[8mha:////4KEDwXD7PtSbrsgb5XC7uwG9XYNv+oodLKeBMWnaD0/UAAAAqB+LCAAAAAAAAP9tjUEKwjAURH8rXbh16SFSEARBXHUbsvEEsYkxbfi//qS2K0/k1byDrQVXzmKYGRje6w1FZDgRO9FYbD3G2osu9G5KYiBur4EG0dBF1ISRghXKDoqMrZaqKFlYlOWwkrC2WAeKHl2CjWz0Q5dBoyvPiaftKCH35g5PyORETprTt4wM21tvIuGP8xcAY5cg3+1nO8zP4gPmlJ7MwgAAAA==[0m[Pipeline] withEnv
-[8mha:////4Mjlg98ZkM8H0VatKyAuY8oVhbHSxa6y6vuphJpsVPTwAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgIhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0QKVszCAAAA[0m[Pipeline] {
-[8mha:////4K/kOX/0tqrCutO4Y1v4kVtOPZ9nxq4ErgpQp6bhiDE8AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AHN/bm5vgAAAA==[0m[Pipeline] sh
-+ mvn -Dmaven.test.failure.ignore=true -Dmaven.test.skip=true clean package
-[INFO] Scanning for projects...
-[INFO] 
-[INFO] --------------------------< pl.pandait:panda >--------------------------
-[INFO] Building panda 1.0.2-SNAPSHOT
-[INFO] --------------------------------[ jar ]---------------------------------
-[INFO] 
-[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ panda ---
-[INFO] Deleting /home/workspace/Pipeline/target
-[INFO] 
-[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ panda ---
-[INFO] Using 'UTF-8' encoding to copy filtered resources.
-[INFO] Copying 1 resource
-[INFO] Copying 2 resources
-[INFO] 
-[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ panda ---
-[INFO] Changes detected - recompiling the module!
-[INFO] Compiling 2 source files to /home/workspace/Pipeline/target/classes
-[INFO] 
-[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ panda ---
-[INFO] Not copying test resources
-[INFO] 
-[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ panda ---
-[INFO] Not compiling test sources
-[INFO] 
-[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ panda ---
-[INFO] Tests are skipped.
-[INFO] 
-[INFO] --- maven-jar-plugin:3.1.2:jar (default-jar) @ panda ---
-[INFO] Building jar: /home/workspace/Pipeline/target/panda-1.0.2-SNAPSHOT.jar
-[INFO] 
-[INFO] --- spring-boot-maven-plugin:2.2.4.RELEASE:repackage (repackage) @ panda ---
-[INFO] Replacing main artifact with repackaged archive
-[INFO] ------------------------------------------------------------------------
-[INFO] BUILD SUCCESS
-[INFO] ------------------------------------------------------------------------
-[INFO] Total time:  4.243 s
-[INFO] Finished at: 2020-04-14T10:53:08Z
-[INFO] ------------------------------------------------------------------------
-[8mha:////4EGsjRIMHs80uBdlORUagGSg/X1cg43UGOC4b9he6+HTAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AFSjtgYvgAAAA==[0m[Pipeline] }
-[8mha:////4KL5ZycA5iILApQeQJPwGxq27tmF6HirBBwCWiokU+tAAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihQYJUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5r3PVhw9qzEvpvgAAAA==[0m[Pipeline] // withEnv
-[8mha:////4CxYdTjzBV4nCuH+iE32YnMiJv9vUWYmwBW6c1Z7R/pSAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRiKgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AFyY6ZcvgAAAA==[0m[Pipeline] }
-[8mha:////4IBrt2jZxMicr7hz0JOeR0D2zkaFbjaw0eFoOyYv4yhwAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQTpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOWhzrWvP1xjpDa+AAAA[0m[Pipeline] // stage
-[8mha:////4OqbuwUmd0gwNpqDnqtxmoVdH8kX2KGVTqa0PsJv9ntbAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUgJhQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCg322y7/edZvQH/S9KIwgAAAA==[0m[Pipeline] stage
-[8mha:////4H32kdJTTe+LRSVM4qA0jx9kI1YgI+IwSh/1PrF0lZhCAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD02yRsvCAAAA[0m[Pipeline] { (Test JUnit)
-[8mha:////4K5g/E/ebUGecG9Lr68LEln/jd4x8C3es/c8ztWjfk8bAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIEGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAF9GxrMvgAAAA==[0m[Pipeline] tool
-[8mha:////4K0KtCZL1046pMBoUsml6vfRb6bztkVLxY2TPhukZ3lSAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSICEkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpTb3af24Q2yB4JLvgAAAA==[0m[Pipeline] envVarsForTool
-[8mha:////4AP44D8Ymllur7+ph+lFbZKW1THF6zLeqEmlWfeS8WEcAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QEJCiKlrlIUThCaEtNH/5SelnTgRV+MOtFRiwoNlW7Le6w1FZDgRO9FYbD3G2osu9G5KYiBur4EG0dBF1ISRghXKDoqMrZaqKFlYlOWwkrC2WAeKHl2CjWz0Q5dBoyvPiaftKCH35g5PyORETprTt4wM21tvIuGP8xcAY5cg3+1nO8zP4gOZZvKjwgAAAA==[0m[Pipeline] withEnv
-[8mha:////4F2u527xBJCg7QIbaCpVDY5t8ugd+JD9P5cbjx630BfSAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUCRaEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g0Z/aLSwgAAAA==[0m[Pipeline] {
-[8mha:////4CIWp2w4BXSTyRUfziBj7ngXAWOD21XqKyfpT9zPP31bAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICEh2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBl2WGva+AAAA[0m[Pipeline] sh
-+ mvn test
-[INFO] Scanning for projects...
-[INFO] 
-[INFO] --------------------------< pl.pandait:panda >--------------------------
-[INFO] Building panda 1.0.2-SNAPSHOT
-[INFO] --------------------------------[ jar ]---------------------------------
-[INFO] 
-[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ panda ---
-[INFO] Using 'UTF-8' encoding to copy filtered resources.
-[INFO] Copying 1 resource
-[INFO] Copying 2 resources
-[INFO] 
-[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ panda ---
-[INFO] Nothing to compile - all classes are up to date
-[INFO] 
-[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ panda ---
-[INFO] Using 'UTF-8' encoding to copy filtered resources.
-[INFO] skip non existing resourceDirectory /home/workspace/Pipeline/src/test/resources
-[INFO] 
-[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ panda ---
-[INFO] Changes detected - recompiling the module!
-[INFO] Compiling 3 source files to /home/workspace/Pipeline/target/test-classes
-[INFO] 
-[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ panda ---
-
--------------------------------------------------------
- T E S T S
--------------------------------------------------------
-Running pl.pandait.panda.HelloControllerTest
-10:53:16.459 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
-10:53:16.476 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
-10:53:16.539 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [pl.pandait.panda.HelloControllerTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
-10:53:16.559 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [pl.pandait.panda.HelloControllerTest], using SpringBootContextLoader
-10:53:16.569 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [pl.pandait.panda.HelloControllerTest]: class path resource [pl/pandait/panda/HelloControllerTest-context.xml] does not exist
-10:53:16.571 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [pl.pandait.panda.HelloControllerTest]: class path resource [pl/pandait/panda/HelloControllerTestContext.groovy] does not exist
-10:53:16.572 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [pl.pandait.panda.HelloControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
-10:53:16.574 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [pl.pandait.panda.HelloControllerTest]: HelloControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-10:53:16.625 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [pl.pandait.panda.HelloControllerTest]
-10:53:16.751 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/home/workspace/Pipeline/target/classes/pl/pandait/panda/PandaApplication.class]
-10:53:16.753 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration pl.pandait.panda.PandaApplication for test class pl.pandait.panda.HelloControllerTest
-10:53:16.885 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [pl.pandait.panda.HelloControllerTest]: using defaults.
-10:53:16.893 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
-10:53:16.908 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/TransactionDefinition]
-10:53:16.910 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
-10:53:16.910 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@12aba8be, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@290222c1, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@67f639d3, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6253c26, org.springframework.test.context.support.DirtiesContextTestExecutionListener@49049a04, org.springframework.test.context.event.EventPublishingTestExecutionListener@71a8adcf, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@27462a88, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@82de64a, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@659499f1, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@51e69659, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@47e2e487]
-10:53:16.921 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@2d710f1a testClass = HelloControllerTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@29215f06 testClass = HelloControllerTest, locations = '{}', classes = '{class pl.pandait.panda.PandaApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@418e7838, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@cd3fee8, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@63355449, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3daa422a], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> false]], class annotated with @DirtiesContext [false] with mode [null].
-10:53:16.942 [main] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@2d710f1a testClass = HelloControllerTest, testInstance = pl.pandait.panda.HelloControllerTest@6340e5f0, testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@29215f06 testClass = HelloControllerTest, locations = '{}', classes = '{class pl.pandait.panda.PandaApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@418e7838, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@cd3fee8, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@63355449, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3daa422a], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> false]]].
-10:53:16.985 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}
-
-  .   ____          _            __ _ _
- /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
-( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
- \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
-  '  |____| .__|_| |_|_| |_\__, | / / / /
- =========|_|==============|___/=/_/_/_/
- :: Spring Boot ::        (v2.2.4.RELEASE)
-
-2020-04-14 10:53:17.439  INFO 870 --- [           main] pl.pandait.panda.HelloControllerTest     : Starting HelloControllerTest on 25a9213ffbf2 with PID 870 (started by root in /home/workspace/Pipeline)
-2020-04-14 10:53:17.448  INFO 870 --- [           main] pl.pandait.panda.HelloControllerTest     : No active profile set, falling back to default profiles: default
-2020-04-14 10:53:19.483  INFO 870 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
-2020-04-14 10:53:19.499  INFO 870 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-04-14 10:53:19.501  INFO 870 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
-2020-04-14 10:53:19.654  INFO 870 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-04-14 10:53:19.654  INFO 870 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2137 ms
-2020-04-14 10:53:20.091  INFO 870 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-04-14 10:53:20.243  INFO 870 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2020-04-14 10:53:21.178  INFO 870 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 44831 (http) with context path ''
-2020-04-14 10:53:21.184  INFO 870 --- [           main] pl.pandait.panda.HelloControllerTest     : Started HelloControllerTest in 4.192 seconds (JVM running for 5.865)
-2020-04-14 10:53:21.426  INFO 870 --- [           main] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
-2020-04-14 10:53:21.426  INFO 870 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2020-04-14 10:53:21.429  INFO 870 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.191 sec - in pl.pandait.panda.HelloControllerTest
-Running pl.pandait.panda.PandaApplicationTest
-2020-04-14 10:53:21.517  INFO 870 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [pl.pandait.panda.PandaApplicationTest], using SpringBootContextLoader
-2020-04-14 10:53:21.524  INFO 870 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [pl.pandait.panda.PandaApplicationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
-2020-04-14 10:53:21.525  INFO 870 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [pl.pandait.panda.PandaApplicationTest]: PandaApplicationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2020-04-14 10:53:21.532  INFO 870 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration pl.pandait.panda.PandaApplication for test class pl.pandait.panda.PandaApplicationTest
-2020-04-14 10:53:21.534  INFO 870 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
-2020-04-14 10:53:21.541  INFO 870 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3c3c4a71, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1352434e, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4f9a6c2d, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2b6fcb9f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@75de6341, org.springframework.test.context.event.EventPublishingTestExecutionListener@74170687, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@68f0f72c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3d96fa9e, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3b545206, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@77bb48d5, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@181d8899]
-
-  .   ____          _            __ _ _
- /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
-( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
- \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
-  '  |____| .__|_| |_|_| |_\__, | / / / /
- =========|_|==============|___/=/_/_/_/
- :: Spring Boot ::        (v2.2.4.RELEASE)
-
-2020-04-14 10:53:21.599  INFO 870 --- [           main] pl.pandait.panda.PandaApplicationTest    : Starting PandaApplicationTest on 25a9213ffbf2 with PID 870 (started by root in /home/workspace/Pipeline)
-2020-04-14 10:53:21.599  INFO 870 --- [           main] pl.pandait.panda.PandaApplicationTest    : No active profile set, falling back to default profiles: default
-2020-04-14 10:53:22.136  INFO 870 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-04-14 10:53:22.168  INFO 870 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2020-04-14 10:53:22.369  INFO 870 --- [           main] pl.pandait.panda.PandaApplicationTest    : Started PandaApplicationTest in 0.818 seconds (JVM running for 7.05)
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.853 sec - in pl.pandait.panda.PandaApplicationTest
-2020-04-14 10:53:22.409  INFO 870 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-04-14 10:53:22.410  INFO 870 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-
-Results :
-
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
-
-[INFO] ------------------------------------------------------------------------
-[INFO] BUILD SUCCESS
-[INFO] ------------------------------------------------------------------------
-[INFO] Total time:  11.568 s
-[INFO] Finished at: 2020-04-14T10:53:22Z
-[INFO] ------------------------------------------------------------------------
-[8mha:////4CBjydNFqBfqi9nITlNLpcDUaW2kfKf+X+uHbtY3trxXAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCEB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nffWr7BlDdbXS+AAAA[0m[Pipeline] }
-[8mha:////4NkuPIeAAHLO5CtZ+h2YDWXhMct/v7/LWj3iE0JCoi9TAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJShAYhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AGWIKyJvgAAAA==[0m[Pipeline] // withEnv
-[8mha:////4I3xBe9G7q3z07Bcs4TrWhVoDLNfF0MLZuaL02SQV/wBAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIpiGgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AG/DRYEvgAAAA==[0m[Pipeline] }
-[8mha:////4E0H2aiG13sd+tXgz90PK/MRGacMWoOHSDsUo5DeqVEvAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSQCpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOWhzrWvP6CPQ1a+AAAA[0m[Pipeline] // stage
-[8mha:////4LzN9jlQJ0UtLxucwJ85bjt4GqJ1awUFbw1HXxg0DEEvAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIMSCOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK52Wbb7T/P6g3fB+HLwgAAAA==[0m[Pipeline] stage
-[8mha:////4PCBBorX6eMtdxQs59KAfM4Z06qg0+biOEehNWRxUqI8AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QTAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD+jQxyjCAAAA[0m[Pipeline] { (Build and Run App)
-[8mha:////4IQDyyAR9vY/0E3jbk4xvQQsiMG8C4FPYFnlX6qoWIX+AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSIIGEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGaE3/ivgAAAA==[0m[Pipeline] tool
-[8mha:////4DjC+bEs2B2IOz2T25M79x7+h7gHys+d1XeoosOL6C1zAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSICGEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHbImT7vgAAAA==[0m[Pipeline] envVarsForTool
-[8mha:////4FS+oqk8RppzN71v8Dpynm995AQSFtDmcYO/yqckQkx7AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUAcSAOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g0kNDtSwgAAAA==[0m[Pipeline] withEnv
-[8mha:////4EdNplmsSnnpm4dMGhOr8vgejMcYVaXRyahz0SCURR4EAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUBibE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAW2++SvCAAAA[0m[Pipeline] {
-[8mha:////4C5iz7dOX7eZ09TWbs7Sr0LVKHVXX6Fxwmi27JHKD+5sAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN4OkKLa+AAAA[0m[Pipeline] sh
-+ cp target/panda-1.0.2-SNAPSHOT.jar dockerfiles/pandaapp
-+ cd dockerfiles/pandaapp
-+ docker build -t pandaapp_4 .
-Sending build context to Docker daemon  28.23MB
-Step 1/5 : FROM java:openjdk-8-jdk
- ---> d23bdf5b1b1b
-Step 2/5 : WORKDIR /
- ---> Using cache
- ---> 16e58f58e2ec
-Step 3/5 : COPY panda*.jar /application.jar
- ---> 6892216ee8af
-Step 4/5 : EXPOSE 8080
- ---> Running in 5e2755589fa0
-Removing intermediate container 5e2755589fa0
- ---> 1df4814854de
-Step 5/5 : CMD java -jar application.jar
- ---> Running in ee9e140a296e
-Removing intermediate container ee9e140a296e
- ---> 5243b5f61a26
-Successfully built 5243b5f61a26
-Successfully tagged pandaapp_4:latest
-+ docker run -d -p 0.0.0.0:8080:8080 --name app4 -t pandaapp_4
-61b338cc9839431c3446c162aa96b99be6302c7cb7c976cdb446cfb286d861aa
-[8mha:////4DbJuJctY/PS61yWsfBeub5fNzA+EJ1zoJ1XXRx3UxxUAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbN5YEWne+AAAA[0m[Pipeline] }
-[8mha:////4Oyle7id+Bb5hWdGia8GqErr2XqhaYYerwO01ZYJX+1TAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCARWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nffWr7BrgEWB2+AAAA[0m[Pipeline] // withEnv
-[8mha:////4PvfjXJxpVTMjX40j9Zn6Fzo+H1txV6lwJ/sD9zuQ/dKAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJpiCgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AH/c3tRvgAAAA==[0m[Pipeline] }
-[8mha:////4AIv9iZU9wnhXi7jvuUeBUCG0/vD3x0C41hoiI71ryLcAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSQBpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOWhzrWvP8cx6KC+AAAA[0m[Pipeline] // stage
-[8mha:////4Cp/NK4MGCsGdWpfuCctoQKNVaH9ndYe/WQTMF3nEq9pAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUICEG1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHKzTbbbv95Vm/O38qmwgAAAA==[0m[Pipeline] stage
-[8mha:////4Ar5F9NExYY/mPpdozjWjj631ipj5kzOuLnGDogJlG6TAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QiAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LDyb6zSXCAAAA[0m[Pipeline] { (Test Selenium)
-[8mha:////4IvHpO1h1k5XW7w6Gk9UHqyCJqyryJz6QkrMqF8xrmvyAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIYEQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN5s4RMC+AAAA[0m[Pipeline] tool
-[8mha:////4H0crmSblN5YTzOyACTnJHGSrDrs1MpsLHXfwPGXZ6JfAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCA0JCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw+LPcATvgAAAA==[0m[Pipeline] envVarsForTool
-[8mha:////4Bu1wxpIp+4aMqiuiW7WM4qQ9CqkET52foPJR15442gzAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDCAk1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHK7T7bbvN5Vm+1RdKgwgAAAA==[0m[Pipeline] withEnv
-[8mha:////4N29F6UqG06w+kgaSiU3ylhExhn2EaN0gBs2+ikBB0ZaAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUMLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD27blSrCAAAA[0m[Pipeline] {
-[8mha:////4Iq2MzaioqoxliSkxO+/RzdF4VMljnRi1akKRO5i883AAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAHlNhISvgAAAA==[0m[Pipeline] sh
-+ mvn test -Pselenium
-[INFO] Scanning for projects...
-[INFO] 
-[INFO] --------------------------< pl.pandait:panda >--------------------------
-[INFO] Building panda 1.0.2-SNAPSHOT
-[INFO] --------------------------------[ jar ]---------------------------------
-[INFO] 
-[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ panda ---
-[INFO] Using 'UTF-8' encoding to copy filtered resources.
-[INFO] Copying 1 resource
-[INFO] Copying 2 resources
-[INFO] 
-[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ panda ---
-[INFO] Nothing to compile - all classes are up to date
-[INFO] 
-[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ panda ---
-[INFO] Using 'UTF-8' encoding to copy filtered resources.
-[INFO] skip non existing resourceDirectory /home/workspace/Pipeline/src/test/resources
-[INFO] 
-[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ panda ---
-[INFO] Nothing to compile - all classes are up to date
-[INFO] 
-[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ panda ---
-
--------------------------------------------------------
- T E S T S
--------------------------------------------------------
-Running pl.pandait.panda.PandaApplicationSeleniumTest
-Apr 14, 2020 10:53:42 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-Successfully opened the website
-Uruchamiam test 1: Sprawdzenie napisu na stronie głównej
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.818 sec - in pl.pandait.panda.PandaApplicationSeleniumTest
-
-Results :
-
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
-
-[INFO] ------------------------------------------------------------------------
-[INFO] BUILD SUCCESS
-[INFO] ------------------------------------------------------------------------
-[INFO] Total time:  18.400 s
-[INFO] Finished at: 2020-04-14T10:53:48Z
-[INFO] ------------------------------------------------------------------------
-[8mha:////4NLgVCkPcTbf8Exe4MAJz8zcTz8y4RecVPBoctPLef0iAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDud5/avgHKLJPpvgAAAA==[0m[Pipeline] }
-[8mha:////4J2fXv7UTd5NdNpxOGtSBAXvDa3MvxwGanD4n7ja5yWuAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCmgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbN9Wuxru+AAAA[0m[Pipeline] // withEnv
-[8mha:////4GAoy8lUcnJhQR8MhFZjVwZ9wzDjddmPp+ZREt1DGGAuAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKpiJAQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AEcN6NvvgAAAA==[0m[Pipeline] }
-[8mha:////4JlyMedK3rOrNsBrcTnhuafhD/tfG5wiRWw2rkUvcyZdAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSQQpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOWhzrWvPyj5QDS+AAAA[0m[Pipeline] // stage
-[8mha:////4DRwJNRxq61qOXyXQuofRWFhfmwWJdCuifIjJE47tAlCAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUMCAk1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHKzTbbbv95Vm+Gd3RmwgAAAA==[0m[Pipeline] stage
-[8mha:////4GEJW4xFXvkd88NQ4+CQV3QIacvcgKfdWNGYoStGuc+2AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QyDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASgVHzvCAAAA[0m[Pipeline] { (Close App)
-[8mha:////4KaVQfGh8BZGZXWgIfVaqNqPNvjHFHAp1H8qkWvdKc9+AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCBUIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AHrW/o6vgAAAA==[0m[Pipeline] tool
-[8mha:////4MEoE7UaF6T53BCPvi5+qq1YXD6yp8FRR+DfcjwhA4OvAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGhBCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw+qauEjvgAAAA==[0m[Pipeline] envVarsForTool
-[8mha:////4AjGNjAUn9cH3mBxTl6uHWcS6PoKC+ItPsnTPwHe6prOAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgAh1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHK7T7bbvN5Vm+fMSE2wgAAAA==[0m[Pipeline] withEnv
-[8mha:////4DYkWOkSlVEMyzKg4K3r0Aj6MT9WxX0K9ukh74Fy6BkfAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUgoEBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfAARKflFwgAAAA==[0m[Pipeline] {
-[8mha:////4OJn73n+tZ1caZ8alrJtXZgUGwy9A090Bz1kzz74mBOeAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgESBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAE/wUw2vgAAAA==[0m[Pipeline] sh
-+ docker stop app4
-app4
-[8mha:////4LIXQa0iAtDKZMPhJjhzM0Z+ZVdUnAVkhiLJChi1gGKXAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIESBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDud5/avgEM9aTqvgAAAA==[0m[Pipeline] }
-[8mha:////4AB1v/qarnzzFY2t9l8esycoxvXlyzfHjVYukavxgckgAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUUCBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDud5/avgE0tzcbvgAAAA==[0m[Pipeline] // withEnv
-[8mha:////4B4SnQz0wgs7FZXlhefCZNJHN1RHSfWMG+33+h2D3y+qAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMLpiBCiSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BGVd59ofPliMol6+AAAA[0m[Pipeline] }
-[8mha:////4BuarQ2kGq7u21ocTBYRRK4VsYiBYQGMw56CRQvzMGOGAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSQSREldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOWhzrWvPxsO89i+AAAA[0m[Pipeline] // stage
-[8mha:////4L63a046VTPV4KKqc8UEvFiOZT959x/1kJxrKHLswO9cAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUsCCEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK52Wbb7T/P6g2Xr18LwgAAAA==[0m[Pipeline] stage
-[8mha:////4Dul5zWdHQxIX7c+67GfV5oszAERugI3uxQPaB/LXuDmAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUDRDqxBp14QShCSFp9H9JUtKJE3E17kCgEhMeLNuS9Z4vqIKHhrxmVmFvMHSGDW7UObFEvr84SszSmXWEgZxirUotSXWca0tRwayihAWHpcLOUTCoI6y4FXdRO4G6PkWftwOH0sgbPKDgmRyFj98yeVhfRxkIf5y/AJiGCOV2n223+TyrNxKsBBbCAAAA[0m[Pipeline] { (Deploy to artifactory)
-[8mha:////4EDtRtc8vMoZpkJNqV+ElDWsx4ugQaizpsFJPcoZqZvDAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICHRKiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBnZ6r6i+AAAA[0m[Pipeline] tool
-[8mha:////4JEBTK30DXY96M4++Eo0lllj0az1S3O5aSk6TR9F8iGtAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCqJAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN7UpgoO+AAAA[0m[Pipeline] envVarsForTool
-[8mha:////4OSwm96VfMvmzHMAenl4EIyst3tJnLXVRTDQJtBhcoWSAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUiQUJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfABIf0mZwgAAAA==[0m[Pipeline] withEnv
-[8mha:////4L6x/p0RyZ96w9UDn5yFjzj81Uba03VFncxneWiMFK1YAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0gAEJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfADxKa4dwgAAAA==[0m[Pipeline] {
-[8mha:////4OMm3crP3I4dyS1I0AU8jLJ4hoFyNmpsJP/30WxoLPUTAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AQkJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfADX78n/wgAAAA==[0m[Pipeline] configFileProvider
-provisioning config files...
-copy managed file [mvnSettings] to file:/home/workspace/Pipeline@tmp/config2525907226733164559tmp
-[8mha:////4DzjXxZG0TrhWRvysmzvBjhiw6d1GlJxROXA2OcRk3c+AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AiEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD7lC07jCAAAA[0m[Pipeline] {
-[8mha:////4A37SywRLT1AwjPNHow7O6ZkTe0sXR+RL/MQPTpysepfAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSARKiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBsroJZ2+AAAA[0m[Pipeline] sh
-+ mvn -gs /home/workspace/Pipeline@tmp/config2525907226733164559tmp deploy -Dmaven.test.skip=true
-[INFO] Scanning for projects...
-[INFO] 
-[INFO] --------------------------< pl.pandait:panda >--------------------------
-[INFO] Building panda 1.0.2-SNAPSHOT
-[INFO] --------------------------------[ jar ]---------------------------------
-[INFO] 
-[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ panda ---
-[INFO] Using 'UTF-8' encoding to copy filtered resources.
-[INFO] Copying 1 resource
-[INFO] Copying 2 resources
-[INFO] 
-[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ panda ---
-[INFO] Nothing to compile - all classes are up to date
-[INFO] 
-[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ panda ---
-[INFO] Not copying test resources
-[INFO] 
-[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ panda ---
-[INFO] Not compiling test sources
-[INFO] 
-[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ panda ---
-[INFO] Tests are skipped.
-[INFO] 
-[INFO] --- maven-jar-plugin:3.1.2:jar (default-jar) @ panda ---
-[INFO] Building jar: /home/workspace/Pipeline/target/panda-1.0.2-SNAPSHOT.jar
-[INFO] 
-[INFO] --- spring-boot-maven-plugin:2.2.4.RELEASE:repackage (repackage) @ panda ---
-[INFO] Replacing main artifact with repackaged archive
-[INFO] 
-[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ panda ---
-[INFO] Installing /home/workspace/Pipeline/target/panda-1.0.2-SNAPSHOT.jar to /root/.m2/repository/pl/pandait/panda/1.0.2-SNAPSHOT/panda-1.0.2-SNAPSHOT.jar
-[INFO] Installing /home/workspace/Pipeline/pom.xml to /root/.m2/repository/pl/pandait/panda/1.0.2-SNAPSHOT/panda-1.0.2-SNAPSHOT.pom
-[INFO] 
-[INFO] --- maven-deploy-plugin:2.8.2:deploy (default-deploy) @ panda ---
-Downloading from artifactory: http://10.0.2.15:8081/artifactory/libs-snapshot-local/pl/pandait/panda/1.0.2-SNAPSHOT/maven-metadata.xml
-Progress (1): 765 B                   Downloaded from artifactory: http://10.0.2.15:8081/artifactory/libs-snapshot-local/pl/pandait/panda/1.0.2-SNAPSHOT/maven-metadata.xml (765 B at 1.5 kB/s)
-Uploading to artifactory: http://10.0.2.15:8081/artifactory/libs-snapshot-local/pl/pandait/panda/1.0.2-SNAPSHOT/panda-1.0.2-20200414.105408-2.jar
-Progress (1): 0.3/27 MBProgress (1): 0.5/27 MBProgress (1): 0.8/27 MBProgress (1): 1.1/27 MBProgress (1): 1.4/27 MBProgress (1): 1.6/27 MBProgress (1): 1.9/27 MBProgress (1): 2.2/27 MBProgress (1): 2.4/27 MBProgress (1): 2.7/27 MBProgress (1): 3.0/27 MBProgress (1): 3.2/27 MBProgress (1): 3.5/27 MBProgress (1): 3.8/27 MBProgress (1): 4.1/27 MBProgress (1): 4.3/27 MBProgress (1): 4.6/27 MBProgress (1): 4.9/27 MBProgress (1): 5.1/27 MBProgress (1): 5.4/27 MBProgress (1): 5.7/27 MBProgress (1): 5.9/27 MBProgress (1): 6.2/27 MBProgress (1): 6.5/27 MBProgress (1): 6.8/27 MBProgress (1): 7.0/27 MBProgress (1): 7.3/27 MBProgress (1): 7.6/27 MBProgress (1): 7.8/27 MBProgress (1): 8.1/27 MBProgress (1): 8.4/27 MBProgress (1): 8.7/27 MBProgress (1): 8.9/27 MBProgress (1): 9.2/27 MBProgress (1): 9.5/27 MBProgress (1): 9.7/27 MBProgress (1): 10/27 MB Progress (1): 10/27 MBProgress (1): 11/27 MBProgress (1): 11/27 MBProgress (1): 11/27 MBProgress (1): 11/27 MBProgress (1): 12/27 MBProgress (1): 12/27 MBProgress (1): 12/27 MBProgress (1): 12/27 MBProgress (1): 13/27 MBProgress (1): 13/27 MBProgress (1): 13/27 MBProgress (1): 14/27 MBProgress (1): 14/27 MBProgress (1): 14/27 MBProgress (1): 14/27 MBProgress (1): 15/27 MBProgress (1): 15/27 MBProgress (1): 15/27 MBProgress (1): 15/27 MBProgress (1): 16/27 MBProgress (1): 16/27 MBProgress (1): 16/27 MBProgress (1): 16/27 MBProgress (1): 17/27 MBProgress (1): 17/27 MBProgress (1): 17/27 MBProgress (1): 18/27 MBProgress (1): 18/27 MBProgress (1): 18/27 MBProgress (1): 18/27 MBProgress (1): 19/27 MBProgress (1): 19/27 MBProgress (1): 19/27 MBProgress (1): 19/27 MBProgress (1): 20/27 MBProgress (1): 20/27 MBProgress (1): 20/27 MBProgress (1): 21/27 MBProgress (1): 21/27 MBProgress (1): 21/27 MBProgress (1): 21/27 MBProgress (1): 22/27 MBProgress (1): 22/27 MBProgress (1): 22/27 MBProgress (1): 22/27 MBProgress (1): 23/27 MBProgress (1): 23/27 MBProgress (1): 23/27 MBProgress (1): 24/27 MBProgress (1): 24/27 MBProgress (1): 24/27 MBProgress (1): 24/27 MBProgress (1): 25/27 MBProgress (1): 25/27 MBProgress (1): 25/27 MBProgress (1): 25/27 MBProgress (1): 26/27 MBProgress (1): 26/27 MBProgress (1): 26/27 MBProgress (1): 26/27 MBProgress (1): 27/27 MBProgress (1): 27/27 MBProgress (1): 27/27 MBProgress (1): 27 MB                      Uploaded to artifactory: http://10.0.2.15:8081/artifactory/libs-snapshot-local/pl/pandait/panda/1.0.2-SNAPSHOT/panda-1.0.2-20200414.105408-2.jar (27 MB at 26 MB/s)
-Uploading to artifactory: http://10.0.2.15:8081/artifactory/libs-snapshot-local/pl/pandait/panda/1.0.2-SNAPSHOT/panda-1.0.2-20200414.105408-2.pom
-Progress (1): 3.7 kB                    Uploaded to artifactory: http://10.0.2.15:8081/artifactory/libs-snapshot-local/pl/pandait/panda/1.0.2-SNAPSHOT/panda-1.0.2-20200414.105408-2.pom (3.7 kB at 37 kB/s)
-Downloading from artifactory: http://10.0.2.15:8081/artifactory/libs-snapshot-local/pl/pandait/panda/maven-metadata.xml
-Progress (1): 368 B                   Downloaded from artifactory: http://10.0.2.15:8081/artifactory/libs-snapshot-local/pl/pandait/panda/maven-metadata.xml (368 B at 12 kB/s)
-Uploading to artifactory: http://10.0.2.15:8081/artifactory/libs-snapshot-local/pl/pandait/panda/1.0.2-SNAPSHOT/maven-metadata.xml
-Progress (1): 765 B                   Uploaded to artifactory: http://10.0.2.15:8081/artifactory/libs-snapshot-local/pl/pandait/panda/1.0.2-SNAPSHOT/maven-metadata.xml (765 B at 28 kB/s)
-Uploading to artifactory: http://10.0.2.15:8081/artifactory/libs-snapshot-local/pl/pandait/panda/maven-metadata.xml
-Progress (1): 311 B                   Uploaded to artifactory: http://10.0.2.15:8081/artifactory/libs-snapshot-local/pl/pandait/panda/maven-metadata.xml (311 B at 4.3 kB/s)
-[INFO] ------------------------------------------------------------------------
-[INFO] BUILD SUCCESS
-[INFO] ------------------------------------------------------------------------
-[INFO] Total time:  6.131 s
-[INFO] Finished at: 2020-04-14T10:54:09Z
-[INFO] ------------------------------------------------------------------------
-[8mha:////4J133IGcrMahkCKAyEjTwx298t4pgzRY3AHLzbWf9YqrAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSoUiIitZKwwtMYowd686xHZyKF/E1/kAgEhVbrHa2mecL1jHAkYNGq6g3FFuD3o16Xpg59FfHGS1fsGWK7BQ2KjfcqdOCDScFS4oSVgI2ilrH0ZBOsBVW3mXlJOnqnML8HQSUphvgAYWYzUmG9IUpwO42dpHp5/krgMn7BGVdf2r/Bnt+gFe+AAAA[0m[Pipeline] }
-Deleting 1 temporary files
-[8mha:////4N+kOSqDduCRXH9VB1AEN4K2nPIIpB30t+/8XCc4+DeWAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIYEQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN2T81QW+AAAA[0m[Pipeline] // configFileProvider
-Post stage
-[8mha:////4A9XqtWqIDDx+jDpV7hsrfKRLIzetWTqcSs0KtkAG7a7AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCQQFCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrnf5Tpshw8TBTlEvgAAAA==[0m[Pipeline] junit
-Recording test results
-[8mha:////4Bo68teomJgLslFkYmKWAwz7l/KEgGengxZN5SoW+gy9AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJAoQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysM21330AK0X2OL4AAAA=[0m[Pipeline] }
-[8mha:////4JBfMyP4+CFf0j/SHBQfu88+Sd4042DLX88pkIpBKHvrAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQQNCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAetrn2uw8mogYgvgAAAA==[0m[Pipeline] // withEnv
-[8mha:////4LLJZs9hdFTVjTxRwbu25Fg6BFtu4GKcSnmHaynzNtoHAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCRANCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAedrn22w85IFNyvgAAAA==[0m[Pipeline] }
-[8mha:////4MhsLDydnsJhADqisRmm8XTUl+EVeMLc5hPjRxPOOzAGAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSIKEIUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkFZ73Md6g/qtBKRvgAAAA==[0m[Pipeline] // stage
-[8mha:////4PA2oociZoIjtAo3uUY+GAq1GLUHSzI61tKDdzQJtXubAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikCgQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysM+13X0AQRnGm74AAAA=[0m[Pipeline] }
-[8mha:////4C58RpIsAuE1CwS2C3YgwWygAeoTTx5OrwalPZ7LKs7aAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiNEgIUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkF52Oeq6w9VOluEvgAAAA==[0m[Pipeline] // withEnv
-[8mha:////4LkDVtLHBqNXYbRE58GFvgB3JUx6VPU1p4SSTm1OsG4TAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJpkBBCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5PudINt+APh1Noy9AAAA[0m[Pipeline] }
-[8mha:////4IWEitn8snThbF9CTZtFMqIS6po06x9iec17dWpZaoEdAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpaECIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfL8TZNsPincCkL0AAAA=[0m[Pipeline] // node
-[8mha:////4No4tizJQhMqjlveVhmxt7DXT1aBYMoxfXKHXqPT5SQDAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkbsQ4uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL0tBtv8ArG5l2r0AAAA=[0m[Pipeline] End of Pipeline
-Finished: SUCCESS

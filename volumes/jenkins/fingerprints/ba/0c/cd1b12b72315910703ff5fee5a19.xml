@@ -6,12 +6,18 @@
   <usages>
     <entry>
       <string>Pipeline</string>
-      <ranges>2-5</ranges>
+      <ranges>2-5,10-12</ranges>
     </entry>
     <entry>
       <string>Maven</string>
       <ranges>1-49</ranges>
     </entry>
   </usages>
-  <facets/>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@2.3.4">
+      <timestamp>1586978009171</timestamp>
+      <itemFullName>Pipeline</itemFullName>
+      <timestamp0>1586978009171</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+  </facets>
 </fingerprint>
