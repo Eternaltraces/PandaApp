@@ -12,10 +12,10 @@ The app consist of:
 
 How to run?
 - clone the repository to your local drive
-- run ./start.sh 
-- Jenkins is on localhost:8880
+- run sudo ./start.sh 
+- Jenkins is available at localhost:8880
   - panda/panda
-- Artifactory is on localhost:8081
+- Artifactory is available at localhost:8081
   - admin/pandapass
-- Selenium grid is on localhost:4444
-- Application (once it starts) is on localhost:8080
+- Selenium grid is available at localhost:4444
+- Application (once it starts) is available at localhost:8080
