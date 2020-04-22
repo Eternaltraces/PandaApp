@@ -14,6 +14,8 @@ How to run?
 - clone the repository to your local drive
 - run ./start.sh 
 - Jenkins is on localhost:8880
+  - panda/panda
 - Artifactory is on localhost:8081
+  - admin/pandapass
 - Selenium grid is on localhost:4444
 - Application (once it starts) is on localhost:8080
