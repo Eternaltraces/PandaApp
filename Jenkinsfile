@@ -52,9 +52,6 @@ pipeline {
                sh 'docker stop app${BUILD_NUMBER}'
                deleteDir()
                     }
-            success {
-               junit './target/surefire-reports/TEST-*.xml'
-            }
          }
       }
     }
