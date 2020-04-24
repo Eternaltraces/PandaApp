@@ -70,3 +70,10 @@
 2020-04-22 10:56:48,754 [AUDIT] Token created by 'jffe@000': tokenId='758d7d1b-e8ee-48ee-9577-ec727ada533d', issuer='jffe@000', subject='jffe@000', expiry=1587553608742, refreshable=false
 2020-04-22 10:56:48,802 [AUDIT] Token created by 'jffe@000': tokenId='eae0dc4b-78e3-4e7c-b1e3-0596b002e3d4', issuer='jffe@000', subject='jffe@000', expiry=1587553608744, refreshable=false
 2020-04-22 10:57:58,298 [AUDIT] Token created by 'jffe@000': tokenId='e2e96f92-c5de-4ac7-bca7-943add39f67c', issuer='jffe@000', subject='jffe@000/users/admin', expiry=1587553678293, refreshable=false
+2020-04-24 13:44:16,629 [AUDIT] Token created by 'anonymous': tokenId='dcdaa1f5-642d-48be-9edb-97154d18835a', issuer='jfrou@01e6gkz5mj75e8whsva5r4rjc6', subject='jfrou@01e6gkz5mj75e8whsva5r4rjc6', expiry=none, refreshable=false
+2020-04-24 13:44:21,512 [AUDIT] Token created by 'anonymous': tokenId='fe80bd72-c92b-4ef7-97f8-7352cfc88fc1', issuer='jfac@01e6gkyy91wa2f00f3fdsf0gme', subject='jfac@01e6gkyy91wa2f00f3fdsf0gme', expiry=1587735981507, refreshable=false
+2020-04-24 13:44:21,936 [AUDIT] Token created by 'anonymous': tokenId='f551f496-b776-4a22-92b8-6cfcaa618191', issuer='jfmd@01e6gkz74qm614k82x689eq128', subject='jfmd@01e6gkz74qm614k82x689eq128', expiry=none, refreshable=false
+2020-04-24 13:44:22,057 [AUDIT] Token created by 'anonymous': tokenId='d26248bb-742d-46ab-9637-b5f39ce65edc', issuer='jfrt@01e6gkzhtba2gz14rj5jrj009s', subject='jfrt@01e6gkzhtba2gz14rj5jrj009s', expiry=none, refreshable=false
+2020-04-24 13:44:23,687 [AUDIT] Token created by 'jfrt@01e6gkzhtba2gz14rj5jrj009s': tokenId='6390395e-2a2b-42c9-bada-375990275828', issuer='jfrt@01e6gkzhtba2gz14rj5jrj009s', subject='jfrt@01e6gkzhtba2gz14rj5jrj009s', expiry=2533815863679, refreshable=false
+2020-04-24 13:44:28,974 [AUDIT] Token created by 'anonymous': tokenId='16d58642-4e8a-47e8-b893-3e9c312c60c0', issuer='jffe@000', subject='jffe@000', expiry=none, refreshable=false
+2020-04-24 13:44:29,023 [AUDIT] Token created by 'jffe@000': tokenId='29541ea0-1304-4c4d-9f28-7740a5b6620a', issuer='jffe@000', subject='jffe@000', expiry=1587736469020, refreshable=false

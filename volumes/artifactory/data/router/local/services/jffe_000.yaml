@@ -11,5 +11,5 @@ endpoints:
 healthcheckendpoint:
   path: /health
   port: 8070
-nodeid: 6de808c7c4e9
+nodeid: 26651330011c
 serviceid: jffe@000

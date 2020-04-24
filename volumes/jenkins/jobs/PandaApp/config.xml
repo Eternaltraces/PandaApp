@@ -1,5 +1,6 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <flow-definition plugin="workflow-job@2.37">
+  <actions/>
   <description>This project is to build PandaApp with Maven, test it with Jnunit and Selenium and store on Artifactory.</description>
   <keepDependencies>false</keepDependencies>
   <properties>
@@ -19,7 +20,7 @@
       </userRemoteConfigs>
       <branches>
         <hudson.plugins.git.BranchSpec>
-          <name>feature/pipeline</name>
+          <name>feature/app</name>
         </hudson.plugins.git.BranchSpec>
       </branches>
       <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>

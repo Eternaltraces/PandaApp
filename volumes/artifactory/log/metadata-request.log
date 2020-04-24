@@ -956,3 +956,24 @@
 2020-04-22T10:59:25.429Z|32512c61e1408eef|127.0.0.1|anonymous|GET|/api/v1/system/ping|200|2|0|0|JFrog-Router/1.2.1
 2020-04-22T10:59:30.432Z|68e610f752d97327|127.0.0.1|anonymous|GET|/api/v1/system/ping|200|2|0|0|JFrog-Router/1.2.1
 2020-04-22T10:59:35.433Z|44e8c47f01d96c0d|127.0.0.1|anonymous|GET|/api/v1/system/ping|200|2|0|0|JFrog-Router/1.2.1
+2020-04-24T13:44:22.124Z|d5a100e10e159a4|127.0.0.1|anonymous|GET|/api/v1/system/ping|200|2|0|0|JFrog-Router/1.2.1
+2020-04-24T13:44:23.634Z|3fea80b95d7c2ba4|127.0.0.1|anonymous|GET|/api/v1/system/service_id|200|31|0|0|JFrog Metadata Java Client/1.0.0
+2020-04-24T13:44:23.753Z|65948d3d26b4b814|127.0.0.1|jfrt@01e6gkzhtba2gz14rj5jrj009s|GET|/api/v1/system/ping|200|2|0|15|JFrog Metadata Java Client/1.0.0
+2020-04-24T13:44:27.124Z|3f59f03e9c19903|127.0.0.1|anonymous|GET|/api/v1/system/ping|200|2|0|0|JFrog-Router/1.2.1
+2020-04-24T13:44:32.126Z|2dfd6ac29daffaca|127.0.0.1|anonymous|GET|/api/v1/system/ping|200|2|0|0|JFrog-Router/1.2.1
+2020-04-24T13:44:37.137Z|339e929918abc978|127.0.0.1|anonymous|GET|/api/v1/system/ping|200|2|0|0|JFrog-Router/1.2.1
+2020-04-24T13:44:42.138Z|6a48b18504b3fa6a|127.0.0.1|anonymous|GET|/api/v1/system/ping|200|2|0|0|JFrog-Router/1.2.1
+2020-04-24T13:44:47.136Z|7d9fee85d708093c|127.0.0.1|anonymous|GET|/api/v1/system/ping|200|2|0|0|JFrog-Router/1.2.1
+2020-04-24T13:44:52.138Z|5aa3134ff52c11a1|127.0.0.1|anonymous|GET|/api/v1/system/ping|200|2|0|0|JFrog-Router/1.2.1
+2020-04-24T13:44:57.137Z|2921f89c8c3edac5|127.0.0.1|anonymous|GET|/api/v1/system/ping|200|2|0|0|JFrog-Router/1.2.1
+2020-04-24T13:45:02.149Z|1224d1c2a3a6425d|127.0.0.1|anonymous|GET|/api/v1/system/ping|200|2|0|0|JFrog-Router/1.2.1
+2020-04-24T13:45:07.142Z|62ea762575788146|127.0.0.1|anonymous|GET|/api/v1/system/ping|200|2|0|0|JFrog-Router/1.2.1
+2020-04-24T13:45:12.140Z|2c7ea75e67c657a3|127.0.0.1|anonymous|GET|/api/v1/system/ping|200|2|0|0|JFrog-Router/1.2.1
+2020-04-24T13:45:17.143Z|5ed25b14485382d0|127.0.0.1|anonymous|GET|/api/v1/system/ping|200|2|0|0|JFrog-Router/1.2.1
+2020-04-24T13:45:22.143Z|2d04c1422f4972c4|127.0.0.1|anonymous|GET|/api/v1/system/ping|200|2|0|0|JFrog-Router/1.2.1
+2020-04-24T13:45:27.147Z|1d0279e8736ff1fa|127.0.0.1|anonymous|GET|/api/v1/system/ping|200|2|0|0|JFrog-Router/1.2.1
+2020-04-24T13:45:32.143Z|144834fb0e6547c2|127.0.0.1|anonymous|GET|/api/v1/system/ping|200|2|0|0|JFrog-Router/1.2.1
+2020-04-24T13:45:37.146Z|7320e443980af242|127.0.0.1|anonymous|GET|/api/v1/system/ping|200|2|0|0|JFrog-Router/1.2.1
+2020-04-24T13:45:42.151Z|8b70a5fac0c0798|127.0.0.1|anonymous|GET|/api/v1/system/ping|200|2|0|0|JFrog-Router/1.2.1
+2020-04-24T13:45:47.155Z|6a8a47ab813eabed|127.0.0.1|anonymous|GET|/api/v1/system/ping|200|2|0|0|JFrog-Router/1.2.1
+2020-04-24T13:45:52.158Z|d0efa2703236fa3|127.0.0.1|anonymous|GET|/api/v1/system/ping|200|2|0|0|JFrog-Router/1.2.1
