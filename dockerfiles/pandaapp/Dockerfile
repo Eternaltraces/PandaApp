@@ -1,4 +1,4 @@
-FROM java:openjdk-8-jdk
+FROM java:openjdk-11-jdk
 WORKDIR /
 COPY panda*.jar /application.jar
 EXPOSE 8080
