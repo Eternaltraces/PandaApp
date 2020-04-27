@@ -1,6 +1,6 @@
-2020-04-24T13:43:33.324Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - frontend (jffe) service initialization started. Version: 1.4.1 Revision: 0.0.0 PID: 3200 Home: /opt/jfrog/artifactory
-2020-04-24T13:44:28.930Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - setting service id - jffe@000
-2020-04-24T13:44:28.988Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - Cluster join: Successfully joined the cluster
-2020-04-24T13:44:29.012Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - UI service successfully registered on router, serviceId: jffe@000
-2020-04-24T13:44:29.464Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - Recurring tasks started
-2020-04-24T13:44:30.041Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - frontend (jffe) service initialization completed in 56.72 seconds. Listening on port: port 8070
+2020-04-27T11:35:09.515Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - frontend (jffe) service initialization started. Version: 1.4.1 Revision: 0.0.0 PID: 3224 Home: /opt/jfrog/artifactory
+2020-04-27T11:36:08.249Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - setting service id - jffe@000
+2020-04-27T11:36:08.305Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - Cluster join: Successfully joined the cluster
+2020-04-27T11:36:08.328Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - UI service successfully registered on router, serviceId: jffe@000
+2020-04-27T11:36:08.693Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - Recurring tasks started
+2020-04-27T11:36:09.554Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - frontend (jffe) service initialization completed in 60.04 seconds. Listening on port: port 8070

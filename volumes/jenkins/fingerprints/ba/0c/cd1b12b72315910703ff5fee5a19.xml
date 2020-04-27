@@ -9,6 +9,10 @@
       <ranges>2-5,10-12</ranges>
     </entry>
     <entry>
+      <string>PandaApp</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
       <string>Maven</string>
       <ranges>1-49</ranges>
     </entry>
