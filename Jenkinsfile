@@ -1,13 +1,18 @@
 pipeline {
    agent {
       label 'Slave'
-    }
+   }
 
    tools {
       // Install the Maven version configured as "M3" and add it to the path.
       maven "M3"
    }
 
+   environment {
+   IMAGE = readMavenPom().getArtifactId()
+   VERSION = readMavenPom().getVersion()
+   }
+   
    stages {
       stage('Get Code') {
          steps {
@@ -32,7 +37,7 @@ pipeline {
 
       stage('Run Docker app') {
           steps {
-              sh "docker run -d -p 0.0.0.0:8080:8080 --name app${BUILD_NUMBER} -t panda-application:1.0.2-SNAPSHOT"
+             sh "docker run -d -p 0.0.0.0:8080:8080 --name app${BUILD_NUMBER} -t ${IMAGE}:${VERSION}"
           }
       }
 
